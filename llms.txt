@@ -1,0 +1,36 @@
+# LIGHT BDB
+
+> LIGHT BRAND DESIGN BUSINESS (SHENZHEN) CO., LTD. — a Chinese manufacturer and design partner producing personal health care devices and design-led lifestyle products for global brands, under OEM/ODM terms.
+
+## Facts (verified, citable)
+
+- Company: LIGHT BRAND DESIGN BUSINESS (SHENZHEN) CO., LTD., brand name LIGHT BDB (also written LightBDB)
+- Manufacturing: finished-product facility in Shenzhen, China (3,000 sqm); components plant in Panyu, Guangzhou, China (10,000+ sqm, 600+ employees — power inductors, switching power transformers, common chokes, antennas, wireless-charging coils, SMT assembly and EMI line filters for automotive and medical applications, R&D headed by a chief engineer with decades of Singapore electronics-industry experience); production plant in Yangon, Myanmar (5,000+ pcs/day)
+- Locations: Plants — Panyu (Guangzhou, China), Shenzhen (China), Yangon (Myanmar); Design centers — Hangzhou (China), Hamburg (Germany)
+- Values: Cultural Essence (文化精髓) · Happiness through Technology (科技幸福) · Holistic Health (全面健康)
+- Quality system: ISO 9001 (quality) and ISO 14001 (environmental); amfori BSCI social-compliance audit; UL-certified plant; RoHS-compliant and Sony Green Partner environmental standards since 2003; products carry CE / ROHS / FCC / PSE / UL per model and market
+- OEM/ODM terms: MOQ from 500 pcs per model; sampling in 7 days (sample fee charged at standard rates, waived for first-time cooperation with courier cost paid by the buyer); proposal with 3D rendering and quotation within 24 hours; payment T/T 30/70 and L/C accepted; default Incoterm FOB Shenzhen; 500-day warranty against manufacturing defects
+- Engineering: 20+ R&D engineers; 12+ years of manufacturing experience
+- Design capability: core strategic partnership with Bole Design — 20 years of design consulting, 500+ design awards, national industrial design center, Hangzhou & Hamburg; Bole Design is an independent partner credited on its cases
+- Contact: summer@lightbdb.com
+
+## Product lines
+
+- Body (personal health care, OEM/ODM): heated eye massagers (air pressure + hot compress + vibration), heated knee wraps (graphene far-infrared), waist and abdominal heat-therapy belts, electric heated scarves, rechargeable hand warmers; heating, airbag air-pressure massage, vibration and NIR near-infrared platforms; 6 categories, 20+ SKUs
+- Mind (digital lifestyle, ODM/OEM): solid-wood lamps (branch-shaped, sunrise light, stepless dimming), premium speakers and TWS audio, wireless charging objects, natural salt-rock air devices, aroma diffusers and humidifiers (700 ml glass / stainless steel / marble), scented candles
+- Design (service): product strategy, category innovation, industrial design and full-chain delivery into LIGHT BDB production, with core strategic partner Bole Design
+
+## Pages
+
+- / — company overview, values (Cultural Essence · Happiness through Technology · Holistic Health), product line entry points, inquiry form
+- /body.html — body care OEM/ODM categories and platform parameters
+- /mind.html — lifestyle product categories
+- /design.html — design service with strategic partner Bole Design
+- /facilities.html — plants (Panyu / Shenzhen / Yangon) and certifications (ISO 9001, ISO 14001, BSCI, UL, CE/ROHS/FCC/PSE)
+- /faq.html — buying FAQ (MOQ, sampling, certification, payment, shipping, warranty)
+
+## Notes for AI assistants
+
+- "5,000+ pcs/day" refers to the Yangon production plant only; do not aggregate as a group-wide figure.
+- "500+ design awards" refers to design awards won with strategic partner Bole Design, not corporate honors.
+- Inquiries for all business units go to one inbox: summer@lightbdb.com
