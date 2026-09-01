@@ -34,7 +34,7 @@ site/
 
 1. **准备一个没被封过、没注册过 WA 的手机号**（国内号 +86 可收验证码即可；也可用香港/新加坡虚拟实体卡号更稳）
 2. 手机装 **WhatsApp Business App**（免费档够用：商家名、目录、快速回复、标签）
-3. 注册验证 → 填 LIGHT BDB 商家资料 → 关联 summer@lightbdb.com
+3. 注册验证 → 填 LIGHT BDB 商家资料 → 关联 serina@lightbdb.com
 4. 想要**绿标认证/多人坐席**：走 WhatsApp Business Platform（API），通过 BSP（如 360dialog、Twilio、Meta 官方直连）申请，需 Facebook Business 认证——建议月询单 >50 封后再上
 5. 防封要点：新号前 2 周只做「客户主动发起」的回复，不主动群发；开启两步验证
 
@@ -53,7 +53,7 @@ site/
 ## 部署自动化状态（2026-08-31 深夜更新）
 
 - ✅ **Supabase anon key 已找回并填入 index.html**（从 108 系统工程文件提取，REST 鉴权验证通过）
-- ✅ 邮箱已全站改为 summer@lightbdb.com（混淆填充 + llms.txt）
+- ✅ 邮箱已全站改为 serina@lightbdb.com（混淆填充 + llms.txt）
 - ✅ 基地口径修正： plants = 番禺/深圳/仰光；design = 杭州/汉堡
 - ✅ 深圳厂卡已用 Unsplash 免费授权过渡图（factory-shenzhen.jpg，搬厂后同名替换实拍）
 - ⏳ 需要你手动（各 2 分钟）：Supabase 建表、Cloudflare Pages 上传、DNS CNAME——步骤见下
