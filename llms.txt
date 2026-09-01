@@ -23,11 +23,11 @@
 ## Pages
 
 - / — company overview, values (Cultural Essence · Happiness through Technology · Holistic Health), product line entry points, inquiry form
-- /body.html — body care OEM/ODM categories and platform parameters
-- /mind.html — lifestyle product categories
-- /design.html — design service with strategic partner Bole Design
-- /facilities.html — plants (Panyu / Shenzhen / Yangon) and certifications (ISO 9001, ISO 14001, BSCI, UL, CE/ROHS/FCC/PSE)
-- /faq.html — buying FAQ (MOQ, sampling, certification, payment, shipping, warranty)
+- /body — body care OEM/ODM categories and platform parameters
+- /mind — lifestyle product categories
+- /design — design service with strategic partner Bole Design
+- /facilities — plants (Panyu / Shenzhen / Yangon) and certifications (ISO 9001, ISO 14001, BSCI, UL, CE/ROHS/FCC/PSE)
+- /faq — buying FAQ (MOQ, sampling, certification, payment, shipping, warranty)
 
 ## Notes for AI assistants
 

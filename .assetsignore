@@ -1,0 +1,8 @@
+.git/**
+.assetsignore
+README.md
+ASSETS.md
+supabase/**
+wrangler.jsonc
+wrangler.toml
+worker.js

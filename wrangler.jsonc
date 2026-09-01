@@ -1,0 +1,9 @@
+{
+  // LIGHT BDB 海外官网 —— assets-only Worker
+  "name": "lightbdb-site",
+  "compatibility_date": "2026-08-31",
+  "assets": {
+    "directory": ".",
+    "not_found_handling": "404-page"
+  }
+}
