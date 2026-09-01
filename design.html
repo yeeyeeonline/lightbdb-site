@@ -108,12 +108,12 @@
       <p class="sub">A few of the kinds of programmes we have shipped. Brand names deliberately anonymised — we can describe the work without naming who they are.</p>
     </div>
     <div class="cat-grid">
-      <div class="card"><div class="body"><h3>European pharmacy brand · heated knee wrap</h3><div class="alias">ODM · 2,000 pcs · EU retail</div><p>Took a generic knee-wrap platform and tuned the heating curve, packaging language, and manual for a German pharmacy channel.</p></div></div>
-      <div class="card"><div class="body"><h3>US wellness subscription box · eye massager</h3><div class="alias">Private label · 5,000 pcs · 4 SKUs</div><p>Built three colourways and a custom storage pouch to fit the customer's quarterly subscription program.</p></div></div>
-      <div class="card"><div class="body"><h3>Japanese gift channel · aroma diffuser</h3><div class="alias">OEM · 800 pcs · PSE certified</div><p>Adapted the diffuser housing and fragrance profile for a Japanese gift channel; coordinated PSE certification.</p></div></div>
-      <div class="card"><div class="body"><h3>UK DTC brand · heated scarf</h3><div class="alias">ODM · 1,200 pcs · 2 colourways</div><p>Tuned the heating-film heat-up time to the brand's "warmth in 30 seconds" promise. Custom washable fabric.</p></div></div>
-      <div class="card"><div class="body"><h3>Middle-East retail · hand warmer + scarf set</h3><div class="alias">Gift set · 1,500 sets · custom box</div><p>Combined two platforms into a gift set with custom box and bilingual packaging for a winter-season promotion.</p></div></div>
-      <div class="card"><div class="body"><h3>European elder-care chain · heated abdominal belt</h3><div class="alias">OEM · 3,000 pcs · medical-distributor grade</div><p>Higher-grade heating film and additional battery testing for an elder-care distributor with stricter incoming QC.</p></div></div>
+      <div class="card"><div class="body"><h3><img src="assets/img/knee-massager.jpg" alt="knee product reference" width="56" height="56" loading="lazy" style="width:56px;height:56px;border-radius:8px;object-fit:cover;margin-right:12px;vertical-align:middle;border:1px solid var(--line)">European pharmacy brand · heated knee wrap</h3><div class="alias">ODM · 2,000 pcs · EU retail</div><p>Took a generic knee-wrap platform and tuned the heating curve, packaging language, and manual for a German pharmacy channel.</p></div></div>
+      <div class="card"><div class="body"><h3><img src="assets/img/eye-massager.jpg" alt="eye product reference" width="56" height="56" loading="lazy" style="width:56px;height:56px;border-radius:8px;object-fit:cover;margin-right:12px;vertical-align:middle;border:1px solid var(--line)">US wellness subscription box · eye massager</h3><div class="alias">Private label · 5,000 pcs · 4 SKUs</div><p>Built three colourways and a custom storage pouch to fit the customer's quarterly subscription program.</p></div></div>
+      <div class="card"><div class="body"><h3><img src="assets/img/mind-candle.jpg" alt="candle product reference" width="56" height="56" loading="lazy" style="width:56px;height:56px;border-radius:8px;object-fit:cover;margin-right:12px;vertical-align:middle;border:1px solid var(--line)">Japanese gift channel · aroma diffuser</h3><div class="alias">OEM · 800 pcs · PSE certified</div><p>Adapted the diffuser housing and fragrance profile for a Japanese gift channel; coordinated PSE certification.</p></div></div>
+      <div class="card"><div class="body"><h3><img src="assets/img/heated-scarf.jpg" alt="scarf product reference" width="56" height="56" loading="lazy" style="width:56px;height:56px;border-radius:8px;object-fit:cover;margin-right:12px;vertical-align:middle;border:1px solid var(--line)">UK DTC brand · heated scarf</h3><div class="alias">ODM · 1,200 pcs · 2 colourways</div><p>Tuned the heating-film heat-up time to the brand's "warmth in 30 seconds" promise. Custom washable fabric.</p></div></div>
+      <div class="card"><div class="body"><h3><img src="assets/img/hand-warmer.jpg" alt="hand product reference" width="56" height="56" loading="lazy" style="width:56px;height:56px;border-radius:8px;object-fit:cover;margin-right:12px;vertical-align:middle;border:1px solid var(--line)">Middle-East retail · hand warmer + scarf set</h3><div class="alias">Gift set · 1,500 sets · custom box</div><p>Combined two platforms into a gift set with custom box and bilingual packaging for a winter-season promotion.</p></div></div>
+      <div class="card"><div class="body"><h3><img src="assets/img/abdominal-belt.jpg" alt="abdominal product reference" width="56" height="56" loading="lazy" style="width:56px;height:56px;border-radius:8px;object-fit:cover;margin-right:12px;vertical-align:middle;border:1px solid var(--line)">European elder-care chain · heated abdominal belt</h3><div class="alias">OEM · 3,000 pcs · medical-distributor grade</div><p>Higher-grade heating film and additional battery testing for an elder-care distributor with stricter incoming QC.</p></div></div>
     </div>
   </section>
 
@@ -154,7 +154,7 @@
 </footer>
 
 <script>
-/* 邮箱混淆：data-email(base64) 解码后填充，规避常规爬虫抓取 */
+/* email obfuscation: decode data-email (base64), then set as text + mailto */
 document.querySelectorAll('[data-email]').forEach(function(el){
   var e = atob(el.getAttribute('data-email'));
   el.textContent = e;

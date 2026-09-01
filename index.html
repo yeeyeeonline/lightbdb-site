@@ -40,7 +40,7 @@
 </head>
 <body>
 
-<!-- 语言提示条：上线时由 Cloudflare Pages Functions 读取 CF-IPCountry 触发显示，选择写入 cookie(lang_pref, 1年) -->
+<!-- Language hint bar: at launch, Cloudflare Pages Function reads CF-IPCountry and writes lang_pref cookie (1y) -->
 <div class="langbar" id="langbar" hidden>
   <div class="wrap">
     <span>We detected you're browsing from <b id="country-hint">Germany</b>. Switch to your language?</span>
@@ -145,20 +145,20 @@
   <section>
     <div class="sec-head">
       <span class="kicker">Our Values</span>
-      <h2 class="title">文化精髓 · 科技幸福 · 全面健康</h2>
+      <h2 class="title">Cultural Essence · Happiness through Technology · Holistic Health</h2>
       <p class="sub">Cultural Essence · Happiness through Technology · Holistic Health — three principles behind every product we build, and the reason our lines span body care and living environments.</p>
     </div>
     <div class="cat-grid">
       <div class="card"><div class="body">
-        <h3 style="color:var(--green)">Cultural Essence <span style="color:var(--muted);font-size:14px">文化精髓</span></h3>
+
         <p>Oriental aesthetics, real materials and craftsmanship carried through — design that means something, not decoration.</p>
       </div></div>
       <div class="card"><div class="body">
-        <h3 style="color:var(--green)">Happiness through Technology <span style="color:var(--muted);font-size:14px">科技幸福</span></h3>
+
         <p>Heating, massage, NIR and smart platforms engineered so technology quietly serves daily wellbeing.</p>
       </div></div>
       <div class="card"><div class="body">
-        <h3 style="color:var(--green)">Holistic Health <span style="color:var(--muted);font-size:14px">全面健康</span></h3>
+
         <p>Body, mind and living environment taken together — from therapy devices to light, sound and air at home.</p>
       </div></div>
     </div>
@@ -187,7 +187,7 @@
           <li style="padding-left:26px;position:relative"><b>Factory visits:</b> Panyu, Shenzhen &amp; Yangon plants open to audit</li>
         </ul>
       </div>
-      <!-- 询单表单：Supabase REST 直插（supabase/schema.sql 建表，anon 仅 insert），入库打 category 标签，Webhook 邮件通知 -->
+      <!-- Inquiry form: Supabase REST insert (run supabase/schema.sql first; anon only insert), tag by category, webhook for email -->
       <form class="inquiry" onsubmit="return submitInquiry(event)">
         <div class="row2">
           <div><label for="f-name">Name *</label><input id="f-name" name="name" required></div>
@@ -243,16 +243,16 @@
     </div>
     <div class="legal">
       <span>© 2026 LIGHT BRAND DESIGN BUSINESS (SHENZHEN) CO., LTD. All rights reserved.</span>
-      <span>EN — more languages rolling out (繁中 / DE / JP / AR)</span>
+
     </div>
   </div>
 </footer>
 
 <script>
-function setLang(l){ /* 上线时跳 /de/ 等语言路径 */ }
+
 function dismissLang(){document.getElementById('langbar').hidden=true;document.cookie='lang_pref=en;max-age=31536000;path=/';}
 
-/* Supabase 直连（A 档最简）：anon key 只允许 insert（RLS 限制），泄露无风险 */
+
 const SB_URL  = 'https://pitvjzkuidbhqamwyorc.supabase.co';
 const SB_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBpdHZqemt1aWRiaHFhbXd5b3JjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODY1Nzk2MjUsImV4cCI6MjEwMjE1NTYyNX0.pMi6UwPxiKFIoPUNs50ItseCfxETy_OO5QaJXDxVuI8';
 
@@ -261,7 +261,7 @@ async function submitInquiry(e){
   const form = e.target;
   const data = Object.fromEntries(new FormData(form));
   try{
-    /* 走 security definer 函数（绕过 RLS 限制，公开表单的官方推荐做法） */
+    /* Call security definer function (bypasses RLS; standard pattern for public forms) */
     const r = await fetch(SB_URL + '/rest/v1/rpc/submit_inquiry', {
       method: 'POST',
       headers: {
@@ -287,13 +287,13 @@ async function submitInquiry(e){
   return false;
 }
 
-/* 演示：取消注释并在上线时接入 CF-IPCountry 逻辑
+
 if(!document.cookie.includes('lang_pref') && window.CF_IPCountry && ['DE','AT','CH'].includes(window.CF_IPCountry)) document.getElementById('langbar').hidden=false;
 */
 </script>
 
 <script>
-/* 邮箱混淆：data-email(base64) 解码后填充，规避常规爬虫抓取 */
+/* email obfuscation: decode data-email (base64), then set as text + mailto */
 document.querySelectorAll('[data-email]').forEach(function(el){
   var e = atob(el.getAttribute('data-email'));
   el.textContent = e;

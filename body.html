@@ -54,7 +54,7 @@
     </div>
   </section>
 
-  <!-- 答案块（GEO）：可被 AI 引擎整段摘取的事实列表 -->
+  <!-- Answer block (GEO): fact list that AI engines can quote whole -->
   <div class="answer">
     <h2>Key Facts</h2>
     <ul>
@@ -137,7 +137,7 @@
     </div>
   </section>
 
-  <!-- 规格参数区：按确认放内页，不放首页。数值待你按 SKU 逐条确认 -->
+  <!-- Specs: per spec in source file. Not on homepage. -->
   <section>
     <div class="sec-head">
       <span class="kicker">Inside the spec sheet</span>
@@ -210,7 +210,7 @@
 </footer>
 
 <script>
-/* 邮箱混淆：data-email(base64) 解码后填充，规避常规爬虫抓取 */
+/* email obfuscation: decode data-email (base64), then set as text + mailto */
 document.querySelectorAll('[data-email]').forEach(function(el){
   var e = atob(el.getAttribute('data-email'));
   el.textContent = e;

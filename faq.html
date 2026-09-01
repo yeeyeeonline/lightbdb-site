@@ -75,7 +75,7 @@
     <div class="faq-item">
       <h3>5. Which certifications can your products carry?</h3>
       <p>Our quality systems are ISO 9001 (quality) and ISO 14001 (environmental), with amfori BSCI social-compliance audit. Products can carry CE, ROHS, FCC, PSE and UL according to model and destination market. Battery products ship with UN38.3 / MSDS logistics documentation. We confirm the exact certificate list per SKU during quotation.</p>
-      <p class="note">[待确认] 各 SKU 实际持有的证书清单（建议做一张认证矩阵表）。</p>
+      <p class="note">[To be confirmed] Per-SKU certificate list (recommend maintaining a cert matrix).</p>
     </div>
     <div class="faq-item">
       <h3>6. Can I visit or audit the factory?</h3>
@@ -146,7 +146,7 @@
 </footer>
 
 <script>
-/* 邮箱混淆：data-email(base64) 解码后填充，规避常规爬虫抓取 */
+/* email obfuscation: decode data-email (base64), then set as text + mailto */
 document.querySelectorAll('[data-email]').forEach(function(el){
   var e = atob(el.getAttribute('data-email'));
   el.textContent = e;
