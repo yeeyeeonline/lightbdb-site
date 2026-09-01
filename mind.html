@@ -45,17 +45,20 @@
 </header>
 
 <!-- HERO：主推 树之光 + 全产品图 -->
-<section style="padding-top:48px;padding-bottom:48px;border-bottom:1px solid var(--line)">
+<section style="padding:64px 0;border-bottom:1px solid var(--line);background:linear-gradient(135deg,#14160f 0%,#1d2017 50%,#26291b 100%);position:relative;overflow:hidden">
+  <!-- 装饰渐变光晕 -->
+  <div style="position:absolute;top:-200px;right:-100px;width:600px;height:600px;background:radial-gradient(circle,rgba(184,196,57,.08) 0%,transparent 60%);pointer-events:none"></div>
+  <div style="position:absolute;bottom:-150px;left:10%;width:500px;height:500px;background:radial-gradient(circle,rgba(247,153,29,.06) 0%,transparent 60%);pointer-events:none"></div>
   <div class="wrap">
-    <div style="display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;position:relative;z-index:1">
       <div>
-        <span class="kicker">Lifestyle · ODM / OEM</span>
+        <span class="kicker" style="color:var(--orange)">Lifestyle · ODM / OEM</span>
         <h1 style="font-size:clamp(32px,4.2vw,48px);margin:14px 0 14px;line-height:1.14">Oriental aesthetics, built into objects people keep.</h1>
         <p class="lead">From our flagship wooden Tree of Light to scent, sound and charging, our lifestyle line is one coherent design language — designed to be kept on the desk or the shelf, not replaced by next quarter.</p>
         <a class="btn primary" href="#collection">Explore the Collection</a>
-    </div>
-      <div style="border-radius:var(--radius);overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.5)">
-        <img src="assets/img/mind-tree-light-hotel.jpg" alt="Tree of Light lamp in a hotel lobby setting" width="1400" height="933" fetchpriority="high">
+      </div>
+      <div style="border-radius:var(--radius);overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.5);aspect-ratio:4/5">
+        <img style="width:100%;height:230px;object-fit:cover;display:block" src="assets/img/mind-tree-light-hotel.jpg" alt="Tree of Light lamp in a hotel lobby setting" width="1120" height="1400" fetchpriority="high" style="width:100%;height:100%;object-fit:cover;display:block">
       </div>
     </div>
   </div>
@@ -82,21 +85,21 @@
     </div>
     <div class="cat-grid">
       <div class="card">
-        <img src="assets/img/mind-tree-light-hotel.jpg" alt="Tree of Light in hotel lobby" width="1400" height="933" loading="lazy">
+        <img style="width:100%;height:230px;object-fit:cover;display:block" src="assets/img/mind-tree-light-hotel.jpg" alt="Tree of Light in hotel lobby" width="1400" height="933" loading="lazy">
         <div class="body">
           <h3>Hotel / Commercial</h3>
           <p>Quiet-luxury lobby scene. Reads as a sculpture during the day, becomes warm ambient light in the evening.</p>
         </div>
       </div>
       <div class="card">
-        <img src="assets/img/mind-tree-light-bedroom.jpg" alt="Tree of Light on a bedside table" width="1400" height="933" loading="lazy">
+        <img style="width:100%;height:230px;object-fit:cover;display:block" src="assets/img/mind-tree-light-bedroom.jpg" alt="Tree of Light on a bedside table" width="1400" height="933" loading="lazy">
         <div class="body">
           <h3>Bedroom</h3>
           <p>Low-lumen, warm colour at the bedside. The dimming curve is tuned for reading and unwinding, not for "as bright as possible".</p>
         </div>
       </div>
       <div class="card">
-        <img src="assets/img/mind-tree-light-living.jpg" alt="Tree of Light in a living room" width="1400" height="933" loading="lazy">
+        <img style="width:100%;height:230px;object-fit:cover;display:block" src="assets/img/mind-tree-light-living.jpg" alt="Tree of Light in a living room" width="1400" height="933" loading="lazy">
         <div class="body">
           <h3>Living room</h3>
           <p>A solid-wood piece on a console — sized to read as furniture, not as a lamp.</p>
@@ -114,7 +117,7 @@
     </div>
     <div class="cat-grid">
       <div class="card">
-        <img src="assets/img/mind-tree-light-hotel.jpg" alt="Tree of Light — flagship wooden branch lamp" width="1400" height="933" loading="lazy">
+        <img style="width:100%;height:230px;object-fit:cover;display:block" src="assets/img/mind-tree-light-hotel.jpg" alt="Tree of Light — flagship wooden branch lamp" width="1400" height="933" loading="lazy">
         <div class="body">
           <h3>Tree of Light · 树之光</h3>
           <div class="alias">solid wood · stepless dimming · warm-to-cool · flagship</div>
@@ -122,7 +125,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="assets/img/mind-sunrise-gift.jpg" alt="Glow of Sunrise — warm-light desktop lamp" width="1400" height="933" loading="lazy">
+        <img style="width:100%;height:230px;object-fit:cover;display:block" src="assets/img/mind-sunrise-gift.jpg" alt="Glow of Sunrise — warm-light desktop lamp" width="1400" height="933" loading="lazy">
         <div class="body">
           <h3>Glow of Sunrise · 日出之光</h3>
           <div class="alias">warm-light desktop lamp · gift-ready · phone/pen holder</div>
@@ -130,7 +133,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="assets/img/mind-dance-light.jpg" alt="Dance of Light — sculptural speaker-lamp" width="1400" height="933" loading="lazy">
+        <img style="width:100%;height:230px;object-fit:cover;display:block" src="assets/img/mind-dance-light.jpg" alt="Dance of Light — sculptural speaker-lamp" width="1400" height="933" loading="lazy">
         <div class="body">
           <h3>Dance of Light · 光之舞</h3>
           <div class="alias">spiral sculpture · speaker + ambient light · art object</div>
@@ -138,7 +141,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="assets/img/mind-c3-player.jpg" alt="C3 Player — CD-style lifestyle audio" width="1400" height="933" loading="lazy">
+        <img style="width:100%;height:230px;object-fit:cover;display:block" src="assets/img/mind-c3-player.jpg" alt="C3 Player — CD-style lifestyle audio" width="1400" height="933" loading="lazy">
         <div class="body">
           <h3>C3 Player · 旋唱机</h3>
           <div class="alias">CD-style audio · wooden base · calm design · modern connectivity</div>
@@ -146,7 +149,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="assets/img/mind-candle.jpg" alt="Scented candle — aromatic lifestyle line" width="1400" height="933" loading="lazy">
+        <img style="width:100%;height:230px;object-fit:cover;display:block" src="assets/img/mind-candle.jpg" alt="Scented candle — aromatic lifestyle line" width="1400" height="933" loading="lazy">
         <div class="body">
           <h3>Aroma · 喜上梢</h3>
           <div class="alias">scented candles · oriental fragrance profiles · gift-ready</div>
@@ -154,7 +157,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="assets/img/mind-collection.jpg" alt="Full collection overview — all four LIGHT & MIND products" width="1400" height="933" loading="lazy">
+        <img style="width:100%;height:230px;object-fit:cover;display:block" src="assets/img/mind-collection.jpg" alt="Full collection overview — all four LIGHT & MIND products" width="1400" height="933" loading="lazy">
         <div class="body">
           <h3>Charging & Collection</h3>
           <div class="alias">wireless charging · integrated · whole-range overview</div>
