@@ -47,17 +47,31 @@
 </div>
 
 
+<div class="promise"><span class="pulse">⚡</span>We respond within 24hrs — every inquiry receives a proposal with 3D rendering and quotation.</div>
+
 <form class="inquiry" onsubmit="return submitInquiry(event)">
   <div class="row2">
     <div><label for="r-name">Name *</label><input id="r-name" name="name" required></div>
     <div><label for="r-company">Company</label><input id="r-company" name="company"></div>
   </div>
   <div class="row2">
-    <div><label for="r-email">Email *</label><input id="r-email" name="email" type="email" required></div>
-    <div><label for="r-country">Country / Region</label><input id="r-country" name="country"></div>
+    <div><label for="r-email">Work Email *</label><input id="r-email" name="email" type="email" required></div>
+    <div>
+      <label for="r-country">Target Market</label>
+      <select id="r-country" name="country">
+        <option value="">Select target market…</option>
+        <option value="US">🇺🇸 United States</option>
+        <option value="EU">🇪🇺 Europe</option>
+        <option value="JP">🇯🇵 Japan</option>
+        <option value="KR">🇰🇷 South Korea</option>
+        <option value="ME">🇦🇪 Middle East</option>
+        <option value="GLOBAL">🌍 Global / Multiple</option>
+        <option value="OTHER">Other</option>
+      </select>
+    </div>
   </div>
   <div>
-    <label for="r-cat">Interested in *</label>
+    <label for="r-cat">Product Interest *</label>
     <select id="r-cat" name="category" required>
       <option value="BODY">Body care — heating / massage / NIR devices (OEM/ODM)</option>
       <option value="MIND">Lifestyle — lamps / audio / aroma (OEM/ODM)</option>
@@ -69,6 +83,21 @@
   <button class="btn primary" type="submit">Request Quotation</button>
   <p class="form-note">Your data is stored in Singapore (Supabase) and used only to answer this inquiry. No newsletters, no sharing.</p>
 </form>
+
+<script>
+/* Prefill from product-platforms "Customize This Platform" links: /rfq?pid=LM-xxx|BC-xxx */
+(function(){
+  try{
+    var p = new URLSearchParams(location.search).get('pid');
+    if(!p) return;
+    var msg = document.getElementById('r-msg');
+    if(msg && !msg.value) msg.value = 'Platform ID: ' + p + ' — please quote this platform.';
+    var cat = document.getElementById('r-cat');
+    if(cat && p.indexOf('BC-')===0) cat.value='BODY';
+    if(cat && p.indexOf('LM-')===0) cat.value='MIND';
+  }catch(e){}
+})();
+</script>
 
 <script>
 const SB_URL='https://pitvjzkuidbhqamwyorc.supabase.co';
@@ -129,7 +158,7 @@ async function submitInquiry(e){
     </div>
     <div class="legal">
       <span>© 2026 LightBDB. All rights reserved.</span>
-      <span>LightBDB: Your Brand Co-creation Partner.</span>
+      <span>LightBDB: Your Brand Co-creation Partner. · <a href="/privacy" style="color:var(--muted)">Privacy Policy</a> — inquiry data is stored securely and used only to respond.</span>
     </div>
   </div>
 </footer>
