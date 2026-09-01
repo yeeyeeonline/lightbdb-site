@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Request a Quotation - LightBDB | Build · Design · Brand</title>
+<meta name="description" content="Tell us what you're building — we will reply within one business day with a shortlist and proposal. LightBDB: Your Brand Co-creation Partner.">
+<link rel="canonical" href="https://www.lightbdb.com/rfq">
+<link rel="alternate" hreflang="en" href="https://www.lightbdb.com/rfq">
+<link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="logo" href="/">
+      <svg class="hex" viewBox="0 0 24 24" fill="none"><path d="M12 1.5 21.5 7v10L12 22.5 2.5 17V7L12 1.5Z" stroke="#B8C439" stroke-width="2.4"/><circle cx="12" cy="11.4" r="3.2" fill="#F7991D"/></svg>
+      LIGHT <span class="bdb"><span class="b1">B</span><span class="d">D</span><span class="b2">B</span></span>
+    </a>
+    <nav class="links">
+      <a href="/">Home</a>
+      <a href="/product-platforms">Product Platforms</a>
+      <a href="/brand-co-creation">Brand Co-creation</a>
+      <a href="/design-services">Design Services</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+    </nav>
+    <a class="cta" href="/rfq">Start Your Brand Upgrade</a>
+  </div>
+</header>
+<div class="wrap">
+  <section style="padding-top:56px;padding-bottom:32px">
+    <span class="kicker">RFQ</span>
+    <h1 style="font-size:clamp(28px,3.6vw,40px);margin:12px 0 10px">Request a quotation.</h1>
+    <p class="lead">Tell us what you're building — we will reply within one business day with a shortlist and proposal.</p>
+  </section>
+
+
+<div class="answer">
+  <h2>What we'll send back</h2>
+  <ul>
+    <li>A shortlist of product platforms that match your brief.</li>
+    <li>A proposal with 3D rendering and indicative quotation within 24 hours of your inquiry.</li>
+    <li>An MoQ and sample-cost breakdown (first sample waived for first-time cooperation).</li>
+  </ul>
+</div>
+
+
+<form class="inquiry" onsubmit="return submitInquiry(event)">
+  <div class="row2">
+    <div><label for="r-name">Name *</label><input id="r-name" name="name" required></div>
+    <div><label for="r-company">Company</label><input id="r-company" name="company"></div>
+  </div>
+  <div class="row2">
+    <div><label for="r-email">Email *</label><input id="r-email" name="email" type="email" required></div>
+    <div><label for="r-country">Country / Region</label><input id="r-country" name="country"></div>
+  </div>
+  <div>
+    <label for="r-cat">Interested in *</label>
+    <select id="r-cat" name="category" required>
+      <option value="BODY">Body care — heating / massage / NIR devices (OEM/ODM)</option>
+      <option value="MIND">Lifestyle — lamps / audio / aroma (OEM/ODM)</option>
+      <option value="DESIGN">Design service — product innovation consulting</option>
+      <option value="MULTI">Several of the above</option>
+    </select>
+  </div>
+  <div><label for="r-msg">Project brief</label><textarea id="r-msg" name="message" rows="5" placeholder="Product type, target quantity, target market, certifications needed…"></textarea></div>
+  <button class="btn primary" type="submit">Request Quotation</button>
+  <p class="form-note">Your data is stored in Singapore (Supabase) and used only to answer this inquiry. No newsletters, no sharing.</p>
+</form>
+
+<script>
+const SB_URL='https://pitvjzkuidbhqamwyorc.supabase.co';
+const SB_ANON='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBpdHZqemt1aWRiaHFhbXd5b3JjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODY1Nzk2MjUsImV4cCI6MjEwMjE1NTYyNX0.pMi6UwPxiKFIoPUNs50ItseCfxETy_OO5QaJXDxVuI8';
+async function submitInquiry(e){
+  e.preventDefault();
+  const form=e.target;
+  const data=Object.fromEntries(new FormData(form));
+  try{
+    const r=await fetch(SB_URL+'/rest/v1/rpc/submit_inquiry',{
+      method:'POST',
+      headers:{'apikey':SB_ANON,'Authorization':'Bearer '+SB_ANON,'Content-Type':'application/json','Prefer':'return=minimal'},
+      body:JSON.stringify({p_name:data.name,p_email:data.email,p_category:data.category,p_company:data.company||null,p_country:data.country||null,p_message:data.message||null})
+    });
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    form.innerHTML='<p style="color:var(--green);font-weight:600;padding:8px 0">Thank you — your inquiry has been received. We reply within one business day.</p>';
+  }catch(err){alert('Submission failed. Please use the email in the footer (anti-spam protected).');}
+  return false;
+}
+</script>
+
+</div>
+
+<section class="cta-band">
+  <div class="wrap">
+    <h2>Ready to Turn a Product into <em>Your Brand</em>?</h2>
+    <p>Tell us your target market and budget, we'll recommend the fastest path to your own brand.</p>
+    <a class="btn primary" href="/rfq">Start Your Brand Upgrade →</a>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <div class="brandline">
+          <svg class="hex" viewBox="0 0 24 24" fill="none" style="flex:0 0 24px"><path d="M12 1.5 21.5 7v10L12 22.5 2.5 17V7L12 1.5Z" stroke="#B8C439" stroke-width="2.4"/><circle cx="12" cy="11.4" r="3.2" fill="#F7991D"/></svg>
+          LIGHT <span class="bdb"><span class="b1">B</span><span class="d">D</span><span class="b2">B</span></span>
+        </div>
+        <p class="tagline">
+          <span class="bdb"><span class="b1">Build</span></span>
+          <span class="bdb"><span style="color:var(--muted);font-weight:400;margin:0 6px">·</span><span class="d">Design</span></span>
+          <span class="bdb"><span style="color:var(--muted);font-weight:400;margin:0 6px">·</span><span class="b2">Brand</span></span><br>
+          Your brand co-creation partner for certified wellness product platforms.
+        </p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/product-platforms">Product Platforms</a></li>
+          <li><a href="/brand-co-creation">Brand Co-creation</a></li>
+          <li><a href="/design-services">Design Services</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <span>© 2026 LightBDB. All rights reserved.</span>
+      <span>LightBDB: Your Brand Co-creation Partner.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="cookie" id="cookie">
+  <p>We use minimal cookies to measure site performance. No tracking for advertising. You can change your choice any time.</p>
+  <button onclick="acceptCookie()">Accept</button>
+  <button class="ghost" onclick="acceptCookie()">Decline</button>
+</div>
+
+<script>
+function acceptCookie(){
+  try { localStorage.setItem('lbdb_cookie','1'); } catch(e){}
+  var c=document.getElementById('cookie'); if(c) c.style.display='none';
+}
+try { if(localStorage.getItem('lbdb_cookie')) document.getElementById('cookie').style.display='none'; } catch(e){}
+</script>
+</body>
+</html>

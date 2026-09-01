@@ -9,7 +9,7 @@
 - Locations: Plants — Panyu (Guangzhou, China), Shenzhen (China), Yangon (Myanmar); Design centers — Hangzhou (China), Hamburg (Germany)
 - Values: Cultural Essence (文化精髓) · Happiness through Technology (科技幸福) · Holistic Health (全面健康)
 - Quality system: ISO 9001 (quality) and ISO 14001 (environmental); amfori BSCI social-compliance audit; UL-certified plant; IATF (automotive) heritage; Sony Green Partner environmental; RoHS compliant since 2003; RoHS-compliant and Sony Green Partner environmental standards since 2003; products carry CE / ROHS / FCC / PSE / UL per model and market
-- OEM/ODM terms: MOQ from 500 pcs per model; sampling in 7 days (sample fee charged at standard rates, waived for first-time cooperation with courier cost paid by the buyer); proposal with 3D rendering and quotation within 24 hours; payment T/T 30/70 and L/C accepted; default Incoterm FOB Shenzhen; 500-day warranty against manufacturing defects
+- OEM/ODM terms: MOQ from 500 pcs per model; sampling in 7-14 days (sample fee charged at standard rates, waived for first-time cooperation with courier cost paid by the buyer); proposal with 3D rendering and quotation within 24 hours; payment T/T 30/70 and L/C accepted; default Incoterm FOB Shenzhen; 500-day warranty against manufacturing defects
 - Engineering: 20+ R&D engineers; 12+ years of manufacturing experience
 - Design capability: core strategic partnership with Bole Design — 20 years of design consulting, 500+ design awards, national industrial design center, Hangzhou & Hamburg; Bole Design is an independent partner credited on its cases
 - Contact: serina@lightbdb.com
@@ -22,10 +22,13 @@
 
 ## Pages
 
-- / — company overview, values (Cultural Essence · Happiness through Technology · Holistic Health), product line entry points, inquiry form
-- /body — body care OEM/ODM categories and platform parameters
-- /mind — lifestyle product categories
-- /design — design service with strategic partner Bole Design
+- / — homepage: brand co-creation ODM positioning, three service pillars (Light & Mood Therapy, Body Care Electronics, Design & Branding), verified certificates, 3-step co-creation journey, personal-care platforms from Bole Design 2026 Collection
+- /product-platforms — 50+ certified product platforms (body care + light & mood therapy) with #body-care and #light-mood anchors
+- /design-services — product design & category innovation with core strategic partner Bole Design; personal-care case work, anonymously credited
+- /brand-co-creation — the 3-step co-creation journey (Choose · Customize · Deliver)
+- /about — company, 3 plants (Panyu / Shenzhen / Yangon) and 2 design centers (Hangzhou / Hamburg)
+- /contact — inquiry form and contact details
+- /rfq — request for quotation form
 - /facilities — plants (Panyu / Shenzhen / Yangon) and certifications (ISO 9001, ISO 14001, BSCI, UL, CE/ROHS/FCC/PSE)
 - /heating-vs-nir — comparison: heating pad vs NIR therapy device for OEM buyers (mechanism, channels, compliance)
 - /moq-guide — why wellness-device MOQ is 500 pcs, the five fixed costs behind it, what is negotiable

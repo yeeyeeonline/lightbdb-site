@@ -1,0 +1,14 @@
+# OS noise
+.DS_Store
+Thumbs.db
+*.swp
+
+# Wrangler local state (not source)
+.wrangler/
+
+# Local runtime / generated
+node_modules/
+*.log
+
+# Supabase local runtime data (not part of the static site source)
+supabase/
