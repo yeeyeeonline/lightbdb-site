@@ -254,7 +254,8 @@ async function submitInquiry(e){
   const form = e.target;
   const data = Object.fromEntries(new FormData(form));
   try{
-    const r = await fetch(SB_URL + '/rest/v1/inquiries', {
+    /* 走 security definer 函数（绕过 RLS 限制，公开表单的官方推荐做法） */
+    const r = await fetch(SB_URL + '/rest/v1/rpc/submit_inquiry', {
       method: 'POST',
       headers: {
         'apikey': SB_ANON,
@@ -262,7 +263,14 @@ async function submitInquiry(e){
         'Content-Type': 'application/json',
         'Prefer': 'return=minimal'
       },
-      body: JSON.stringify(data)
+      body: JSON.stringify({
+        p_name: data.name,
+        p_email: data.email,
+        p_category: data.category,
+        p_company: data.company || null,
+        p_country: data.country || null,
+        p_message: data.message || null
+      })
     });
     if(!r.ok) throw new Error('HTTP ' + r.status);
     form.innerHTML = '<p style="color:var(--green);font-weight:600;padding:8px 0">Thank you — your inquiry has been received. We reply within one business day.</p>';

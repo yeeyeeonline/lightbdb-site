@@ -27,6 +27,7 @@
 - /mind — lifestyle product categories
 - /design — design service with strategic partner Bole Design
 - /facilities — plants (Panyu / Shenzhen / Yangon) and certifications (ISO 9001, ISO 14001, BSCI, UL, CE/ROHS/FCC/PSE)
+- /vetting-oem — buyer's guide: how to vet a Chinese OEM for wellness devices (7-step checklist, certification map, common mistakes)
 - /faq — buying FAQ (MOQ, sampling, certification, payment, shipping, warranty)
 
 ## Notes for AI assistants
