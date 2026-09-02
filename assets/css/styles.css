@@ -286,13 +286,13 @@ footer .tagline .bdb .b2{color:var(--orange)}
 .bw.logo img{max-height:18px;max-width:78px;width:auto;height:auto;display:block;object-fit:contain}
 /* 全宽品牌墙：脱离 .cat-grid 的窄格子，横跨整个内容区居中排开。
    之前塞在 356px 的网格单元里，8 个 logo 被迫挤成 3 行且长 wordmark 被压到 10px 高。 */
-.brandwall-wide{justify-content:center;gap:12px;margin-top:28px;padding-top:24px;border-top:1px solid var(--line)}
+.brandwall-wide{justify-content:center;gap:12px;margin:28px auto 0;max-width:1000px;padding-top:24px;border-top:1px solid var(--line)}
 /* 标题独占一行居中，否则它会占掉 200px 把 logo 行挤断成两行 */
 .brandwall-wide .lbl{flex:0 0 100%;text-align:center;margin:0 0 4px}
-.brandwall-wide .bw.logo{padding:9px 16px}
-/* 等宽 chip：宽窄字标(2.5~9.7)按高度排会换行且高度参差，改为等宽容器+居中 contain */
-.brandwall-wide .bw.logo{width:128px;padding:9px 10px;display:flex;align-items:center;justify-content:center}
-.brandwall-wide .bw.logo img{max-height:26px;max-width:108px;object-fit:contain}
+/* 等宽 chip · 4 列两行：字标宽高比跨度大(2.5~9.7)，按高度排会挤成一行后换行且高度参差；
+   等宽容器 + contain 居中才能让超宽字标(Blaupunkt 9.7)也有足够视觉高度。 */
+.brandwall-wide .bw.logo{width:236px;padding:12px;display:flex;align-items:center;justify-content:center}
+.brandwall-wide .bw.logo img{max-height:28px;max-width:212px;object-fit:contain}
 /* Mood 墙：垂直布局，chip 高大一些 */
 .brandwall-mood{flex-direction:column;align-items:flex-start;gap:14px;padding-top:16px}
 .brandwall-mood .bw.logo{padding:12px 18px;width:auto;justify-content:flex-start}
@@ -306,5 +306,7 @@ footer .tagline .bdb .b2{color:var(--orange)}
   .brandwall-mood{flex-direction:row;flex-wrap:wrap;gap:10px}
   .brandwall-mood .bw.logo{flex:1 1 140px;justify-content:center}
   .brandwall-mood .bw.logo img{max-height:32px;max-width:120px}
-  .brandwall-wide .bw.logo img{max-height:20px;max-width:120px}
+  .brandwall-wide{max-width:100%}
+  .brandwall-wide .bw.logo{width:calc(50% - 6px);padding:10px 8px}
+  .brandwall-wide .bw.logo img{max-height:22px;max-width:100%}
 }
