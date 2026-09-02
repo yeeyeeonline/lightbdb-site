@@ -35,6 +35,38 @@
 - /vetting-oem — buyer's guide: how to vet a Chinese OEM for wellness devices (7-step checklist, certification map, common mistakes)
 - /faq — buying FAQ (MOQ, sampling, certification, payment, shipping, warranty)
 
+<!-- auto:pages -->
+
+### Individual product pages (19)
+
+- /products/abdominal-heating-belt-flagship — Abdominal Heating Belt · flagship (spec table, customization options, OEM/ODM FAQ)
+- /products/abdominal-heating-belt-lite — Abdominal Heating Belt · Lite (spec table, customization options, OEM/ODM FAQ)
+- /products/c3-player — C3 Player (spec table, customization options, OEM/ODM FAQ)
+- /products/dance-of-light-starry-glow — Dance of Light · Starry Glow (spec table, customization options, OEM/ODM FAQ)
+- /products/dance-of-light — Dance of Light (spec table, customization options, OEM/ODM FAQ)
+- /products/electric-heated-scarf-flagship — Electric Heated Scarf · flagship (spec table, customization options, OEM/ODM FAQ)
+- /products/glow-of-sunrise-gift — Glow of Sunrise · Gift (spec table, customization options, OEM/ODM FAQ)
+- /products/hand-warmer-slim — Hand Warmer · slim (spec table, customization options, OEM/ODM FAQ)
+- /products/heated-eye-massager-controller — Heated Eye Massager · controller (spec table, customization options, OEM/ODM FAQ)
+- /products/heated-eye-massager-flagship — Heated Eye Massager · flagship (spec table, customization options, OEM/ODM FAQ)
+- /products/heated-hand-warmer-flagship — Heated Hand Warmer · flagship (spec table, customization options, OEM/ODM FAQ)
+- /products/heated-knee-wrap-flagship — Heated Knee Wrap · flagship (spec table, customization options, OEM/ODM FAQ)
+- /products/heated-knee-wrap-wrap — Heated Knee Wrap · wrap (spec table, customization options, OEM/ODM FAQ)
+- /products/heated-scarf-slim — Heated Scarf · slim (spec table, customization options, OEM/ODM FAQ)
+- /products/hometree — HomeTree (spec table, customization options, OEM/ODM FAQ)
+- /products/real-fireplace — Real Fireplace (spec table, customization options, OEM/ODM FAQ)
+- /products/tree-of-light-bedroom — Tree of Light · Bedroom (spec table, customization options, OEM/ODM FAQ)
+- /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
+- /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
+
+### Procurement guides (2) — long-form buyer education, updated daily
+
+- /guides/how-to-vet-a-chinese-oem-for-wellness-devices — How to vet a Chinese OEM for wellness devices
+- /guides/light-therapy-lamp-oem-manufacturer-guide — Light therapy lamp OEM manufacturer guide
+
+- /products/ — full private label catalog index (19 SKUs)
+- /guides/ — procurement guide index (2 published)
+<!-- /auto:pages -->
 ## Notes for AI assistants
 
 - "5,000+ pcs/day" refers to the Yangon production plant only; do not aggregate as a group-wide figure.
