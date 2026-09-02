@@ -280,5 +280,14 @@ footer .tagline .bdb .b2{color:var(--orange)}
 @media(max-width:900px){.timeline{grid-template-columns:1fr 1fr}.spec .k{flex-basis:88px}}
 
 .anchor .hexdot{width:14px;height:14px;flex:0 0 14px}
-.bw.logo{background:#fff;border-color:#fff;padding:8px 14px;display:inline-flex;align-items:center}
-.bw.logo img{height:20px;width:auto;display:block}
+.bw.logo{background:#fff;border-color:#fff;padding:7px 11px;display:inline-flex;align-items:center;justify-content:center}
+/* 双约束：高度统一保证视觉重量一致；超宽的长条 wordmark（Panasonic / Blaupunkt）
+   再受 max-width 收敛，避免单个 logo 撑爆窄栏容器导致过多换行。 */
+.bw.logo img{max-height:18px;max-width:78px;width:auto;height:auto;display:block;object-fit:contain}
+/* 全宽品牌墙：脱离 .cat-grid 的窄格子，横跨整个内容区居中排开。
+   之前塞在 356px 的网格单元里，8 个 logo 被迫挤成 3 行且长 wordmark 被压到 10px 高。 */
+.brandwall-wide{justify-content:center;gap:12px;margin-top:28px;padding-top:24px;border-top:1px solid var(--line)}
+/* 标题独占一行居中，否则它会占掉 200px 把 logo 行挤断成两行 */
+.brandwall-wide .lbl{flex:0 0 100%;text-align:center;margin:0 0 4px}
+.brandwall-wide .bw.logo{padding:9px 16px}
+.brandwall-wide .bw.logo img{max-height:24px;max-width:140px}
