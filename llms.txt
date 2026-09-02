@@ -59,13 +59,15 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (2) — long-form buyer education, updated daily
+### Procurement guides (4) — long-form buyer education, updated daily
 
+- /guides/fabric-wrap-vs-neoprene-wrap-for-heated-knee-products — fabric-wrap-vs-neoprene-wrap-for-heated-knee-products
 - /guides/how-to-vet-a-chinese-oem-for-wellness-devices — How to vet a Chinese OEM for wellness devices
 - /guides/light-therapy-lamp-oem-manufacturer-guide — Light therapy lamp OEM manufacturer guide
+- /guides/sunrise-alarm-clock-vs-light-therapy-lamp-what-buyers-confuse — sunrise-alarm-clock-vs-light-therapy-lamp-what-buyers-confuse
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (2 published)
+- /guides/ — procurement guide index (4 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
