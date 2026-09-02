@@ -1,14 +1,47 @@
-# OS noise
+# ===========================================================================
+# LightBDB 站点 · Git 排除规则
+# ---------------------------------------------------------------------------
+# 设计原则：本仓库只承载「代码层」——HTML / CSS / JS / SQL / 配置文本。
+# 所有二进制资产（图片 / 字体 / 视频 / PDF）不入库，
+# 改由 site-backup.sh 单独分卷归档到独立物理盘 /Volumes/Data，
+# 原因：二进制进 git 会让 .git 迅速膨胀且无法 diff（70 项目的教训）。
+#
+# 恢复时必须「代码层 + 资产层」配套还原，见 BACKUP-RESTORE.md。
+# ===========================================================================
+
+# ---- OS / 编辑器噪声 ----
 .DS_Store
 Thumbs.db
 *.swp
 
-# Wrangler local state (not source)
+# ---- 构建 / 部署 / 运行时噪声 ----
 .wrangler/
-
-# Local runtime / generated
 node_modules/
 *.log
 
-# Supabase local runtime data (not part of the static site source)
-supabase/
+# ---- Supabase：只排除本地运行时，SQL 源码入库 ----
+supabase/.temp/
+supabase/.branches/
+supabase/.worktree/
+
+# ---- 二进制资产层（走独立分卷归档，不入库）----
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.ico
+*.bmp
+*.avif
+*.svg
+*.woff
+*.woff2
+*.ttf
+*.otf
+*.eot
+*.mp4
+*.webm
+*.mov
+*.pdf
+*.zip
+*.tar.gz
