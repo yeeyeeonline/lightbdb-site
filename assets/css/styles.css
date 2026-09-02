@@ -278,3 +278,7 @@ footer .tagline .bdb .b2{color:var(--orange)}
 .addr{color:var(--ink2);font-size:14px;line-height:1.8}
 .addr b{color:var(--ink)}
 @media(max-width:900px){.timeline{grid-template-columns:1fr 1fr}.spec .k{flex-basis:88px}}
+
+.anchor .hexdot{width:14px;height:14px;flex:0 0 14px}
+.bw.logo{background:#fff;border-color:#fff;padding:8px 14px;display:inline-flex;align-items:center}
+.bw.logo img{height:20px;width:auto;display:block}
