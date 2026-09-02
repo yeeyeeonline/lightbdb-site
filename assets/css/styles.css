@@ -290,8 +290,9 @@ footer .tagline .bdb .b2{color:var(--orange)}
 /* 标题独占一行居中，否则它会占掉 200px 把 logo 行挤断成两行 */
 .brandwall-wide .lbl{flex:0 0 100%;text-align:center;margin:0 0 4px}
 .brandwall-wide .bw.logo{padding:9px 16px}
-/* 宽字标(Panasonic 6.8 / Blaupunkt 9.7)在窄限宽下会被压到 16px 高、视觉失衡，放宽到 170 */
-.brandwall-wide .bw.logo img{max-height:26px;max-width:170px;object-fit:contain}
+/* 等宽 chip：宽窄字标(2.5~9.7)按高度排会换行且高度参差，改为等宽容器+居中 contain */
+.brandwall-wide .bw.logo{width:128px;padding:9px 10px;display:flex;align-items:center;justify-content:center}
+.brandwall-wide .bw.logo img{max-height:26px;max-width:108px;object-fit:contain}
 /* Mood 墙：垂直布局，chip 高大一些 */
 .brandwall-mood{flex-direction:column;align-items:flex-start;gap:14px;padding-top:16px}
 .brandwall-mood .bw.logo{padding:12px 18px;width:auto;justify-content:flex-start}
