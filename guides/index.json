@@ -26,5 +26,19 @@
     "date": "2026-09-03",
     "kind": "comparison",
     "url": "/guides/fabric-wrap-vs-neoprene-wrap-for-heated-knee-products.html"
+  },
+  {
+    "slug": "dual-sourcing-a-single-sku-when-it-is-worth-the-complexity",
+    "title": "Dual sourcing a single SKU when it is worth the complexity",
+    "date": "2026-09-03",
+    "kind": "horizontal",
+    "url": "/guides/dual-sourcing-a-single-sku-when-it-is-worth-the-complexity.html"
+  },
+  {
+    "slug": "fcc-marking-for-light-and-sound-devices-what-buyers-must-confirm",
+    "title": "FCC marking for light and sound devices what buyers must confirm",
+    "date": "2026-09-03",
+    "kind": "horizontal",
+    "url": "/guides/fcc-marking-for-light-and-sound-devices-what-buyers-must-confirm.html"
   }
 ]
