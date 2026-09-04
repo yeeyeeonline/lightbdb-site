@@ -40,5 +40,19 @@
     "date": "2026-09-03",
     "kind": "horizontal",
     "url": "/guides/fcc-marking-for-light-and-sound-devices-what-buyers-must-confirm.html"
+  },
+  {
+    "slug": "rohs-and-reach-compliance-for-private-label-electronics",
+    "title": "RoHS and REACH compliance for private label electronics",
+    "date": "2026-09-04",
+    "kind": "horizontal",
+    "url": "/guides/rohs-and-reach-compliance-for-private-label-electronics.html"
+  },
+  {
+    "slug": "prop-65-labeling-for-products-sold-in-california",
+    "title": "Prop 65 labeling for products sold in California",
+    "date": "2026-09-04",
+    "kind": "manual",
+    "url": "/guides/prop-65-labeling-for-products-sold-in-california.html"
   }
 ]
