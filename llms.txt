@@ -59,17 +59,19 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (6) — long-form buyer education, updated daily
+### Procurement guides (8) — long-form buyer education, updated daily
 
 - /guides/dual-sourcing-a-single-sku-when-it-is-worth-the-complexity — Dual sourcing a single SKU when it is worth the complexity
 - /guides/fabric-wrap-vs-neoprene-wrap-for-heated-knee-products — Fabric Wrap vs Neoprene Wrap for Heated Knee Products: What Private Label Brands Should Source
 - /guides/fcc-marking-for-light-and-sound-devices-what-buyers-must-confirm — FCC marking for light and sound devices what buyers must confirm
 - /guides/how-to-vet-a-chinese-oem-for-wellness-devices — How to vet a Chinese OEM for wellness devices
 - /guides/light-therapy-lamp-oem-manufacturer-guide — Light therapy lamp OEM manufacturer guide
+- /guides/prop-65-labeling-for-products-sold-in-california — Prop 65 labeling for products sold in California
+- /guides/rohs-and-reach-compliance-for-private-label-electronics — RoHS and REACH compliance for private label electronics
 - /guides/sunrise-alarm-clock-vs-light-therapy-lamp-what-buyers-confuse — Sunrise Alarm Clock vs Light Therapy Lamp: What Buyers Confuse
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (6 published)
+- /guides/ — procurement guide index (8 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
