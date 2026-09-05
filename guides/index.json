@@ -54,5 +54,19 @@
     "date": "2026-09-04",
     "kind": "manual",
     "url": "/guides/prop-65-labeling-for-products-sold-in-california.html"
+  },
+  {
+    "slug": "country-of-origin-labeling-rules-for-imported-consumer-devices",
+    "title": "Country of origin labeling rules for imported consumer devices",
+    "date": "2026-09-05",
+    "kind": "horizontal",
+    "url": "/guides/country-of-origin-labeling-rules-for-imported-consumer-devices.html"
+  },
+  {
+    "slug": "how-to-read-a-test-report-and-confirm-it-actually-covers-your-sku",
+    "title": "How to read a test report and confirm it actually covers your SKU",
+    "date": "2026-09-05",
+    "kind": "horizontal",
+    "url": "/guides/how-to-read-a-test-report-and-confirm-it-actually-covers-your-sku.html"
   }
 ]

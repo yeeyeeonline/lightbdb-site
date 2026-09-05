@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- p0:meta -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="LightBDB">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://www.lightbdb.com/guides/how-to-read-a-test-report-and-confirm-it-actually-covers-your-sku.html">
+<meta property="og:title" content="How to read a test report and confirm it actually covers your SKU">
+<meta property="og:description" content="How to Read a Test Report and Confirm It Actually Covers Your SKU Quick answer Confirming a test report covers your SKU takes about 10 minutes and five check…">
+<meta property="og:image" content="https://www.lightbdb.com/assets/img/design-case-hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to read a test report and confirm it actually covers your SKU">
+<meta name="twitter:description" content="How to Read a Test Report and Confirm It Actually Covers Your SKU Quick answer Confirming a test report covers your SKU takes about 10 minutes and five check…">
+<meta name="twitter:image" content="https://www.lightbdb.com/assets/img/design-case-hero.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to read a test report and confirm it actually covers your SKU — LightBDB Procurement Guide</title>
+<meta name="description" content="How to Read a Test Report and Confirm It Actually Covers Your SKU Quick answer Confirming a test report covers your SKU takes about 10 minutes and five check…">
+<meta name="author" content="LightBDB Editorial">
+<link rel="canonical" href="https://www.lightbdb.com/guides/how-to-read-a-test-report-and-confirm-it-actually-covers-your-sku.html">
+<link rel="alternate" hreflang="en" href="https://www.lightbdb.com/guides/how-to-read-a-test-report-and-confirm-it-actually-covers-your-sku.html">
+<link rel="alternate" hreflang="x-default" href="https://www.lightbdb.com/guides/how-to-read-a-test-report-and-confirm-it-actually-covers-your-sku.html">
+<link rel="stylesheet" href="../assets/css/styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to read a test report and confirm it actually covers your SKU",
+  "description": "How to Read a Test Report and Confirm It Actually Covers Your SKU Quick answer Confirming a test report covers your SKU takes about 10 minutes and five check\u2026",
+  "datePublished": "2026-09-05T08:10:01+08:00",
+  "dateModified": "2026-09-05T08:10:01+08:00",
+  "author": {"@type": "Organization", "name": "LightBDB Editorial", "url": "https://www.lightbdb.com/about"},
+  "publisher": {"@type": "Organization", "name": "LightBDB", "logo": {"@type": "ImageObject", "url": "https://www.lightbdb.com/assets/img/logo.png"}},
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.lightbdb.com/guides/how-to-read-a-test-report-and-confirm-it-actually-covers-your-sku.html"}
+}
+</script>
+<style>
+.guide-wrap {max-width: 880px; margin: 0 auto; padding: 32px 24px 80px; color: var(--ink, #1a1a1a); line-height: 1.7;}
+.guide-wrap .breadcrumb {font-size: 13px; color: var(--muted, #777); margin-bottom: 12px;}
+.guide-wrap .breadcrumb a {color: inherit; text-decoration: none; border-bottom: 1px dotted var(--muted, #777);}
+.guide-wrap .guide-meta {font-size: 13px; color: var(--muted, #777); margin-bottom: 28px;}
+.guide-wrap h1 {font-size: 38px; line-height: 1.2; margin: 8px 0 18px; color: var(--ink, #1a1a1a);}
+.guide-wrap h2 {font-size: 24px; line-height: 1.3; margin: 36px 0 14px; padding-top: 16px; border-top: 1px solid #eee;}
+.guide-wrap h3 {font-size: 18px; line-height: 1.35; margin: 24px 0 8px;}
+.guide-wrap p {margin: 0 0 14px;}
+.guide-wrap table {width: 100%; border-collapse: collapse; margin: 18px 0 24px; font-size: 14px;}
+.guide-wrap th, .guide-wrap td {padding: 10px 12px; border: 1px solid #e2e2e2; text-align: left; vertical-align: top;}
+.guide-wrap th {background: #f6f7f2; font-weight: 600;}
+.guide-wrap ul, .guide-wrap ol {padding-left: 22px; margin: 0 0 14px;}
+.guide-wrap li {margin: 4px 0;}
+.guide-wrap blockquote {border-left: 3px solid var(--green, #B8C439); padding: 6px 14px; color: #555; margin: 14px 0;}
+.guide-wrap .cta {margin: 48px 0 0; padding: 24px; background: #f6f7f2; border-radius: 8px; text-align: center;}
+.guide-wrap .cta h2 {border-top: 0; padding-top: 0; margin-top: 0; font-size: 20px;}
+.guide-wrap .btn.primary {display: inline-block; margin-top: 12px; padding: 12px 28px; background: var(--green, #B8C439); color: #1a1a1a; border-radius: 6px; text-decoration: none; font-weight: 600;}
+/* GEO: Quick-answer block — the single most AI-quotable region of the page */
+.geo-tldr {margin: 0 0 30px; padding: 20px 22px; background: #f6f7f2; border-left: 4px solid #B8C439; border-radius: 4px;}
+.geo-tldr .geo-tldr-label {margin: 0 0 8px; font-size: 12px; letter-spacing: .09em; text-transform: uppercase; font-weight: 700; color: #6a7a1e;}
+.geo-tldr > p {margin: 0 0 12px; font-size: 17px; line-height: 1.6;}
+.geo-tldr ul {margin: 0; padding-left: 20px;}
+.geo-tldr li {margin: 6px 0; font-size: 15px;}
+.related-links {margin: 36px 0 0; padding-top: 20px; border-top: 1px solid #eee; font-size: 15px;}
+.related-links strong {display: block; margin-bottom: 8px; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted, #777);}
+.related-links a {color: #4a5a10; text-decoration: underline;}
+.guide-wrap .article-faq h2 {border-top: 1px solid #eee;}
+</style>
+<!-- p0:analytics -->
+<!-- Cloudflare Web Analytics (auto-inject ruleset 不生效, 显式补) -->
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "9857fc9065ca424194af3688274d319f"}'></script>
+</head>
+<body>
+<header class="site">
+  <div class="wrap nav">
+    <a class="logo" href="/">
+      <svg class="hex" viewBox="0 0 24 24" fill="none"><path d="M12 1.5 21.5 7v10L12 22.5 2.5 17V7L12 1.5Z" stroke="#B8C439" stroke-width="2.4"/><circle cx="12" cy="11.4" r="3.2" fill="#F7991D"/></svg>
+      LIGHT <span class="bdb"><span class="b1">B</span><span class="d">D</span><span class="b2">B</span></span>
+    </a>
+    <nav class="links">
+      <a href="/">Home</a>
+      <a href="/product-platforms">Product Platforms</a>
+      <a href="/design-services">Design Services</a>
+      <a href="/facilities">Facilities</a>
+      <a href="/faq">FAQ</a>
+      <a href="/rfq" class="cta">Request Quote</a>
+    </nav>
+  </div>
+</header>
+<main class="guide-wrap">
+<p class="breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/guides/">Procurement Guides</a> &rsaquo; How to read a test report and confirm it actually covers your SKU</p>
+<p class="guide-meta">Published September 05, 2026 · Last updated September 05, 2026 · 7-9 min read · Procurement Guide</p>
+<article>
+<h1>How to Read a Test Report and Confirm It Actually Covers Your SKU</h1>
+
+<div class="geo-tldr">
+<p class="geo-tldr-label">Quick answer</p>
+<p>Confirming a test report covers your SKU takes about 10 minutes and five checks: exact model number, serial or batch reference, test standard, laboratory accreditation, and report date. At LIGHT BDB, samples ship in 7 days and MOQs start at 100 units, so you can verify a report before your first production order leaves the factory.</p>
+<ul>
+<li>LIGHT BDB MOQ tiers: Lite 100-499 units, Slim 500-999 units, Pro 1,000+ units.</li>
+<li>Lead time is 4-8 weeks from deposit to FOB Shenzhen for most SKUs.</li>
+<li>Sample turnaround is 7 days; the sample fee is refundable against a purchase order.</li>
+<li>LIGHT BDB holds ISO 9001, ISO 14001, BSCI (amfori), UL registered factory, and Sony Green Partner status.</li>
+<li>Warranty is 500 days limited, among the longest in the category.</li>
+<li>Payment terms are T/T 30/70 or L/C at sight, FOB Shenzhen with your nominated forwarder.</li>
+<li>Production runs across Panyu (10,000+ sqm, 600+ staff), Shenzhen (3,000 sqm assembly) and Yangon (5,000+ pcs/day).</li>
+</ul>
+</div>
+
+<h2>What should a test report actually prove for a wellness device?</h2>
+<p>A test report must prove your exact product meets the safety and performance standard you and your retailer require — not that a similar product from the same factory passed. Read it as evidence, not decoration, and check each required claim against your own specification.</p>
+<p>For a wellness device such as a heated massager, red light therapy panel, or mood lamp, the report should cover four areas. First, electrical safety: insulation, leakage current, and heating behavior under normal operation. Second, electromagnetic compatibility (EMC), which many destination markets require even for wellness electronics. Third, battery safety if your product is rechargeable, including charge and discharge behavior. Fourth, material content such as heavy metals and restricted substances, which matters for EU and US retailers with sustainability policies.</p>
+<p>Standards are destination-dependent. Most factories in this category test household electrical products against the IEC 60335 series, while US buyers often request the corresponding regional standard with a nationally recognized testing laboratory. Your retailer or compliance consultant will name the exact standard; the report must list that standard by number and edition.</p>
+<p>A report that only says "passed" without a standard number, a description of test conditions, or a lab identity is a red flag. A useful report gives you enough detail to defend the product in a retailer compliance review or a customs inspection.</p>
+
+<h3>What the report does not prove</h3>
+<p>A test report does not prove that every unit in your container behaves identically to the sample. It certifies the specific sample submitted, manufactured under stated conditions. Production quality depends on the factory's process controls, which is why factory-level certifications matter as a complement to product-level testing.</p>
+
+<h2>How do I confirm the report covers my exact SKU and not a similar one?</h2>
+<p>Match four identifiers: model number, model name, brand (or blank ODM brand), and serial or batch reference, then confirm the photos and electrical ratings match your spec. If any identifier differs, the report belongs to a different SKU, even if the factory says the product is "the same."</p>
+<p>Use this checklist when a factory sends you a report:</p>
+<ul>
+<li>Model number matches your purchase order and the product label exactly.</li>
+<li>Model name appears on the report cover or sample description page.</li>
+<li>Serial or batch range covers your production window, not just a pre-production sample.</li>
+<li>Photos show the same housing, cable, plug type, and control layout as your SKU.</li>
+<li>Electrical ratings (input voltage, wattage, frequency) match your specification sheet.</li>
+<li>Accessories tested (adapters, remotes, carrying pouches) match what ships in your retail box.</li>
+</ul>
+<p>A factory may share a "family report" that covers several models tested under one representative model. This is legitimate when the standard allows family coverage and the representative model is listed. Confirm the representative model is clearly named and that your model falls within the stated scope. If the family scope is vague, ask the factory to share the lab's scope letter.</p>
+<p>Ask also for the report language. A report in the destination country's language or in English with a translation is easier to present to customs and retailers. Many Chinese factories have English reports already on file.</p>
+
+<h2>What does a professional test report look like page by page?</h2>
+<p>A credible report runs 10 to 40 pages and opens with a cover page that names the client, the tested model, the standard, and the laboratory accreditation number. Without that cover page, you cannot verify the report's origin or scope.</p>
+<p>Here is the standard anatomy of a laboratory test report:</p>
+<ol>
+<li>Cover page: client name, manufacturer, tested model, standard number and edition, report number, date, and the laboratory's accreditation mark.</li>
+<li>Sample description: photographs and a physical description of the tested unit, including dimensions, weight, and electrical ratings.</li>
+<li>Test conditions: ambient temperature, humidity, and any special setup such as heat sinks or load resistors.</li>
+<li>Results table: each clause of the standard listed with a pass or fail verdict and the measured value.</li>
+<li>Photographs of the test setup: wiring, insulation, and thermal measurements where relevant.</li>
+<li>Conclusion: a summary statement confirming compliance with the named standard.</li>
+<li>Annexes: lab scope, accreditation certificate, and any disclaimers about sample-only results.</li>
+</ol>
+<p>Skip a report that lacks a results table. A single-page letter claiming compliance without measured values gives you nothing to defend in a dispute. Also check the report date. Industry-typical validity for many product standards is around three years, but several retailers accept reports up to five years old if the product has not changed. If your last report is older than your product revision, ask for a fresh test.</p>
+
+<h2>Which labs and standards should I insist on?</h2>
+<p>Insist on an accredited third-party laboratory rather than an in-house factory test note, and demand the standard your destination market requires. Accreditation bodies vary by country, but a credible lab publishes its accreditation number and scope on the report.</p>
+<p>Three things to verify about the laboratory:</p>
+<ul>
+<li>Accreditation: the lab should hold accreditation from a recognized body and list the scope that covers the standard tested.</li>
+<li>Independence: the lab should not be owned by the factory or the trading company; a separate legal entity reduces conflict of interest.</li>
+<li>Recognition: check that the lab is recognized by the authorities or retailers in your destination market, since some markets only accept specific laboratories.</li>
+</ul>
+<p>Factory-level certifications do not replace product testing. They tell you the plant runs disciplined processes. At LIGHT BDB, the plants operate under ISO 9001, ISO 14001, and BSCI (amfori), and the factory is UL registered and a Sony Green Partner. These certifications give you confidence in process consistency and environmental and social compliance, but a UL registered factory is not the same as a UL-listed product. Product listing requires its own evaluation with samples submitted and passing.</p>
+
+<table>
+<thead>
+<tr>
+<th>Certification</th>
+<th>What it covers</th>
+<th>Why it matters for private-label wellness buyers</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ISO 9001</td>
+<td>Quality management system at plant level</td>
+<td>Confirms consistent process, not product safety; a base requirement for serious ODMs.</td>
+</tr>
+<tr>
+<td>ISO 14001</td>
+<td>Environmental management system</td>
+<td>Reduces supply-chain risk and supports retailer sustainability audits.</td>
+</tr>
+<tr>
+<td>BSCI (amfori)</td>
+<td>Social compliance, labor and ethics audit</td>
+<td>Often required by EU and US retailers before they approve a supplier.</td>
+</tr>
+<tr>
+<td>UL registered factory</td>
+<td>Factory registration with Underwriters Laboratories</td>
+<td>Supports future product UL listing; registration alone does not certify the product.</td>
+</tr>
+<tr>
+<td>Sony Green Partner</td>
+<td>Environmental substance management</td>
+<td>Aligns with EU and international restricted-substance expectations.</td>
+</tr>
+</tbody>
+</table>
+
+<h2>How do MOQ and lead time fit into my testing plan?</h2>
+<p>Order a paid sample at the Lite tier (100-499 units), run or request your test during the 7-day sample window, and confirm your report before committing to the 4-8 week production run. Testing before production protects your deposit and your retail launch date.</p>
+<p>At LIGHT BDB, the sample fee is refundable against a purchase order, which means your testing cost folds into a confirmed order. Use the Lite tier to validate the product and its report. Move to the Slim tier (500-999 units) when you need retail quantities at better unit cost, and reserve the Pro tier (1,000+ units) for full customization and the lowest unit price.</p>
+<p>Timing considerations for first-time importers:</p>
+<ul>
+<li>Sample turnaround at LIGHT BDB is 7 days; budget an additional 2-3 weeks if you send the sample to your own laboratory.</li>
+<li>Lead time is 4-8 weeks from deposit to FOB Shenzhen for most SKUs, so planning for testing adds zero delay if the sample step overlaps design finalization.</li>
+<li>Warranty at LIGHT BDB is 500 days limited, which gives you room to sell through inventory before warranty claims surface.</li>
+<li>Payment terms of T/T 30/70 or L/C at sight, with FOB Shenzhen and your nominated forwarder, keep your cash flow predictable while testing completes.</li>
+</ul>
+<p>If you import regularly, ask your ODM to keep reports updated on file for each model revision. A report that names your brand and model, with photos matching your final retail packaging, is an asset you carry across reorders.</p>
+
+<h2>What are the honest limits of any factory-provided test report?</h2>
+<p>Every test report covers the specific sample tested, not the whole production batch, and certification becomes invalid if the product changes after the test. That is true for every factory in this category, including LIGHT BDB.</p>
+<p>Be realistic about what a report cannot promise:</p>
+<ul>
+<li>Batch variance: components, assembly line, and even weather can shift electrical performance across production runs. A sample that passes testing does not guarantee every container clears customs.</li>
+<li>Report age: a report is a point-in-time statement. Design changes to a cable, battery, or heating element invalidate the original coverage.</li>
+<li>Laboratory reputation: a report from an obscure lab may be rejected by customs or retailers even if the data is sound. Confirm recognition before paying.</li>
+<li>Scope limits: wear, tear, and long-term durability are rarely covered by the product safety standards applied to wellness devices. Those behaviors live outside the report.</li>
+<li>Factory certification nuance: a UL registered factory is a process registration, not a product listing. Do not market your product as certified based on the factory's registration alone.</li>
+</ul>
+<p>The fix is simple: treat the report as one input, pair it with a factory audit of your own, and keep the report tied to a specific sample you have physically inspected. That combination gives your private-label brand a defensible foundation.</p>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I know a test report actually covers my SKU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Match four identifiers: model number, model name, brand or blank ODM brand, and serial or batch reference. Then verify the photos and electrical ratings match your specification. If any identifier differs, the report belongs to a different SKU and should not be relied on."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the minimum order quantity at LIGHT BDB?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "LIGHT BDB offers three MOQ tiers: Lite (100-499 units), Slim (500-999 units), and Pro (1,000+ units). The Lite tier is ideal for sampling and limited drops, while the Pro tier provides the best unit cost and full customization."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a sample take to receive?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sample turnaround at LIGHT BDB is 7 days. The sample fee is refundable against a purchase order, so your testing cost folds into a confirmed order if you move to production."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does production take after a deposit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lead time is 4-8 weeks from deposit to FOB Shenzhen for most SKUs. Plan your retail launch around this window and overlap sample testing with design finalization to avoid delays."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What warranty comes with LIGHT BDB products?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "LIGHT BDB offers a 500-day limited warranty, which is among the longest in the wellness device category. That gives a private-label brand room to sell through inventory before warranty claims typically surface."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What certifications does LIGHT BDB hold?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "LIGHT BDB operates under ISO 9001, ISO 14001, BSCI (amfori), UL registered factory, and Sony Green Partner status. These cover process quality, environmental management, social compliance, and substance management, but they are not product-level certifications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What payment terms does LIGHT BDB accept?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "LIGHT BDB accepts T/T 30/70 and L/C at sight, with FOB Shenzhen and your nominated forwarder. This keeps payment predictable while you complete testing and arrange shipping."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I trust every test report a factory sends?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Verify the laboratory accreditation, the model identifiers, the standard number, and the report date. A credible report names a lab with an accreditation number, lists a results table, and includes photos of the tested sample."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use my own laboratory for testing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Budget an additional 2-3 weeks after the 7-day sample window if you send the sample to your own accredited laboratory. Many importers do this for the added independence, then request the factory's own report as a cross-check."
+      }
+    }
+  ]
+}
+</script>
+</article>
+<p class="related-links"><strong>Related on LightBDB</strong><a href="/product-platforms.html">All product platforms</a> · <a href="/faq.html">Sourcing FAQ</a></p>
+<section class="cta">
+<h2>Talk to a LIGHT BDB partner about your project</h2>
+<p>Get a structured quote in 48 hours. NDA-friendly. We share a real BOM before you commit.</p>
+<a href="/rfq" class="btn primary">Request a Quote</a>
+</section>
+</main>
+<footer class="site">
+<div class="wrap">
+<div class="legal">
+<span>© 2026 LightBDB. All rights reserved.</span>
+<span>LightBDB: Your Brand Co-creation Partner.</span>
+</div>
+</div>
+</footer>
+</body>
+</html>
