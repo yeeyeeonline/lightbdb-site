@@ -68,5 +68,19 @@
     "date": "2026-09-05",
     "kind": "horizontal",
     "url": "/guides/how-to-read-a-test-report-and-confirm-it-actually-covers-your-sku.html"
+  },
+  {
+    "slug": "why-a-ul-registered-factory-is-not-the-same-as-a-ul-listed-product",
+    "title": "Why a UL registered factory is not the same as a UL listed product",
+    "date": "2026-09-06",
+    "kind": "horizontal",
+    "url": "/guides/why-a-ul-registered-factory-is-not-the-same-as-a-ul-listed-product.html"
+  },
+  {
+    "slug": "how-to-plan-production-around-chinese-new-year-shutdown",
+    "title": "How to plan production around Chinese New Year shutdown",
+    "date": "2026-09-06",
+    "kind": "horizontal",
+    "url": "/guides/how-to-plan-production-around-chinese-new-year-shutdown.html"
   }
 ]
