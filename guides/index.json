@@ -82,5 +82,19 @@
     "date": "2026-09-06",
     "kind": "horizontal",
     "url": "/guides/how-to-plan-production-around-chinese-new-year-shutdown.html"
+  },
+  {
+    "slug": "consolidating-skus-to-cut-per-unit-freight-cost",
+    "title": "Consolidating SKUs to cut per unit freight cost",
+    "date": "2026-09-07",
+    "kind": "horizontal",
+    "url": "/guides/consolidating-skus-to-cut-per-unit-freight-cost.html"
+  },
+  {
+    "slug": "how-to-handle-a-failed-inspection-before-shipment",
+    "title": "How to handle a failed inspection before shipment",
+    "date": "2026-09-07",
+    "kind": "horizontal",
+    "url": "/guides/how-to-handle-a-failed-inspection-before-shipment.html"
   }
 ]
