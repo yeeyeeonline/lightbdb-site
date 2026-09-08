@@ -96,5 +96,19 @@
     "date": "2026-09-07",
     "kind": "horizontal",
     "url": "/guides/how-to-handle-a-failed-inspection-before-shipment.html"
+  },
+  {
+    "slug": "multi-plant-production-and-supply-resilience-for-private-label-brands",
+    "title": "Multi plant production and supply resilience for private label brands",
+    "date": "2026-09-08",
+    "kind": "horizontal",
+    "url": "/guides/multi-plant-production-and-supply-resilience-for-private-label-brands.html"
+  },
+  {
+    "slug": "graphene-heating-vs-traditional-wire-heating-which-to-specify",
+    "title": "Graphene heating vs traditional wire heating which to specify",
+    "date": "2026-09-08",
+    "kind": "horizontal",
+    "url": "/guides/graphene-heating-vs-traditional-wire-heating-which-to-specify.html"
   }
 ]
