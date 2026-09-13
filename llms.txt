@@ -59,15 +59,17 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (21) — long-form buyer education, updated daily
+### Procurement guides (23) — long-form buyer education, updated daily
 
 - /guides/air-pressure-vs-vibration-vs-heat-which-body-care-module-to-launch-first — Air pressure vs vibration vs heat which body care module to launch first
+- /guides/bundling-strategies-that-raise-average-order-value-for-wellness-brands — Bundling strategies that raise average order value for wellness brands
 - /guides/consolidating-skus-to-cut-per-unit-freight-cost — Consolidating SKUs to cut per unit freight cost
 - /guides/country-of-origin-labeling-rules-for-imported-consumer-devices — Country of origin labeling rules for imported consumer devices
 - /guides/dual-sourcing-a-single-sku-when-it-is-worth-the-complexity — Dual sourcing a single SKU when it is worth the complexity
 - /guides/fabric-wrap-vs-neoprene-wrap-for-heated-knee-products — Fabric Wrap vs Neoprene Wrap for Heated Knee Products: What Private Label Brands Should Source
 - /guides/fcc-marking-for-light-and-sound-devices-what-buyers-must-confirm — FCC marking for light and sound devices what buyers must confirm
 - /guides/graphene-heating-vs-traditional-wire-heating-which-to-specify — Graphene heating vs traditional wire heating which to specify
+- /guides/how-to-build-a-coherent-first-product-line-instead-of-one-off-skus — How to build a coherent first product line instead of one off SKUs
 - /guides/how-to-handle-a-failed-inspection-before-shipment — How to handle a failed inspection before shipment
 - /guides/how-to-plan-production-around-chinese-new-year-shutdown — How to plan production around Chinese New Year shutdown
 - /guides/how-to-read-a-test-report-and-confirm-it-actually-covers-your-sku — How to read a test report and confirm it actually covers your SKU
@@ -84,7 +86,7 @@
 - /guides/why-a-ul-registered-factory-is-not-the-same-as-a-ul-listed-product — Why a UL registered factory is not the same as a UL listed product
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (21 published)
+- /guides/ — procurement guide index (23 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
