@@ -59,17 +59,19 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (25) — long-form buyer education, updated daily
+### Procurement guides (27) — long-form buyer education, updated daily
 
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
 - /guides/air-pressure-vs-vibration-vs-heat-which-body-care-module-to-launch-first — Air pressure vs vibration vs heat which body care module to launch first
 - /guides/bundling-strategies-that-raise-average-order-value-for-wellness-brands — Bundling strategies that raise average order value for wellness brands
 - /guides/consolidating-skus-to-cut-per-unit-freight-cost — Consolidating SKUs to cut per unit freight cost
+- /guides/cordless-vs-plug-in-heated-wraps-what-buyers-prefer — Cordless vs plug in heated wraps what buyers prefer
 - /guides/country-of-origin-labeling-rules-for-imported-consumer-devices — Country of origin labeling rules for imported consumer devices
 - /guides/dual-sourcing-a-single-sku-when-it-is-worth-the-complexity — Dual sourcing a single SKU when it is worth the complexity
 - /guides/fabric-wrap-vs-neoprene-wrap-for-heated-knee-products — Fabric Wrap vs Neoprene Wrap for Heated Knee Products: What Private Label Brands Should Source
 - /guides/fcc-marking-for-light-and-sound-devices-what-buyers-must-confirm — FCC marking for light and sound devices what buyers must confirm
 - /guides/graphene-heating-vs-traditional-wire-heating-which-to-specify — Graphene heating vs traditional wire heating which to specify
+- /guides/heat-therapy-vs-red-light-therapy-which-category-fits-your-brand — Heat therapy vs red light therapy which category fits your brand
 - /guides/heated-eye-massager-vs-eye-massager-with-heat-which-sku-to-launch — Heated eye massager vs eye massager with heat which SKU to launch
 - /guides/how-to-build-a-coherent-first-product-line-instead-of-one-off-skus — How to build a coherent first product line instead of one off SKUs
 - /guides/how-to-handle-a-failed-inspection-before-shipment — How to handle a failed inspection before shipment
@@ -88,7 +90,7 @@
 - /guides/why-a-ul-registered-factory-is-not-the-same-as-a-ul-listed-product — Why a UL registered factory is not the same as a UL listed product
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (25 published)
+- /guides/ — procurement guide index (27 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
