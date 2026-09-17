@@ -59,7 +59,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (27) — long-form buyer education, updated daily
+### Procurement guides (29) — long-form buyer education, updated daily
 
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
 - /guides/air-pressure-vs-vibration-vs-heat-which-body-care-module-to-launch-first — Air pressure vs vibration vs heat which body care module to launch first
@@ -81,16 +81,18 @@
 - /guides/light-and-sound-objects-why-retailers-keep-adding-them — Light and sound objects why retailers keep adding them
 - /guides/light-therapy-lamp-oem-manufacturer-guide — Light therapy lamp OEM manufacturer guide
 - /guides/multi-plant-production-and-supply-resilience-for-private-label-brands — Multi plant production and supply resilience for private label brands
+- /guides/nir-vs-red-light-vs-full-spectrum-what-to-put-on-the-box — NIR vs red light vs full spectrum what to put on the box
 - /guides/prop-65-labeling-for-products-sold-in-california — Prop 65 labeling for products sold in California
 - /guides/rohs-and-reach-compliance-for-private-label-electronics — RoHS and REACH compliance for private label electronics
 - /guides/solid-wood-vs-abs-housing-for-ambient-lighting-products — Solid wood vs ABS housing for ambient lighting products
 - /guides/sunrise-alarm-clock-vs-light-therapy-lamp-what-buyers-confuse — Sunrise Alarm Clock vs Light Therapy Lamp: What Buyers Confuse
 - /guides/us-eu-and-jp-voltage-and-plug-differences-for-ambient-lighting — US EU and JP voltage and plug differences for ambient lighting
+- /guides/vibration-massage-vs-heat-compression-which-sells-better — Vibration massage vs heat compression which sells better
 - /guides/where-scented-candles-and-aroma-products-fit-a-wellness-brand-line — Where scented candles and aroma products fit a wellness brand line
 - /guides/why-a-ul-registered-factory-is-not-the-same-as-a-ul-listed-product — Why a UL registered factory is not the same as a UL listed product
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (27 published)
+- /guides/ — procurement guide index (29 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
