@@ -201,5 +201,19 @@
     "date": "2026-09-17",
     "kind": "comparison",
     "url": "/guides/nir-vs-red-light-vs-full-spectrum-what-to-put-on-the-box.html"
+  },
+  {
+    "slug": "rechargeable-vs-usb-powered-heated-wearables",
+    "title": "Rechargeable vs USB powered heated wearables",
+    "date": "2026-09-18",
+    "kind": "comparison",
+    "url": "/guides/rechargeable-vs-usb-powered-heated-wearables.html"
+  },
+  {
+    "slug": "private-mold-vs-open-mold-which-is-worth-the-tooling",
+    "title": "Private mold vs open mold which is worth the tooling",
+    "date": "2026-09-18",
+    "kind": "comparison",
+    "url": "/guides/private-mold-vs-open-mold-which-is-worth-the-tooling.html"
   }
 ]
