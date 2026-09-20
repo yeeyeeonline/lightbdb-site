@@ -59,7 +59,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (33) — long-form buyer education, updated daily
+### Procurement guides (35) — long-form buyer education, updated daily
 
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
 - /guides/air-freight-vs-sea-freight-for-heated-wellness-products — Air freight vs sea freight for heated wellness products
@@ -72,6 +72,7 @@
 - /guides/dual-sourcing-a-single-sku-when-it-is-worth-the-complexity — Dual sourcing a single SKU when it is worth the complexity
 - /guides/fabric-wrap-vs-neoprene-wrap-for-heated-knee-products — Fabric Wrap vs Neoprene Wrap for Heated Knee Products: What Private Label Brands Should Source
 - /guides/fcc-marking-for-light-and-sound-devices-what-buyers-must-confirm — FCC marking for light and sound devices what buyers must confirm
+- /guides/graphene-fir-vs-carbon-fiber-heating-element-which-lasts-longer — Graphene FIR vs carbon fiber heating element which lasts longer
 - /guides/graphene-heating-vs-traditional-wire-heating-which-to-specify — Graphene heating vs traditional wire heating which to specify
 - /guides/heat-therapy-vs-red-light-therapy-which-category-fits-your-brand — Heat therapy vs red light therapy which category fits your brand
 - /guides/heated-eye-massager-vs-eye-massager-with-heat-which-sku-to-launch — Heated eye massager vs eye massager with heat which SKU to launch
@@ -80,6 +81,7 @@
 - /guides/how-to-plan-production-around-chinese-new-year-shutdown — How to plan production around Chinese New Year shutdown
 - /guides/how-to-read-a-test-report-and-confirm-it-actually-covers-your-sku — How to read a test report and confirm it actually covers your SKU
 - /guides/how-to-vet-a-chinese-oem-for-wellness-devices — How to vet a Chinese OEM for wellness devices
+- /guides/in-house-tooling-vs-contract-molding-for-a-first-product-launch — In-house tooling vs contract molding for a first product launch
 - /guides/light-and-sound-objects-why-retailers-keep-adding-them — Light and sound objects why retailers keep adding them
 - /guides/light-therapy-lamp-oem-manufacturer-guide — Light therapy lamp OEM manufacturer guide
 - /guides/multi-plant-production-and-supply-resilience-for-private-label-brands — Multi plant production and supply resilience for private label brands
@@ -96,7 +98,7 @@
 - /guides/why-a-ul-registered-factory-is-not-the-same-as-a-ul-listed-product — Why a UL registered factory is not the same as a UL listed product
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (33 published)
+- /guides/ — procurement guide index (35 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
