@@ -59,10 +59,11 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (35) — long-form buyer education, updated daily
+### Procurement guides (37) — long-form buyer education, updated daily
 
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
 - /guides/air-freight-vs-sea-freight-for-heated-wellness-products — Air freight vs sea freight for heated wellness products
+- /guides/air-pressure-vs-vibration-for-eye-massagers-which-buyers-reorder — Air pressure vs vibration for eye massagers which buyers reorder
 - /guides/air-pressure-vs-vibration-vs-heat-which-body-care-module-to-launch-first — Air pressure vs vibration vs heat which body care module to launch first
 - /guides/aroma-diffuser-vs-candle-warmer-lamp-which-has-better-margins — Aroma diffuser vs candle warmer lamp which has better margins
 - /guides/bundling-strategies-that-raise-average-order-value-for-wellness-brands — Bundling strategies that raise average order value for wellness brands
@@ -91,6 +92,7 @@
 - /guides/rechargeable-vs-usb-powered-heated-wearables — Rechargeable vs USB powered heated wearables
 - /guides/rohs-and-reach-compliance-for-private-label-electronics — RoHS and REACH compliance for private label electronics
 - /guides/solid-wood-vs-abs-housing-for-ambient-lighting-products — Solid wood vs ABS housing for ambient lighting products
+- /guides/solid-wood-vs-mdf-housing-for-ambient-light-sculptures — Solid wood vs MDF housing for ambient light sculptures
 - /guides/sunrise-alarm-clock-vs-light-therapy-lamp-what-buyers-confuse — Sunrise Alarm Clock vs Light Therapy Lamp: What Buyers Confuse
 - /guides/us-eu-and-jp-voltage-and-plug-differences-for-ambient-lighting — US EU and JP voltage and plug differences for ambient lighting
 - /guides/vibration-massage-vs-heat-compression-which-sells-better — Vibration massage vs heat compression which sells better
@@ -98,7 +100,7 @@
 - /guides/why-a-ul-registered-factory-is-not-the-same-as-a-ul-listed-product — Why a UL registered factory is not the same as a UL listed product
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (35 published)
+- /guides/ — procurement guide index (37 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
