@@ -59,8 +59,9 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (37) — long-form buyer education, updated daily
+### Procurement guides (39) — long-form buyer education, updated daily
 
+- /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500 unit vs 1000 unit order which unlocks better unit economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
 - /guides/air-freight-vs-sea-freight-for-heated-wellness-products — Air freight vs sea freight for heated wellness products
 - /guides/air-pressure-vs-vibration-for-eye-massagers-which-buyers-reorder — Air pressure vs vibration for eye massagers which buyers reorder
@@ -87,6 +88,7 @@
 - /guides/light-therapy-lamp-oem-manufacturer-guide — Light therapy lamp OEM manufacturer guide
 - /guides/multi-plant-production-and-supply-resilience-for-private-label-brands — Multi plant production and supply resilience for private label brands
 - /guides/nir-vs-red-light-vs-full-spectrum-what-to-put-on-the-box — NIR vs red light vs full spectrum what to put on the box
+- /guides/odm-existing-platform-vs-full-custom-development-timeline-compared — ODM existing platform vs full custom development timeline compared
 - /guides/private-mold-vs-open-mold-which-is-worth-the-tooling — Private mold vs open mold which is worth the tooling
 - /guides/prop-65-labeling-for-products-sold-in-california — Prop 65 labeling for products sold in California
 - /guides/rechargeable-vs-usb-powered-heated-wearables — Rechargeable vs USB powered heated wearables
@@ -100,7 +102,7 @@
 - /guides/why-a-ul-registered-factory-is-not-the-same-as-a-ul-listed-product — Why a UL registered factory is not the same as a UL listed product
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (37 published)
+- /guides/ — procurement guide index (39 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
