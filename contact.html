@@ -39,6 +39,7 @@
       <a href="/brand-co-creation">Brand Co-creation</a>
       <a href="/design-services">Design Services</a>
       <a href="/about">About</a>
+      <a href="/case-studies">Case Studies</a>
       <a href="/contact">Contact</a>
     </nav>
     <a class="cta" href="/rfq">Start Your Brand Upgrade</a>
@@ -113,7 +114,14 @@ async function submitInquiry(e){
       body:JSON.stringify({p_name:data.name,p_email:data.email,p_category:data.category,p_company:data.company||null,p_country:data.country||null,p_message:data.message||null})
     });
     if(!r.ok) throw new Error('HTTP '+r.status);
-    form.innerHTML='<p style="color:var(--green);font-weight:600;padding:8px 0">Thank you — your inquiry has been received. We reply within one business day.</p>';
+    var ref='LB-'+new Date().toISOString().slice(0,10).replace(/-/g,'')+'-'+String(Math.floor(1000+Math.random()*9000));
+    form.innerHTML='<div style="border:1px solid #dfe3d1;background:#fbfcf7;padding:20px 22px;border-radius:10px">'
+      +'<p style="color:var(--green);font-weight:700;margin:0 0 8px">&#10003; Inquiry received &mdash; your reference is <b>'+ref+'</b></p>'
+      +'<p style="margin:0 0 14px">A proposal with 3D rendering and quotation will reach <b>'+(data.email||'your inbox')+'</b> within one business day. Quote reference <b>'+ref+'</b> in any correspondence.</p>'
+      +'<div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">'
+      +'<img src="/assets/img/wecom-qr.png" alt="WeCom QR code" width="96" height="96" style="border:1px solid #e5e8da;border-radius:8px;background:#fff">'
+      +'<p style="margin:0;font-size:14px;color:#555;max-width:340px">In a hurry? Scan to chat with us on WeChat (WeCom) &mdash; English &amp; Chinese, usually replies within minutes during 9:00&ndash;19:00 CST.</p>'
+      +'</div></div>';
   }catch(err){alert('Submission failed. Please use the email in the footer (anti-spam protected).');}
   return false;
 }
@@ -162,6 +170,18 @@ async function submitInquiry(e){
   <p style="margin-top:20px"><a href="/faq" style="color:var(--orange);font-weight:700">Read all 12 buying questions →</a></p>
 </section>
 
+<section style="padding-bottom:8px">
+  <div class="sec-head">
+    <span class="kicker">Prefer chat?</span>
+    <h2 class="title">Message us on WeChat (WeCom)</h2>
+    <p class="sub">The fastest channel for quick questions, sample requests and RFQ follow-ups.</p>
+  </div>
+  <div style="display:flex;gap:22px;align-items:center;flex-wrap:wrap">
+    <img src="/assets/img/wecom-qr.png" alt="WeCom QR code &mdash; chat with LightBDB founder Serina Shao" width="168" height="168" loading="lazy" style="border:1px solid #e5e8da;border-radius:12px;background:#fff">
+    <p class="addr" style="margin:0"><b>Serina Shao &middot; Founder, LightBDB (轻无)</b><br>Scan with WeChat to start a direct chat &mdash; English and Chinese both fine.<br>Work hours 9:00&ndash;19:00 CST (UTC+8), usually replies within minutes.</p>
+  </div>
+</section>
+
 <section class="cta-band">
   <div class="wrap">
     <h2>Ready to Turn a Product into <em>Your Brand</em>?</h2>
@@ -193,6 +213,7 @@ async function submitInquiry(e){
           <li><a href="/brand-co-creation">Brand Co-creation</a></li>
           <li><a href="/design-services">Design Services</a></li>
           <li><a href="/about">About</a></li>
+          <li><a href="/case-studies">Case Studies</a></li>
           <li><a href="/contact">Contact</a></li>
         </ul>
       </div>
