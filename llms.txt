@@ -29,6 +29,7 @@
 - /about — company, 3 plants (Panyu / Shenzhen / Yangon) and 2 design centers (Hangzhou / Hamburg)
 - /contact — inquiry form and contact details
 - /rfq — request for quotation form
+- /case-studies — verifiable OEM/ODM case studies: Tree of Light global-retail case with public evidence (US design patent D1,024,003, Indiegogo campaign, TechAcute / Boing Boing / Australian Giftguide press), anonymized US heated-wellness line, design-first ODM with Bole Design
 - /facilities — plants (Panyu / Shenzhen / Yangon) and certifications (ISO 9001, ISO 14001, BSCI, UL, CE/ROHS/FCC/PSE)
 - /heating-vs-nir — comparison: heating pad vs NIR therapy device for OEM buyers (mechanism, channels, compliance)
 - /moq-guide — why wellness-device MOQ is 500 pcs, the five fixed costs behind it, what is negotiable
@@ -59,7 +60,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (39) — long-form buyer education, updated daily
+### Procurement guides (41) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500 unit vs 1000 unit order which unlocks better unit economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -91,7 +92,9 @@
 - /guides/odm-existing-platform-vs-full-custom-development-timeline-compared — ODM existing platform vs full custom development timeline compared
 - /guides/private-mold-vs-open-mold-which-is-worth-the-tooling — Private mold vs open mold which is worth the tooling
 - /guides/prop-65-labeling-for-products-sold-in-california — Prop 65 labeling for products sold in California
+- /guides/rechargeable-battery-vs-plug-in-for-ambient-lamps — Rechargeable battery vs plug in for ambient lamps
 - /guides/rechargeable-vs-usb-powered-heated-wearables — Rechargeable vs USB powered heated wearables
+- /guides/rigid-pcb-vs-flexible-heating-circuit-in-wearable-heat-products — Rigid PCB vs flexible heating circuit in wearable heat products
 - /guides/rohs-and-reach-compliance-for-private-label-electronics — RoHS and REACH compliance for private label electronics
 - /guides/solid-wood-vs-abs-housing-for-ambient-lighting-products — Solid wood vs ABS housing for ambient lighting products
 - /guides/solid-wood-vs-mdf-housing-for-ambient-light-sculptures — Solid wood vs MDF housing for ambient light sculptures
@@ -102,7 +105,7 @@
 - /guides/why-a-ul-registered-factory-is-not-the-same-as-a-ul-listed-product — Why a UL registered factory is not the same as a UL listed product
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (39 published)
+- /guides/ — procurement guide index (41 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
