@@ -285,5 +285,19 @@
     "date": "2026-09-23",
     "kind": "comparison",
     "url": "/guides/rigid-pcb-vs-flexible-heating-circuit-in-wearable-heat-products.html"
+  },
+  {
+    "slug": "wired-controller-vs-app-control-for-heated-wearables",
+    "title": "Wired controller vs app control for heated wearables",
+    "date": "2026-09-24",
+    "kind": "comparison",
+    "url": "/guides/wired-controller-vs-app-control-for-heated-wearables.html"
+  },
+  {
+    "slug": "standard-packaging-vs-retail-ready-packaging-cost-and-moq",
+    "title": "Standard packaging vs retail ready packaging cost and MOQ",
+    "date": "2026-09-24",
+    "kind": "comparison",
+    "url": "/guides/standard-packaging-vs-retail-ready-packaging-cost-and-moq.html"
   }
 ]
