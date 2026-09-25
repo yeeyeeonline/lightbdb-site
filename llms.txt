@@ -60,13 +60,14 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (43) — long-form buyer education, updated daily
+### Procurement guides (45) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500 unit vs 1000 unit order which unlocks better unit economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
 - /guides/air-freight-vs-sea-freight-for-heated-wellness-products — Air freight vs sea freight for heated wellness products
 - /guides/air-pressure-vs-vibration-for-eye-massagers-which-buyers-reorder — Air pressure vs vibration for eye massagers which buyers reorder
 - /guides/air-pressure-vs-vibration-vs-heat-which-body-care-module-to-launch-first — Air pressure vs vibration vs heat which body care module to launch first
+- /guides/amazon-fba-vs-direct-to-retail-which-needs-more-compliance-work — Amazon FBA vs direct to retail which needs more compliance work
 - /guides/aroma-diffuser-vs-candle-warmer-lamp-which-has-better-margins — Aroma diffuser vs candle warmer lamp which has better margins
 - /guides/bundling-strategies-that-raise-average-order-value-for-wellness-brands — Bundling strategies that raise average order value for wellness brands
 - /guides/consolidating-skus-to-cut-per-unit-freight-cost — Consolidating SKUs to cut per unit freight cost
@@ -90,6 +91,7 @@
 - /guides/multi-plant-production-and-supply-resilience-for-private-label-brands — Multi plant production and supply resilience for private label brands
 - /guides/nir-vs-red-light-vs-full-spectrum-what-to-put-on-the-box — NIR vs red light vs full spectrum what to put on the box
 - /guides/odm-existing-platform-vs-full-custom-development-timeline-compared — ODM existing platform vs full custom development timeline compared
+- /guides/one-color-vs-custom-colorway-minimums-for-private-label — One color vs custom colorway minimums for private label
 - /guides/private-mold-vs-open-mold-which-is-worth-the-tooling — Private mold vs open mold which is worth the tooling
 - /guides/prop-65-labeling-for-products-sold-in-california — Prop 65 labeling for products sold in California
 - /guides/rechargeable-battery-vs-plug-in-for-ambient-lamps — Rechargeable battery vs plug in for ambient lamps
@@ -107,7 +109,7 @@
 - /guides/wired-controller-vs-app-control-for-heated-wearables — Wired controller vs app control for heated wearables
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (43 published)
+- /guides/ — procurement guide index (45 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
