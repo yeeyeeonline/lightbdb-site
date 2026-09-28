@@ -23,7 +23,7 @@
 
 <!-- p0:analytics -->
 <!-- Cloudflare Web Analytics (auto-inject ruleset 不生效, 显式补) -->
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "9857fc9065ca424194af3688274d319f"}'></script>
+                                                                                                                                                
 </head>
 <body>
 
@@ -141,13 +141,121 @@
   <button class="ghost" onclick="acceptCookie()">Decline</button>
 </div>
 
-<script>
-function acceptCookie(){
-  try { localStorage.setItem('lbdb_cookie','1'); } catch(e){}
-  var c=document.getElementById('cookie'); if(c) c.style.display='none';
-}
-try { if(localStorage.getItem('lbdb_cookie')) document.getElementById('cookie').style.display='none'; } catch(e){}
-</script>
+                                                                                                                                                                                                                                                                                                       
 <!-- icp:foot --><div class="icp-foot" style="text-align:center;font-size:12px;line-height:1.9;color:#8b8f7e;padding:14px 16px 26px"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">粤ICP备2026117928号-1</a></div>
+<!-- geo:entity --><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.lightbdb.com/#organization",
+      "name": "LightBDB",
+      "legalName": "LIGHT BRAND DESIGN BUSINESS (SHENZHEN) CO., LTD.",
+      "url": "https://www.lightbdb.com",
+      "description": "Wellness and lifestyle product manufacturer with in-house design: three plants (Panyu, Shenzhen, Yangon) and two design centers (Hangzhou, Hamburg).",
+      "subOrganization": [
+        {
+          "@type": "Organization",
+          "name": "Panyu components plant",
+          "description": "Components plant, 10,000+ sqm.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Panyu",
+            "addressRegion": "Guangzhou",
+            "addressCountry": "CN"
+          }
+        },
+        {
+          "@type": "Organization",
+          "name": "Shenzhen finished-product facility",
+          "description": "Finished-product assembly and QC, 3,000 sqm.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Shenzhen",
+            "addressRegion": "Guangdong",
+            "addressCountry": "CN"
+          }
+        },
+        {
+          "@type": "Organization",
+          "name": "Yangon production plant",
+          "description": "Production plant, 5,000+ pcs/day.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Yangon",
+            "addressCountry": "MM"
+          }
+        },
+        {
+          "@type": "Organization",
+          "name": "Hangzhou design center",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Hangzhou",
+            "addressRegion": "Zhejiang",
+            "addressCountry": "CN"
+          }
+        },
+        {
+          "@type": "Organization",
+          "name": "Hamburg design center",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Hamburg",
+            "addressCountry": "DE"
+          }
+        }
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "ISO 9001",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "ISO"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "ISO 14001",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "ISO"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "amfori BSCI social compliance audit"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "IATF 16949",
+          "description": "Automotive-qualified process heritage, per site about page."
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "Sony Green Partner"
+        }
+      ],
+      "knowsAbout": [
+        "Wellness device manufacturing",
+        "Private label wellness devices",
+        "Light & mood therapy products",
+        "Body care electronics",
+        "Product design and category innovation",
+        "OEM/ODM contract manufacturing"
+      ]
+    }
+  ]
+}
+</script>
+</script>
+</script>
 </body>
 </html>

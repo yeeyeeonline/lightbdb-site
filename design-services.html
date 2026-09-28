@@ -23,7 +23,7 @@
 
 <!-- p0:analytics -->
 <!-- Cloudflare Web Analytics (auto-inject ruleset 不生效, 显式补) -->
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "9857fc9065ca424194af3688274d319f"}'></script>
+                                                                                                                                                
 </head>
 <body>
 
@@ -152,13 +152,55 @@
   <button class="ghost" onclick="acceptCookie()">Decline</button>
 </div>
 
-<script>
-function acceptCookie(){
-  try { localStorage.setItem('lbdb_cookie','1'); } catch(e){}
-  var c=document.getElementById('cookie'); if(c) c.style.display='none';
-}
-try { if(localStorage.getItem('lbdb_cookie')) document.getElementById('cookie').style.display='none'; } catch(e){}
-</script>
+                                                                                                                                                                                                                                                                                                       
 <!-- icp:foot --><div class="icp-foot" style="text-align:center;font-size:12px;line-height:1.9;color:#8b8f7e;padding:14px 16px 26px"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">粤ICP备2026117928号-1</a></div>
+<!-- geo:entity --><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.lightbdb.com/#organization",
+      "name": "LightBDB",
+      "legalName": "LIGHT BRAND DESIGN BUSINESS (SHENZHEN) CO., LTD.",
+      "url": "https://www.lightbdb.com"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.lightbdb.com/#bole-design",
+      "name": "Bole Design",
+      "description": "Core strategic design partner to LIGHT BDB: 20 years of design consulting, 500+ design awards, national industrial design center, Hangzhou & Hamburg. Credited as such on all co-delivered design cases.",
+      "url": "http://www.hzbole.cn",
+      "sameAs": [
+        "http://www.hzbole.cn"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.lightbdb.com/#design-services",
+      "name": "Product design and category innovation (design services)",
+      "serviceType": [
+        "Product strategy",
+        "Category innovation",
+        "Industrial design",
+        "Engineering handover",
+        "Mass production at LIGHT BDB facilities"
+      ],
+      "provider": {
+        "@id": "https://www.lightbdb.com/#organization"
+      },
+      "partOf": {
+        "@id": "https://www.lightbdb.com/#design-services"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Worldwide"
+      }
+    }
+  ]
+}
+</script>
+</script>
+</script>
 </body>
 </html>
