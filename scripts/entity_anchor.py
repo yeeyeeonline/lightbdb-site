@@ -30,6 +30,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 BASE = "https://www.lightbdb.com"
 MARKER = "<!-- geo:entity -->"
+HEAD_LLMS = "## External sources"
 
 ORG_ID = f"{BASE}/#organization"
 
@@ -328,17 +329,57 @@ def _patch_page(path: Path, data: dict, label: str, apply: bool) -> bool:
 
 
 def _patch_llms(apply: bool) -> bool:
+    """维护 llms.txt 末尾由本脚本负责的一整块（LLMS_TAIL）。
+
+    ⚠ 2026-09-28 踩坑：站点 llms.txt **本来就带**「External sources」「How to cite」两个区块
+    （站点自有内容），首轮注入又整块追加了一份 ⇒ 线上两个标题各出现两次，旧的那份还缺 Bole Design。
+    现在的规则：**凡本脚本维护的标题，在 marker 之前一律清空，只留 marker 后面这一份。**
+      1) 先全篇去重（同标题只保留最后一个）；
+      2) 再清掉 marker 之前所有属于本脚本的标题区块；
+      3) 统一以 LLMS_TAIL 落盘 + marker。
+    因此重跑永远收敛到「每个标题恰好一份」，不会随次数增长。
+    """
     p = ROOT / "llms.txt"
     raw = p.read_text(encoding="utf-8", errors="ignore")
-    if MARKER in raw:
-        i = raw.index(MARKER)
-        merged = raw[:i] + LLMS_TAIL.strip("\n") + f"\n{MARKER}\n"
-        print(f"  ↻ 重建 llms.txt 外源区块（{len(LLMS_TAIL)} 字节）")
-        if apply:
-            p.write_text(merged, encoding="utf-8")
-        return True
-    merged = raw.rstrip() + "\n" + LLMS_TAIL + f"\n{MARKER}\n"
-    print(f"  ✓ 将追加 llms.txt 外源区块（+{len(LLMS_TAIL)} 字节）")
+    block_txt = LLMS_TAIL.strip("\n")
+    owned = set(re.findall(r"(?m)^## (.+)$", block_txt))
+
+    # ---- 1) 去重：同标题只留最后一个 --------------------------------
+    seen: dict[str, list[int]] = {}
+    for m in re.finditer(r"(?m)^## (.+)$", raw):
+        if m.group(1) in owned:
+            seen.setdefault(m.group(1), []).append(m.start())
+    cuts = [(pos[0], pos[-1]) for pos in seen.values() if len(pos) > 1]
+    if cuts:
+        grew = 0
+        prev_end, buf = len(raw), []
+        for s, e in sorted(cuts, reverse=True):      # 倒序删，避免位移
+            buf.append(raw[prev_end:])
+            prev_end = s
+        buf.append(raw[:prev_end])
+        raw = "".join(reversed(buf))
+        print(f"  ⨂ 去重：删掉多余的同标题区块 {len(cuts)} 处")
+        del grew
+
+    # ---- 2) 清空 marker 之前、属于本脚本的标题区块 -------------------
+    mi = raw.index(MARKER) if MARKER in raw else len(raw)
+    head, removed = raw[:mi], 0
+    while True:
+        hit = next((m for m in re.finditer(r"(?m)^## (.+)$", head)
+                    if m.group(1) in owned), None)
+        if not hit:
+            break
+        nxt = head.find("\n## ", hit.start())
+        end = nxt + 1 if nxt > 0 else len(head)
+        head = head[:hit.start()] + head[end:]
+        removed += 1
+    if removed:
+        print(f"  ⨂ 清空 marker 之前维护区块 {removed} 处")
+
+    # ---- 3) 落盘 ----------------------------------------------------
+    merged = head.rstrip() + "\n\n" + block_txt + f"\n\n{MARKER}\n"
+    print(f"  ↻ 重写 llms.txt 维护区块（{len(block_txt)} 字节）")
+
     if apply:
         p.write_text(merged, encoding="utf-8")
     return True
