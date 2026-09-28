@@ -24,6 +24,7 @@
 <!-- p0:analytics -->
 <!-- Cloudflare Web Analytics (auto-inject ruleset 不生效, 显式补) -->
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "9857fc9065ca424194af3688274d319f"}'></script>
+<script>try{if(!sessionStorage.getItem('lb_first')){sessionStorage.setItem('lb_first',new Date().toISOString().slice(0,16)+' ref='+(document.referrer||'direct'));}}catch(e){}</script>
 </head>
 <body>
 
@@ -95,6 +96,7 @@
       <option value="MULTI">Several of the above</option>
     </select>
   </div>
+  <div><label for="r-source">How did you find us?</label><select id="r-source" name="source"><option value="">Prefer not to say</option><option value="ai_search">AI search (ChatGPT / Perplexity / Gemini / Copilot)</option><option value="google">Google / Bing search</option><option value="linkedin">LinkedIn</option><option value="b2b_platform">Alibaba / Made-in-China / other B2B platform</option><option value="referral">Referral from a partner</option><option value="trade_show">Trade show / exhibition</option><option value="other">Other</option></select></div>
   <div><label for="r-msg">Project brief</label><textarea id="r-msg" name="message" rows="5" placeholder="Product type, target quantity, target market, certifications needed…"></textarea></div>
   <button class="btn primary" type="submit">Request Quotation</button>
   <p class="form-note">Your data is stored in Singapore (Supabase) and used only to answer this inquiry. No newsletters, no sharing.</p>
@@ -122,6 +124,7 @@ async function submitInquiry(e){
   e.preventDefault();
   const form=e.target;
   const data=Object.fromEntries(new FormData(form));
+  try{var _u=new URLSearchParams(location.search);var _utm=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','gclid','fbclid'].filter(function(k){return _u.get(k);}).map(function(k){return k+'='+_u.get(k);}).join('&');var _rh='direct';try{if(document.referrer){_rh=new URL(document.referrer).hostname;}}catch(e){_rh=document.referrer||'direct';}var _ft='';try{_ft=sessionStorage.getItem('lb_first')||'';}catch(e){}var _tag='\n\n[attribution] source_self='+(data.source||'unspecified')+' | landing='+location.pathname+' | referrer='+_rh+' | '+(_utm||'no-utm')+' | first_touch='+_ft;data.message=(data.message||'')+_tag;}catch(e){}
   try{
     const r=await fetch(SB_URL+'/rest/v1/rpc/submit_inquiry',{
       method:'POST',
