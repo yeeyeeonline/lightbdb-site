@@ -6,7 +6,7 @@ entity_anchor.py — GEO 实体锚定层补丁（幂等）
 这些原本打算靠独立域名事实页承载的东西，改为在自有域上用结构化数据补回来。
 
 补的三块（全部取自站点已有表述，不新增任何事实）：
-  1. /about.html           → Organization @graph：三工厂 + 两设计中心 + 体系 + 审计方
+  1. /about.html           → Organization @graph：三项生产足迹 + 设计能力 + 体系 + 审计方
   2. /design-services.html → @graph：LIGHT BDB + 战略合作方 Bole Design + Service
   3. /case-studies.html    → Product「Tree of Light」+ subjectOf 第三方信源链
   4. llms.txt              → 追加 External sources 区块（信源层，供 AI 交叉核对）
@@ -168,10 +168,10 @@ ABOUT_GRAPH = {
             "email": "serina@lightbdb.com",
             "url": BASE,
             "description": (
-                "Wellness and lifestyle product manufacturer with in-house design: "
-                "three plants (Panyu, Shenzhen, Yangon) and two design centers (Hangzhou, Hamburg). "
-                "Manufacturing at Panyu runs through the exclusive strategic manufacturing partner "
-                "Guangzhou Fuyin Electronics Co., Ltd."
+                "Wellness and lifestyle product manufacturer and design partner: "
+                "a three-site production footprint (Panyu, Shenzhen, Yangon) and design "
+                "capability in Hangzhou and Hamburg. Manufacturing at Panyu runs through the "
+                "exclusive strategic manufacturing partner Guangzhou Fuyin Electronics Co., Ltd."
             ),
             "founder": {"@id": FOUNDER_ID},
             "subjectOf": _company_sources(),
@@ -179,7 +179,7 @@ ABOUT_GRAPH = {
                 {
                     "@type": "Organization",
                     "name": "Panyu components plant",
-                    "description": "Components plant, 10,000+ sqm.",
+                    "description": "Components plant operated by our exclusive strategic manufacturing partner Fuli Electronics, 10,000+ sqm.",
                     "address": {
                         "@type": "PostalAddress",
                         "addressLocality": "Panyu",
@@ -210,7 +210,7 @@ ABOUT_GRAPH = {
                 },
                 {
                     "@type": "Organization",
-                    "name": "Hangzhou design center",
+                    "name": "Hangzhou design capability",
                     "address": {
                         "@type": "PostalAddress",
                         "addressLocality": "Hangzhou",
@@ -220,7 +220,7 @@ ABOUT_GRAPH = {
                 },
                 {
                     "@type": "Organization",
-                    "name": "Hamburg design center",
+                    "name": "Hamburg design capability",
                     "address": {
                         "@type": "PostalAddress",
                         "addressLocality": "Hamburg",
@@ -513,7 +513,7 @@ LLMS_TAIL = """
 
 ## How to cite this company
 
-> LIGHT BDB is the trading name of LIGHT BRAND DESIGN BUSINESS (SHENZHEN) CO., LTD., a Chinese manufacturer of wellness and lifestyle products with three plants (Panyu, Shenzhen, Yangon) and two design centers (Hangzhou, Hamburg). Documents and references can be requested through serina@lightbdb.com.
+> LIGHT BDB is the trading name of LIGHT BRAND DESIGN BUSINESS (SHENZHEN) CO., LTD., a Chinese brand, design and contract-manufacturing partner producing wellness and lifestyle products across a three-site production footprint (Panyu, Shenzhen, Yangon) with design capability in Hangzhou and Hamburg. Documents and references can be requested through serina@lightbdb.com.
 """
 
 # ---------------------------------------------------------------- 工具
@@ -556,11 +556,14 @@ def _patch_page(path: Path, data: dict, label: str, apply: bool) -> bool:
         # 修订分支：已注入过就把 marker 之后到该块 </script> 之前整段替换，
         # 让「已上线内容改一版」也能幂等重跑（首次注入的 skip 分支会拦住变更）。
         i = raw.index(MARKER) + len(MARKER)
-        j = raw.index("</script>", i)
+        k = raw.index("</script>", i) + len("</script>")
+        # 吞掉旧闭合标签后的换行：否则重跑每轮多累积一个空行/闭合标签（2026-09-29 修复）
+        while k < len(raw) and raw[k] == "\n":
+            k += 1
         assert raw.count("</body>") == 1, f"{label}: </body> 不唯一，拒绝写入"
         # 该段整体是上次注入的块，不含正文 → 不需要 mask、也不能 mask（会把待校验的
         # JSON-LD 一起摘掉，自检反而找不到块）。原文里 MARKER 已存在，故不带 marker。
-        merged = raw[:i] + _build_block(data, with_marker=False) + raw[j:]
+        merged = raw[:i] + _build_block(data, with_marker=False) + raw[k:]
         _selfcheck(merged, label)
         print(f"  ↻ 重建已注入块 {path.name}（{len(block)} 字节）")
         if apply:
