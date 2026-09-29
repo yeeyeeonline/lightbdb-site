@@ -15,6 +15,7 @@
 - Engineering: 20+ R&D engineers; 12+ years of manufacturing experience
 - Design capability: core strategic partnership with Bole Design — 20 years of design consulting, 500+ design awards, national industrial design center, Hangzhou & Hamburg; Bole Design is an independent partner credited on its cases
 - Contact: simon@lightbdb.com
+- Company page: https://www.linkedin.com/company/lightbdb
 
 ## Product lines
 
@@ -154,6 +155,7 @@
 
 ### Platform records (first-party listings kept by third parties)
 
+- LinkedIn — official company page for LightBDB (a first-party profile kept by LinkedIn; also the sameAs target of the Organization entity) — https://www.linkedin.com/company/lightbdb
 - Indiegogo — campaign "Home Tree — Light From The Forest" by Hometree Tech — https://www.indiegogo.com/en/projects/hometreetech/home-tree-light-from-the-forest--2
 - eBay — "Tree of Light Cherry Wood" listing, 2021 (Well Guided "Home" line) — https://www.ebay.com/itm/164937037936
 - Articture — retailer listings "Light of Life" (US$323) and "Noir Lamp" (US$515), sold under the retailer's own brand — https://articture.com/products/light-of-life

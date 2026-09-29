@@ -36,6 +36,9 @@ ORG_ID = f"{BASE}/#organization"
 PARTNER_ID = f"{BASE}/#manufacturing-partner"
 FOUNDER_ID = f"{BASE}/#founder"
 
+# 公司主页（2026-09-29 创建，vanity: lightbdb）—— 实体锚定用，与站内 sameAs 同步
+LINKEDIN_URL = "https://www.linkedin.com/company/lightbdb"
+
 USCC_LIGHTBDB = "91440300358219445L"   # 轻无品牌设计商业(深圳)有限公司 —— 品牌与签约主体
 USCC_PARTNER = "91440101578010598H"    # 广州市富茵电子有限公司 —— 独家战略合作工厂 / 在册主体
 
@@ -166,6 +169,7 @@ ABOUT_GRAPH = {
             },
             "foundingDate": "2015-09-22",
             "email": "serina@lightbdb.com",
+            "sameAs": [LINKEDIN_URL],
             "url": BASE,
             "description": (
                 "Wellness and lifestyle product manufacturer and design partner: "
@@ -316,6 +320,7 @@ DESIGN_GRAPH = {
                 "value": USCC_LIGHTBDB,
             },
             "foundingDate": "2015-09-22",
+            "sameAs": [LINKEDIN_URL],
             "url": BASE,
         },
         {
@@ -467,6 +472,7 @@ def case_studies_graph() -> dict:
                     "propertyID": "Unified Social Credit Code",
                     "value": USCC_LIGHTBDB,
                 },
+                "sameAs": [LINKEDIN_URL],
                 "url": BASE,
             },
         ],
@@ -498,6 +504,7 @@ LLMS_TAIL = """
 
 ### Platform records (first-party listings kept by third parties)
 
+- LinkedIn — official company page for LightBDB (a first-party profile kept by LinkedIn; also the sameAs target of the Organization entity) — https://www.linkedin.com/company/lightbdb
 - Indiegogo — campaign "Home Tree — Light From The Forest" by Hometree Tech — https://www.indiegogo.com/en/projects/hometreetech/home-tree-light-from-the-forest--2
 - eBay — "Tree of Light Cherry Wood" listing, 2021 (Well Guided "Home" line) — https://www.ebay.com/itm/164937037936
 - Articture — retailer listings "Light of Life" (US$323) and "Noir Lamp" (US$515), sold under the retailer's own brand — https://articture.com/products/light-of-life
