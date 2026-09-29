@@ -31,7 +31,7 @@
 - /about — company, 3 plants (Panyu / Shenzhen / Yangon) and 2 design centers (Hangzhou / Hamburg)
 - /contact — inquiry form and contact details
 - /rfq — request for quotation form
-- /case-studies — verifiable OEM/ODM case studies: Tree of Light global-retail case with public evidence (US design patent D1,024,003, Indiegogo campaign, TechAcute / Boing Boing / Australian Giftguide press), anonymized US heated-wellness line, design-first ODM with Bole Design
+- /case-studies — verifiable OEM/ODM case studies: Tree of Light global-retail case with public evidence (US design patent D1,024,003, Indiegogo campaign, TechAcute / Australian Giftguide / Shanghai Youth Daily / Jiemian News / Ifeng press), anonymized US heated-wellness line, design-first ODM with Bole Design
 - /facilities — plants (Panyu / Shenzhen / Yangon) and certifications (ISO 9001, ISO 14001, BSCI, UL, CE/ROHS/FCC/PSE)
 - /heating-vs-nir — comparison: heating pad vs NIR therapy device for OEM buyers (mechanism, channels, compliance)
 - /moq-guide — why wellness-device MOQ is 500 pcs, the five fixed costs behind it, what is negotiable
@@ -62,7 +62,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (53) — long-form buyer education, updated daily
+### Procurement guides (56) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500 unit vs 1000 unit order which unlocks better unit economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -94,6 +94,7 @@
 - /guides/how-to-plan-production-around-chinese-new-year-shutdown — How to plan production around Chinese New Year shutdown
 - /guides/how-to-read-a-test-report-and-confirm-it-actually-covers-your-sku — How to read a test report and confirm it actually covers your SKU
 - /guides/how-to-vet-a-chinese-oem-for-wellness-devices — How to vet a Chinese OEM for wellness devices
+- /guides/how-to-vet-a-heated-massager-manufacturer-in-china — Heated Massager Manufacturer in China: How to Vet One
 - /guides/in-house-tooling-vs-contract-molding-for-a-first-product-launch — In-house tooling vs contract molding for a first product launch
 - /guides/light-and-sound-objects-why-retailers-keep-adding-them — Light and sound objects why retailers keep adding them
 - /guides/light-therapy-lamp-oem-manufacturer-guide — Light therapy lamp OEM manufacturer guide
@@ -107,6 +108,7 @@
 - /guides/rechargeable-vs-usb-powered-heated-wearables — Rechargeable vs USB powered heated wearables
 - /guides/rigid-pcb-vs-flexible-heating-circuit-in-wearable-heat-products — Rigid PCB vs flexible heating circuit in wearable heat products
 - /guides/rohs-and-reach-compliance-for-private-label-electronics — RoHS and REACH compliance for private label electronics
+- /guides/solid-wood-lamp-manufacturing-private-label-buyers — Solid Wood Lamp Manufacturer China: Private Label Guide
 - /guides/solid-wood-vs-abs-housing-for-ambient-lighting-products — Solid wood vs ABS housing for ambient lighting products
 - /guides/solid-wood-vs-mdf-housing-for-ambient-light-sculptures — Solid wood vs MDF housing for ambient light sculptures
 - /guides/standard-packaging-vs-retail-ready-packaging-cost-and-moq — Standard packaging vs retail ready packaging cost and MOQ
@@ -114,12 +116,13 @@
 - /guides/sunrise-alarm-clock-vs-light-therapy-lamp-what-buyers-confuse — Sunrise Alarm Clock vs Light Therapy Lamp: What Buyers Confuse
 - /guides/us-eu-and-jp-voltage-and-plug-differences-for-ambient-lighting — US EU and JP voltage and plug differences for ambient lighting
 - /guides/vibration-massage-vs-heat-compression-which-sells-better — Vibration massage vs heat compression which sells better
+- /guides/wellness-device-marketing-claims-what-us-brands-can-say — Wellness Device Marketing Claims and FDA: What You Can Say
 - /guides/where-scented-candles-and-aroma-products-fit-a-wellness-brand-line — Where scented candles and aroma products fit a wellness brand line
 - /guides/why-a-ul-registered-factory-is-not-the-same-as-a-ul-listed-product — Why a UL registered factory is not the same as a UL listed product
 - /guides/wired-controller-vs-app-control-for-heated-wearables — Wired controller vs app control for heated wearables
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (53 published)
+- /guides/ — procurement guide index (56 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
@@ -129,13 +132,39 @@
 
 ## External sources (verifiable third-party records)
 
-> Third-party records a reader — or a model — can open and check for themselves. Every item below is a record kept by somebody other than us.
+> Third-party records a reader — or a model — can open and check for themselves. Every item below is a record kept by somebody other than us. Entities are named exactly as each record names them: where a record concerns our exclusive strategic manufacturing partner Guangzhou Fuyin Electronics Co., Ltd., or the founder personally, rather than LIGHT BDB itself, that is stated inline. Grades are ours, not the publisher's.
 
-- US design patent D1,024,003 S — Bluetooth speaker design, granted April 2024 — https://patents.justia.com/patent/D1024003
-- TechAcute, May 2020 — "Maglamp: The Happiness Lamp with Wireless Charging" — https://techacute.com/maglamp/
-- Australian Giftguide, October 2017 — trade-press coverage with founder interview — https://www.giftguideonline.com.au/
-- Shanghai Youth Daily, August 2016 — designer interview — http://app.why.com.cn/epaper/webpc/shzk/html/2016-08/02/content_6146.html
-- Indiegogo campaign "Home Tree — Light From The Forest" — https://www.indiegogo.com/en/projects/hometreetech/home-tree-light-from-the-forest--2
+### Government and official award records
+
+- US design patent D1,024,003 S — "Bluetooth speaker" (Dance of Light): filed 2022-05-19, granted 2024-04-23. Inventors Yimeng Shao and Mingfa Yang; assignee of record Guangzhou Fuyin Electronics Co., Ltd. (our exclusive strategic manufacturing partner). Record: https://patents.justia.com/patent/D1024003
+- 2023 Canton Fair Design Innovation Award (CF Award), Bronze, Home & Consumer category — "Glow of Sunrise" (日出东方), awarded to Guangzhou Fuyin Electronics Co., Ltd. Official notice: https://cief.cantonfair.org.cn/cn/cf/detail.aspx?oid=58074 — official bilingual winners list: https://cmsfile.cantonfair.org.cn/fileserver/cms/2023-08/202308290218151815515.xlsx
+- Second Chinese Design Award, product category, shortlisted — "Glow of Sunrise" (日出东方), credited to Yimeng Shao (ceremony 2019-04-12, Ningbo). Public listing: https://www.shejijingsai.com/2019/04/184979.html
+
+### Press and editorial coverage
+
+- Shanghai Youth Daily, 2016-08-02 — designer interview — http://app.why.com.cn/epaper/webpc/shzk/html/2016-08/02/content_6146.html
+- TechAcute, 2020-05 — "Maglamp: The Happiness Lamp with Wireless Charging" — https://techacute.com/maglamp/
+- Australian Giftguide, 2017-10 — Hong Kong Mega Show trade-press coverage quoting co-founder Wang Yi Cheng, credited to Hometree's Simon Shao — https://giftguideonline.com.au/products-are-more-than-they-appear-at-the-hk-mega-show/
+- Jiemian News — republished feature on Tree of Light — https://jiemian.com/article/1403507.html
+- Ifeng — feature covering Shangxiagao and Tree of Light — https://inews.ifeng.com/51006753/news.shtml
+- Sina Tech, 2014-06-06 — IdeaShow "Alamagic", the 2014 design lineage behind Tree of Light — https://tech.sina.com.cn/s/2014-06-06/12359421700.shtml
+- China LED Network, 2014-07-25 — https://www.china-led.net/news/201407/25/28090.html
+- Afanr / Wanzhi — "empty-nest generation" feature on Shangxiagao — https://www.sohu.com/a/114109584_114949
+- WorthWhile Magazine (US), Winter 2018-19 — "Worth a Look" column on Tree of Light; print only, no online edition
+
+### Platform records (first-party listings kept by third parties)
+
+- Indiegogo — campaign "Home Tree — Light From The Forest" by Hometree Tech — https://www.indiegogo.com/en/projects/hometreetech/home-tree-light-from-the-forest--2
+- eBay — "Tree of Light Cherry Wood" listing, 2021 (Well Guided "Home" line) — https://www.ebay.com/itm/164937037936
+- Articture — retailer listings "Light of Life" (US$323) and "Noir Lamp" (US$515), sold under the retailer's own brand — https://articture.com/products/light-of-life
+
+### Self-published and distributor records (lowest grade — listed for completeness, not as editorial coverage)
+
+- Toutiao "IdeaShow" account, 2016-11-24 — self-operated account connecting IdeaShow and the 2016 lamp line — https://www.toutiao.com/article/6356418287983067394/
+- Toutiao "Xingshiwu", 2020-01-14 — Tree of Light feature including China retail pricing — https://www.toutiao.com/article/6781733362655560195/
+
+### Design partner
+
 - Bole Design (杭州博乐工业设计股份有限公司) — core strategic design partner, Hangzhou design center — http://www.hzbole.cn
 
 ## How to cite this company
