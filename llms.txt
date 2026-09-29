@@ -5,7 +5,8 @@
 ## Facts (verified, citable)
 
 - Company: LIGHT BRAND DESIGN BUSINESS (SHENZHEN) CO., LTD., brand name LIGHT BDB (also written LightBDB)
-- Entity & verification: LIGHT BRAND DESIGN BUSINESS (SHENZHEN) CO., LTD. (Unified Social Credit Code 91440300MAK6W7LN36) is the brand, design and contracting entity. Manufacturing is carried out by own and affiliated plants; the Panyu components plant operates as Fuli Electronics / 富利电子 (No. 4 Jiucun East Road, Panyu District, Guangzhou). Facility legal names, certificate copies and audit references are available on request during quotation.
+- Entity & verification: LIGHT BRAND DESIGN BUSINESS (SHENZHEN) CO., LTD. — Unified Social Credit Code 91440300358219445L, founded 2015, registered in Nanshan, Shenzhen — is the brand, design and contracting entity. Manufacturing runs through the long-term EXCLUSIVE strategic manufacturing partner Fuli Electronics / 富利电子, at No. 4 Jiucun East Road, Panyu District, Guangzhou — the same facility as Guangzhou Fuyin Electronics Co., Ltd. / 广州市富茵电子有限公司 (founded 2011, national high-tech enterprise, patent holder, USCC 91440101578010598H), where the founder previously served as general manager. Core output at this site is transformers, inductors and electronic components; the lighting and wellness lines run as separate production lines within the same system. Certificate copies and audit references available on request.
+
 - Manufacturing: finished-product facility in Shenzhen, China (3,000 sqm); components plant in Panyu, Guangzhou, China (10,000+ sqm, 600+ employees — power inductors, switching power transformers, common chokes, antennas, wireless-charging coils, SMT assembly and EMI line filters for automotive and medical applications, R&D headed by a chief engineer with decades of Singapore electronics-industry experience); production plant in Yangon, Myanmar (5,000+ pcs/day)
 - Locations: Plants — Panyu (Guangzhou, China), Shenzhen (China), Yangon (Myanmar); Design centers — Hangzhou (China), Hamburg (Germany)
 - Values: Cultural Essence (文化精髓) · Happiness through Technology (科技幸福) · Holistic Health (全面健康)
@@ -61,7 +62,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (51) — long-form buyer education, updated daily
+### Procurement guides (53) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500 unit vs 1000 unit order which unlocks better unit economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -85,6 +86,7 @@
 - /guides/heated-abdominal-belt-oem-manufacturer-guide — Heated abdominal belt OEM manufacturer guide
 - /guides/heated-eye-massager-oem-manufacturer-guide — Heated eye massager OEM manufacturer guide
 - /guides/heated-eye-massager-vs-eye-massager-with-heat-which-sku-to-launch — Heated eye massager vs eye massager with heat which SKU to launch
+- /guides/heated-hand-warmer-oem-manufacturer-guide — Heated hand warmer OEM manufacturer guide
 - /guides/heated-scarf-oem-manufacturer-guide — Heated scarf OEM manufacturer guide
 - /guides/heated-waist-and-back-belt-oem-manufacturer-guide — Heated waist and back belt OEM manufacturer guide
 - /guides/how-to-build-a-coherent-first-product-line-instead-of-one-off-skus — How to build a coherent first product line instead of one off SKUs
@@ -108,6 +110,7 @@
 - /guides/solid-wood-vs-abs-housing-for-ambient-lighting-products — Solid wood vs ABS housing for ambient lighting products
 - /guides/solid-wood-vs-mdf-housing-for-ambient-light-sculptures — Solid wood vs MDF housing for ambient light sculptures
 - /guides/standard-packaging-vs-retail-ready-packaging-cost-and-moq — Standard packaging vs retail ready packaging cost and MOQ
+- /guides/sunrise-alarm-clock-oem-manufacturer-guide — Sunrise alarm clock OEM manufacturer guide
 - /guides/sunrise-alarm-clock-vs-light-therapy-lamp-what-buyers-confuse — Sunrise Alarm Clock vs Light Therapy Lamp: What Buyers Confuse
 - /guides/us-eu-and-jp-voltage-and-plug-differences-for-ambient-lighting — US EU and JP voltage and plug differences for ambient lighting
 - /guides/vibration-massage-vs-heat-compression-which-sells-better — Vibration massage vs heat compression which sells better
@@ -116,7 +119,7 @@
 - /guides/wired-controller-vs-app-control-for-heated-wearables — Wired controller vs app control for heated wearables
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (51 published)
+- /guides/ — procurement guide index (53 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
