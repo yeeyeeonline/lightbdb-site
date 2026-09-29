@@ -45,3 +45,7 @@ supabase/.worktree/
 *.pdf
 *.zip
 *.tar.gz
+
+# ---- Python 字节码 ----
+__pycache__/
+*.pyc
