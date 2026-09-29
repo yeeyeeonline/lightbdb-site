@@ -33,8 +33,121 @@ MARKER = "<!-- geo:entity -->"
 HEAD_LLMS = "## External sources"
 
 ORG_ID = f"{BASE}/#organization"
+PARTNER_ID = f"{BASE}/#manufacturing-partner"
+FOUNDER_ID = f"{BASE}/#founder"
+
+USCC_LIGHTBDB = "91440300358219445L"   # 轻无品牌设计商业(深圳)有限公司 —— 品牌与签约主体
+USCC_PARTNER = "91440101578010598H"    # 广州市富茵电子有限公司 —— 独家战略合作工厂 / 在册主体
 
 # ---------------------------------------------------------------- 数据结构
+# ⚠ 实体纪律（2026-09-29 定）：本库同时存在三个**互相独立的法律主体**，任何字段都不得混写：
+#     1. 轻无（深圳，USCC 91440300358219445L）—— 品牌、设计、签约主体 = 本站主体
+#     2. 广州市富茵电子有限公司（USCC 91440101578010598H）—— 番禺独家战略合作工厂，
+#        是 CF 奖获奖单位、美国外观专利 D1,024,003 的申请人 = 独立的"合作方"节点
+#     3. Design Identification Pte Ltd（新加坡，ACRA 201410335M）—— HomeTree 商标权利人，
+#        无公开可点击登记链接 → 只进 llms.txt 散文层，**不建结构化节点**
+#   严禁把富茵的记录写成轻无的 award / sameAs —— 那会把两家公司揉成一个实体，
+#   正是 AI 端最容易出错、也最难回收的一类错误。
+
+
+def _company_sources() -> list[dict]:
+    """关于**轻无本主体**的第三方记录。只收本机实测 HTTP 200 可打开的公开页面。"""
+    return [
+        {
+            "@type": "NewsArticle",
+            "name": "Shanghai Youth Daily designer interview",
+            "datePublished": "2016-08",
+            "publisher": {"@type": "Organization", "name": "Shanghai Youth Daily"},
+            "url": "http://app.why.com.cn/epaper/webpc/shzk/html/2016-08/02/content_6146.html",
+        },
+        {
+            "@type": "NewsArticle",
+            "name": "Jiemian News feature on the Tree of Light",
+            "publisher": {"@type": "Organization", "name": "Jiemian News"},
+            "url": "https://jiemian.com/article/1403507.html",
+        },
+        {
+            "@type": "NewsArticle",
+            "name": "Ifeng feature covering Shangxiagao and the Tree of Light",
+            "publisher": {"@type": "Organization", "name": "Ifeng"},
+            "url": "https://inews.ifeng.com/51006753/news.shtml",
+        },
+        {
+            "@type": "NewsArticle",
+            "name": "Australian Giftguide trade-press coverage from the Hong Kong Mega Show",
+            "datePublished": "2017-10",
+            "publisher": {"@type": "Organization", "name": "Australian Giftguide"},
+            "url": ("https://giftguideonline.com.au/"
+                    "products-are-more-than-they-appear-at-the-hk-mega-show/"),
+        },
+        {
+            "@type": "NewsArticle",
+            "name": "Maglamp - The Happiness Lamp with Wireless Charging",
+            "datePublished": "2020-05",
+            "publisher": {"@type": "Organization", "name": "TechAcute"},
+            "url": "https://techacute.com/maglamp/",
+        },
+    ]
+
+
+def _partner_sources() -> list[dict]:
+    """关于**富茵电子**（独家战略合作工厂）的 A 级公开记录。
+
+    这两条是本项目目前**唯一**能把「富茵（工厂）— 邵艺萌 — 杨明发」三方
+    绑上同一条政府/主办方记录的可检索信源，因此必须挂在富茵节点上，
+    而不是挂在轻无节点上。
+    """
+    return [
+        {
+            "@type": "CreativeWork",
+            "name": ("2023 Canton Fair Design Innovation Award (CF Award), Bronze, "
+                     "Home & Consumer - Glow of Sunrise"),
+            "datePublished": "2023-08",
+            "publisher": {
+                "@type": "Organization",
+                "name": "China Import and Export Fair (Canton Fair)",
+                "url": "https://cief.cantonfair.org.cn/",
+            },
+            "url": "https://cief.cantonfair.org.cn/cn/cf/detail.aspx?oid=58074",
+        },
+        {
+            "@type": "Patent",
+            "name": "US design patent D1,024,003 S (Bluetooth speaker)",
+            "patentNumber": "D1,024,003 S",
+            "datePublished": "2024-04",
+            "url": "https://patents.justia.com/patent/D1024003",
+            "headline": ("Assignee of record: Guangzhou Fuyin Electronics Co., Ltd.; "
+                         "inventors Yimeng Shao and Mingfa Yang"),
+        },
+    ]
+
+
+def _founder_sources() -> list[dict]:
+    """关于**创始人本人**（邵艺萌 / Yimeng Shao）的第三方记录。
+
+    ⚠ 待验证（D 级）：Giftguide 2017 报道把设计师/联合创始人写成
+      "Wang Yi Cheng"，而同一篇的落款是 "Hometree's Simon Shao"；
+      台湾设计奖公示署名「邵艺萌」，美国专利发明人署名 "Yimeng Shao"。
+      「Wang Yi Cheng」与「Simon Shao」是同一人还是两位不同的人，**尚未核对**，
+      核对前不在站点上写任何等式，只用可核实的原始署名。
+    """
+    return [
+        {
+            "@type": "CreativeWork",
+            "name": ("Second Chinese Design Award, product category, shortlisted - "
+                     "Glow of Sunrise"),
+            "datePublished": "2019-04",
+            "url": "https://www.shejijingsai.com/2019/04/184979.html",
+        },
+        {
+            "@type": "Patent",
+            "name": "US design patent D1,024,003 S - named inventor",
+            "patentNumber": "D1,024,003 S",
+            "datePublished": "2024-04",
+            "url": "https://patents.justia.com/patent/D1024003",
+        },
+    ]
+
 
 ABOUT_GRAPH = {
     "@context": "https://schema.org",
@@ -44,11 +157,24 @@ ABOUT_GRAPH = {
             "@id": ORG_ID,
             "name": "LightBDB",
             "legalName": "LIGHT BRAND DESIGN BUSINESS (SHENZHEN) CO., LTD.",
+            "alternateName": "LIGHT BDB",
+            "taxID": USCC_LIGHTBDB,
+            "identifier": {
+                "@type": "PropertyValue",
+                "propertyID": "Unified Social Credit Code",
+                "value": USCC_LIGHTBDB,
+            },
+            "foundingDate": "2015-09-22",
+            "email": "serina@lightbdb.com",
             "url": BASE,
             "description": (
                 "Wellness and lifestyle product manufacturer with in-house design: "
-                "three plants (Panyu, Shenzhen, Yangon) and two design centers (Hangzhou, Hamburg)."
+                "three plants (Panyu, Shenzhen, Yangon) and two design centers (Hangzhou, Hamburg). "
+                "Manufacturing at Panyu runs through the exclusive strategic manufacturing partner "
+                "Guangzhou Fuyin Electronics Co., Ltd."
             ),
+            "founder": {"@id": FOUNDER_ID},
+            "subjectOf": _company_sources(),
             "subOrganization": [
                 {
                     "@type": "Organization",
@@ -120,7 +246,58 @@ ABOUT_GRAPH = {
                 "Light & mood therapy products", "Body care electronics",
                 "Product design and category innovation", "OEM/ODM contract manufacturing",
             ],
-        }
+        },
+        # ---- 合作方实体：广州市富茵电子有限公司（独立法人；非子公司、非同一实体）----
+        {
+            "@type": "Organization",
+            "@id": PARTNER_ID,
+            "name": "Guangzhou Fuyin Electronics Co., Ltd.",
+            "alternateName": "广州市富茵电子有限公司",
+            "legalName": "广州市富茵电子有限公司",
+            "taxID": USCC_PARTNER,
+            "identifier": {
+                "@type": "PropertyValue",
+                "propertyID": "Unified Social Credit Code",
+                "value": USCC_PARTNER,
+            },
+            "foundingDate": "2011",
+            "description": (
+                "Independent manufacturer and the exclusive strategic manufacturing partner of "
+                "LIGHT BRAND DESIGN BUSINESS (SHENZHEN) CO., LTD. Same site as the Panyu plant: "
+                "No. 4 Jiucun East Road, Panyu District, Guangzhou. National high-tech enterprise; "
+                "core output is transformers, inductors and electronic components, with the lighting "
+                "and wellness lines running as separate production lines in the same system. Named as "
+                "assignee of record on US design patent D1,024,003 S, and as awardee of the 2023 "
+                "Canton Fair Design Innovation Award (CF Award), Bronze, for Glow of Sunrise."
+            ),
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "No. 4 Jiucun East Road, Panyu District",
+                "addressLocality": "Guangzhou",
+                "addressRegion": "Guangdong",
+                "addressCountry": "CN",
+            },
+            "subjectOf": _partner_sources(),
+            "award": [
+                "2023 Canton Fair Design Innovation Award (CF Award), Bronze, "
+                "Home & Consumer - Glow of Sunrise",
+            ],
+        },
+        # ---- 创始人实体：邵艺萌 / Yimeng Shao ----
+        {
+            "@type": "Person",
+            "@id": FOUNDER_ID,
+            "name": "Yimeng Shao",
+            "alternateName": ["邵艺萌", "Simon Shao"],
+            "jobTitle": "Founder",
+            "worksFor": {"@id": ORG_ID},
+            "description": (
+                "Founder of LIGHT BRAND DESIGN BUSINESS (SHENZHEN) CO., LTD. Named inventor on "
+                "US design patent D1,024,003 S, and credited by name on the Second Chinese Design "
+                "Award shortlist for Glow of Sunrise."
+            ),
+            "subjectOf": _founder_sources(),
+        },
     ],
 }
 
@@ -132,6 +309,13 @@ DESIGN_GRAPH = {
             "@id": ORG_ID,
             "name": "LightBDB",
             "legalName": "LIGHT BRAND DESIGN BUSINESS (SHENZHEN) CO., LTD.",
+            "taxID": USCC_LIGHTBDB,
+            "identifier": {
+                "@type": "PropertyValue",
+                "propertyID": "Unified Social Credit Code",
+                "value": USCC_LIGHTBDB,
+            },
+            "foundingDate": "2015-09-22",
             "url": BASE,
         },
         {
@@ -167,13 +351,18 @@ DESIGN_GRAPH = {
 
 
 def _sources() -> list[dict]:
-    """第三方信源链。只收站点 case-studies 页已声明的报道。
+    """Tree of Light 产品节点的第三方信源链（subjectOf）。只收可核查的公开记录。
 
     收录依据 = 页面既有表述 + 本机可达性核验。未通过核验的一律不收：
-      ✅ 200  TechAcute / Australian Giftguide / Shanghai Youth Daily(why.com.cn)
-      ⚠️ 403  专利库(justia) 与 Indiegogo —— 反爬拦截，非死链，URL 沿用页面原链
-      ❌ 未收  Boing Boing —— 页面给的 URL 实测 404，且本机查不到 archive.org 快照，
-               无法判定是失效还是反爬，按「写不出出处的一律不写」处理。
+      ✅ 200  TechAcute / Giftguide 具体文章页 / Jiemian / Ifeng / Sina Tech / Articture
+      ⚠️ 403  专利库(justia) 与 eBay —— 反爬拦截，非死链，URL 沿用页面原链
+      ❌ 未收  Boing Boing —— 页面原 URL 实测 404、archive.org 无快照。2026-09-29 已从
+               页面**与生成器**（case_studies.py 的 CASES / FAQS 文案）一并删除——只改页面
+               不改生成器的话，下次重跑会把死链复活。
+      ❌ 未收  今日头条两条 —— 自媒体号 / 自运营账号，中文权威采信体系不采信，
+               只留在 llms.txt 的最低档区块里备查。
+      ❌ 未收  Shanghai Youth Daily —— 已上移到 _founder_sources() / _company_sources()，
+               它是**人物与公司**层面的报道，不是产品级记录。
     """
     return [
         {
@@ -201,21 +390,47 @@ def _sources() -> list[dict]:
         },
         {
             "@type": "NewsArticle",
-            "name": "Australian Giftguide trade-press coverage with founder interview",
+            "name": "Australian Giftguide trade-press coverage from the Hong Kong Mega Show",
             "datePublished": "2017-10",
             "publisher": {
                 "@type": "Organization",
                 "name": "Australian Giftguide",
                 "url": "https://www.giftguideonline.com.au/",
             },
-            "url": "https://www.giftguideonline.com.au/",
+            "url": ("https://giftguideonline.com.au/"
+                    "products-are-more-than-they-appear-at-the-hk-mega-show/"),
         },
         {
             "@type": "NewsArticle",
-            "name": "Shanghai Youth Daily designer interview",
-            "datePublished": "2016-08",
-            "publisher": {"@type": "Organization", "name": "Shanghai Youth Daily"},
-            "url": "http://app.why.com.cn/epaper/webpc/shzk/html/2016-08/02/content_6146.html",
+            "name": "Jiemian News feature on the Tree of Light",
+            "publisher": {"@type": "Organization", "name": "Jiemian News"},
+            "url": "https://jiemian.com/article/1403507.html",
+        },
+        {
+            "@type": "NewsArticle",
+            "name": "Ifeng feature covering Shangxiagao and the Tree of Light",
+            "publisher": {"@type": "Organization", "name": "Ifeng"},
+            "url": "https://inews.ifeng.com/51006753/news.shtml",
+        },
+        {
+            "@type": "NewsArticle",
+            "name": "Sina Tech - IdeaShow Alamagic, the 2014 design lineage behind Tree of Light",
+            "datePublished": "2014-06",
+            "publisher": {"@type": "Organization", "name": "Sina Tech"},
+            "url": "https://tech.sina.com.cn/s/2014-06-06/12359421700.shtml",
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Articture retail editions - Light of Life and Noir Lamp",
+            "about": ("Retail editions of the wood-lamp platform sold under the "
+                      "distributor's own brand"),
+            "url": "https://articture.com/products/light-of-life",
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "eBay listing - Tree of Light Cherry Wood (Well Guided Home line, 2021)",
+            "datePublished": "2021",
+            "url": "https://www.ebay.com/itm/164937037936",
         },
     ]
 
@@ -234,13 +449,24 @@ def case_studies_graph() -> dict:
                     "Light & Mood platform, sold internationally under the HomeTree brand."
                 ),
                 "brand": {"@type": "Brand", "name": "HomeTree"},
-                "manufacturer": {"@id": ORG_ID},
+                # ⚠ 两个 manufacturer 是有意为之，不是重复：
+                #   ORG_ID     = 轻无 —— 商业意义上的制造与签约主体
+                #   PARTNER_ID = 富茵电子 —— 番禺产线与在册申请人（专利 D1,024,003 的 assignee）
+                #   该节点定义在 /about.html 的 @graph 里（#manufacturing-partner），此处为跨页 @id 引用。
+                "manufacturer": [{"@id": ORG_ID}, {"@id": PARTNER_ID}],
                 "subjectOf": _sources(),
             },
             {
                 "@type": "Organization",
                 "@id": ORG_ID,
                 "name": "LightBDB",
+                "legalName": "LIGHT BRAND DESIGN BUSINESS (SHENZHEN) CO., LTD.",
+                "taxID": USCC_LIGHTBDB,
+                "identifier": {
+                    "@type": "PropertyValue",
+                    "propertyID": "Unified Social Credit Code",
+                    "value": USCC_LIGHTBDB,
+                },
                 "url": BASE,
             },
         ],
@@ -250,13 +476,39 @@ def case_studies_graph() -> dict:
 LLMS_TAIL = """
 ## External sources (verifiable third-party records)
 
-> Third-party records a reader — or a model — can open and check for themselves. Every item below is a record kept by somebody other than us.
+> Third-party records a reader — or a model — can open and check for themselves. Every item below is a record kept by somebody other than us. Entities are named exactly as each record names them: where a record concerns our exclusive strategic manufacturing partner Guangzhou Fuyin Electronics Co., Ltd., or the founder personally, rather than LIGHT BDB itself, that is stated inline. Grades are ours, not the publisher's.
 
-- US design patent D1,024,003 S — Bluetooth speaker design, granted April 2024 — https://patents.justia.com/patent/D1024003
-- TechAcute, May 2020 — "Maglamp: The Happiness Lamp with Wireless Charging" — https://techacute.com/maglamp/
-- Australian Giftguide, October 2017 — trade-press coverage with founder interview — https://www.giftguideonline.com.au/
-- Shanghai Youth Daily, August 2016 — designer interview — http://app.why.com.cn/epaper/webpc/shzk/html/2016-08/02/content_6146.html
-- Indiegogo campaign "Home Tree — Light From The Forest" — https://www.indiegogo.com/en/projects/hometreetech/home-tree-light-from-the-forest--2
+### Government and official award records
+
+- US design patent D1,024,003 S — "Bluetooth speaker" (Dance of Light): filed 2022-05-19, granted 2024-04-23. Inventors Yimeng Shao and Mingfa Yang; assignee of record Guangzhou Fuyin Electronics Co., Ltd. (our exclusive strategic manufacturing partner). Record: https://patents.justia.com/patent/D1024003
+- 2023 Canton Fair Design Innovation Award (CF Award), Bronze, Home & Consumer category — "Glow of Sunrise" (日出东方), awarded to Guangzhou Fuyin Electronics Co., Ltd. Official notice: https://cief.cantonfair.org.cn/cn/cf/detail.aspx?oid=58074 — official bilingual winners list: https://cmsfile.cantonfair.org.cn/fileserver/cms/2023-08/202308290218151815515.xlsx
+- Second Chinese Design Award, product category, shortlisted — "Glow of Sunrise" (日出东方), credited to Yimeng Shao (ceremony 2019-04-12, Ningbo). Public listing: https://www.shejijingsai.com/2019/04/184979.html
+
+### Press and editorial coverage
+
+- Shanghai Youth Daily, 2016-08-02 — designer interview — http://app.why.com.cn/epaper/webpc/shzk/html/2016-08/02/content_6146.html
+- TechAcute, 2020-05 — "Maglamp: The Happiness Lamp with Wireless Charging" — https://techacute.com/maglamp/
+- Australian Giftguide, 2017-10 — Hong Kong Mega Show trade-press coverage quoting co-founder Wang Yi Cheng, credited to Hometree's Simon Shao — https://giftguideonline.com.au/products-are-more-than-they-appear-at-the-hk-mega-show/
+- Jiemian News — republished feature on Tree of Light — https://jiemian.com/article/1403507.html
+- Ifeng — feature covering Shangxiagao and Tree of Light — https://inews.ifeng.com/51006753/news.shtml
+- Sina Tech, 2014-06-06 — IdeaShow "Alamagic", the 2014 design lineage behind Tree of Light — https://tech.sina.com.cn/s/2014-06-06/12359421700.shtml
+- China LED Network, 2014-07-25 — https://www.china-led.net/news/201407/25/28090.html
+- Afanr / Wanzhi — "empty-nest generation" feature on Shangxiagao — https://www.sohu.com/a/114109584_114949
+- WorthWhile Magazine (US), Winter 2018-19 — "Worth a Look" column on Tree of Light; print only, no online edition
+
+### Platform records (first-party listings kept by third parties)
+
+- Indiegogo — campaign "Home Tree — Light From The Forest" by Hometree Tech — https://www.indiegogo.com/en/projects/hometreetech/home-tree-light-from-the-forest--2
+- eBay — "Tree of Light Cherry Wood" listing, 2021 (Well Guided "Home" line) — https://www.ebay.com/itm/164937037936
+- Articture — retailer listings "Light of Life" (US$323) and "Noir Lamp" (US$515), sold under the retailer's own brand — https://articture.com/products/light-of-life
+
+### Self-published and distributor records (lowest grade — listed for completeness, not as editorial coverage)
+
+- Toutiao "IdeaShow" account, 2016-11-24 — self-operated account connecting IdeaShow and the 2016 lamp line — https://www.toutiao.com/article/6356418287983067394/
+- Toutiao "Xingshiwu", 2020-01-14 — Tree of Light feature including China retail pricing — https://www.toutiao.com/article/6781733362655560195/
+
+### Design partner
+
 - Bole Design (杭州博乐工业设计股份有限公司) — core strategic design partner, Hangzhou design center — http://www.hzbole.cn
 
 ## How to cite this company

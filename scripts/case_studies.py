@@ -29,12 +29,20 @@ CASES = [
              "https://www.indiegogo.com/en/projects/hometreetech/home-tree-light-from-the-forest--2"),
             ("TechAcute review, May 2020: \u201cMaglamp \u2014 The Happiness Lamp with Wireless Charging\u201d",
              "https://techacute.com/maglamp/"),
-            ("Boing Boing features on the Tree of Light retail edition, 2021 & 2022",
-             "https://boingboing.net/2021/06/27/tree-of-light-is-a-lamp-charger-and-bluetooth-speaker-all-in-one.html"),
-            ("Australian Giftguide trade-press coverage with founder interview, October 2017",
-             "https://www.giftguideonline.com.au/"),
+            ("Australian Giftguide trade-press coverage from the Hong Kong Mega Show, October 2017",
+             "https://giftguideonline.com.au/products-are-more-than-they-appear-at-the-hk-mega-show/"),
             ("Shanghai Youth Daily designer interview, August 2016",
              "http://app.why.com.cn/epaper/webpc/shzk/html/2016-08/02/content_6146.html"),
+            ("Jiemian News feature on the Tree of Light",
+             "https://jiemian.com/article/1403507.html"),
+            ("Ifeng feature covering Shangxiagao and the Tree of Light",
+             "https://inews.ifeng.com/51006753/news.shtml"),
+            ("Sina Tech, June 2014: IdeaShow \u201cAlamagic\u201d, the design lineage behind the Tree of Light",
+             "https://tech.sina.com.cn/s/2014-06-06/12359421700.shtml"),
+            ("Retail editions under distributor brands \u2014 Articture \u201cLight of Life\u201d and \u201cNoir Lamp\u201d",
+             "https://articture.com/products/light-of-life"),
+            ("eBay listing, 2021: \u201cTree of Light Cherry Wood\u201d (Well Guided \u201cHome\u201d line)",
+             "https://www.ebay.com/itm/164937037936"),
         ],
         "takeaway": "Public records \u2014 patents, crowdfunding pages, independent press \u2014 compound over years. This is the evidence trail we build for clients who want their brand to be findable and citable, not just sellable.",
     },
@@ -174,7 +182,7 @@ def build_page():
   <div class="answer">
     <h2>Quick answers</h2>
     <ul>
-      <li><b>Public evidence:</b> the Tree of Light case is backed by a US design patent, an Indiegogo campaign and independent press (TechAcute, Boing Boing, Australian Giftguide) \u2014 every link opens a third-party source.</li>
+      <li><b>Public evidence:</b> the Tree of Light case is backed by a US design patent, an Indiegogo campaign and independent press (TechAcute, Australian Giftguide, Shanghai Youth Daily, Jiemian News, Ifeng) \u2014 every link opens a third-party source.</li>
       <li><b>Confidential cases:</b> anonymized under NDA; terms, timelines and MOQ tiers on this page are real.</li>
       <li><b>Starting point:</b> every catalog platform starts at 100 units; sampling in 7\u201314 days; proposal with 3D rendering and quotation within 24 hours.</li>
     </ul>
