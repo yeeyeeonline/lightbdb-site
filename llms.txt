@@ -63,7 +63,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (56) — long-form buyer education, updated daily
+### Procurement guides (58) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500 unit vs 1000 unit order which unlocks better unit economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -88,6 +88,7 @@
 - /guides/heated-eye-massager-oem-manufacturer-guide — Heated eye massager OEM manufacturer guide
 - /guides/heated-eye-massager-vs-eye-massager-with-heat-which-sku-to-launch — Heated eye massager vs eye massager with heat which SKU to launch
 - /guides/heated-hand-warmer-oem-manufacturer-guide — Heated hand warmer OEM manufacturer guide
+- /guides/heated-massager-safety-what-certifications-buyers-actually-ask-for — Heated massager safety what certifications buyers actually ask for
 - /guides/heated-scarf-oem-manufacturer-guide — Heated scarf OEM manufacturer guide
 - /guides/heated-waist-and-back-belt-oem-manufacturer-guide — Heated waist and back belt OEM manufacturer guide
 - /guides/how-to-build-a-coherent-first-product-line-instead-of-one-off-skus — How to build a coherent first product line instead of one off SKUs
@@ -103,6 +104,7 @@
 - /guides/nir-vs-red-light-vs-full-spectrum-what-to-put-on-the-box — NIR vs red light vs full spectrum what to put on the box
 - /guides/odm-existing-platform-vs-full-custom-development-timeline-compared — ODM existing platform vs full custom development timeline compared
 - /guides/one-color-vs-custom-colorway-minimums-for-private-label — One color vs custom colorway minimums for private label
+- /guides/private-label-vs-white-label-which-is-right-for-a-wellness-brand — Private label vs white label which is right for a wellness brand
 - /guides/private-mold-vs-open-mold-which-is-worth-the-tooling — Private mold vs open mold which is worth the tooling
 - /guides/prop-65-labeling-for-products-sold-in-california — Prop 65 labeling for products sold in California
 - /guides/rechargeable-battery-vs-plug-in-for-ambient-lamps — Rechargeable battery vs plug in for ambient lamps
@@ -123,7 +125,7 @@
 - /guides/wired-controller-vs-app-control-for-heated-wearables — Wired controller vs app control for heated wearables
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (56 published)
+- /guides/ — procurement guide index (58 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
