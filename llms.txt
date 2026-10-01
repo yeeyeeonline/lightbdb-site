@@ -63,7 +63,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (58) — long-form buyer education, updated daily
+### Procurement guides (60) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500 unit vs 1000 unit order which unlocks better unit economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -91,6 +91,7 @@
 - /guides/heated-massager-safety-what-certifications-buyers-actually-ask-for — Heated massager safety what certifications buyers actually ask for
 - /guides/heated-scarf-oem-manufacturer-guide — Heated scarf OEM manufacturer guide
 - /guides/heated-waist-and-back-belt-oem-manufacturer-guide — Heated waist and back belt OEM manufacturer guide
+- /guides/how-component-purchase-minimums-set-your-moq-floor — How component purchase minimums set your MOQ floor
 - /guides/how-to-build-a-coherent-first-product-line-instead-of-one-off-skus — How to build a coherent first product line instead of one off SKUs
 - /guides/how-to-handle-a-failed-inspection-before-shipment — How to handle a failed inspection before shipment
 - /guides/how-to-plan-production-around-chinese-new-year-shutdown — How to plan production around Chinese New Year shutdown
@@ -120,12 +121,13 @@
 - /guides/us-eu-and-jp-voltage-and-plug-differences-for-ambient-lighting — US EU and JP voltage and plug differences for ambient lighting
 - /guides/vibration-massage-vs-heat-compression-which-sells-better — Vibration massage vs heat compression which sells better
 - /guides/wellness-device-marketing-claims-what-us-brands-can-say — Wellness Device Marketing Claims and FDA: What You Can Say
+- /guides/what-a-tooling-amortization-clause-should-say — What a tooling amortization clause should say
 - /guides/where-scented-candles-and-aroma-products-fit-a-wellness-brand-line — Where scented candles and aroma products fit a wellness brand line
 - /guides/why-a-ul-registered-factory-is-not-the-same-as-a-ul-listed-product — Why a UL registered factory is not the same as a UL listed product
 - /guides/wired-controller-vs-app-control-for-heated-wearables — Wired controller vs app control for heated wearables
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (58 published)
+- /guides/ — procurement guide index (60 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
