@@ -19,7 +19,6 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://www.lightbdb.com/sitemap.xml
 User-agent: OAI-SearchBot
 Allow: /
 
@@ -34,4 +33,8 @@ Allow: /
 
 User-agent: Applebot-Extended
 Allow: /
+
+# `sitemap` 是组无关（group-independent）指令，位置不影响 Google 读取。
+# 单独置于文件末尾，只为可读性与兼容更严格的第三方解析器。
+Sitemap: https://www.lightbdb.com/sitemap.xml
 
