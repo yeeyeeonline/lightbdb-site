@@ -418,5 +418,19 @@
     "date": "2026-10-01",
     "kind": "horizontal",
     "url": "/guides/how-component-purchase-minimums-set-your-moq-floor"
+  },
+  {
+    "slug": "why-a-mixed-colour-order-can-hit-moq-at-lower-commitment",
+    "title": "Why a mixed colour order can hit MOQ at lower commitment",
+    "date": "2026-10-02",
+    "kind": "horizontal",
+    "url": "/guides/why-a-mixed-colour-order-can-hit-moq-at-lower-commitment"
+  },
+  {
+    "slug": "what-a-proforma-invoice-must-contain-before-you-pay",
+    "title": "What a proforma invoice must contain before you pay",
+    "date": "2026-10-02",
+    "kind": "horizontal",
+    "url": "/guides/what-a-proforma-invoice-must-contain-before-you-pay"
   }
 ]
