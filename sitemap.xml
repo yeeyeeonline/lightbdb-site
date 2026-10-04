@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.lightbdb.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://www.lightbdb.com/product-platforms</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.lightbdb.com/design-services</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.lightbdb.com/brand-co-creation</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.lightbdb.com/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.lightbdb.com/contact</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.lightbdb.com/rfq</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.lightbdb.com/case-studies</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.lightbdb.com/facilities</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.lightbdb.com/faq</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.lightbdb.com/heating-vs-nir</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.lightbdb.com/moq-guide</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.lightbdb.com/vetting-oem</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.lightbdb.com/</loc><lastmod>2026-09-29</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.lightbdb.com/product-platforms</loc><lastmod>2026-10-01</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.lightbdb.com/design-services</loc><lastmod>2026-09-29</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.lightbdb.com/brand-co-creation</loc><lastmod>2026-09-29</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.lightbdb.com/about</loc><lastmod>2026-09-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.lightbdb.com/contact</loc><lastmod>2026-09-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.lightbdb.com/rfq</loc><lastmod>2026-09-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.lightbdb.com/case-studies</loc><lastmod>2026-09-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.lightbdb.com/facilities</loc><lastmod>2026-09-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.lightbdb.com/faq</loc><lastmod>2026-09-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.lightbdb.com/heating-vs-nir</loc><lastmod>2026-09-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.lightbdb.com/moq-guide</loc><lastmod>2026-09-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.lightbdb.com/vetting-oem</loc><lastmod>2026-09-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.lightbdb.com/guides/light-therapy-lamp-oem-manufacturer-guide</loc><lastmod>2026-09-02</lastmod></url>
   <url><loc>https://www.lightbdb.com/guides/</loc><lastmod>2026-09-02</lastmod></url>
   <url><loc>https://www.lightbdb.com/guides/how-to-vet-a-chinese-oem-for-wellness-devices</loc><lastmod>2026-09-02</lastmod></url>
@@ -96,4 +96,8 @@
   <url><loc>https://www.lightbdb.com/guides/how-component-purchase-minimums-set-your-moq-floor</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://www.lightbdb.com/guides/why-a-mixed-colour-order-can-hit-moq-at-lower-commitment</loc><lastmod>2026-10-02</lastmod></url>
   <url><loc>https://www.lightbdb.com/guides/what-a-proforma-invoice-must-contain-before-you-pay</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>https://www.lightbdb.com/guides/how-to-compare-two-quotes-that-use-different-incoterms</loc><lastmod>2026-10-03</lastmod></url>
+  <url><loc>https://www.lightbdb.com/guides/why-unit-price-drops-in-steps-not-smoothly</loc><lastmod>2026-10-03</lastmod></url>
+  <url><loc>https://www.lightbdb.com/guides/what-payment-milestone-structure-protects-a-first-order</loc><lastmod>2026-10-04</lastmod></url>
+  <url><loc>https://www.lightbdb.com/guides/what-tooling-ownership-options-a-buyer-can-negotiate</loc><lastmod>2026-10-04</lastmod></url>
 </urlset>

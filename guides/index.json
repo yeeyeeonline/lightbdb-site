@@ -432,5 +432,33 @@
     "date": "2026-10-02",
     "kind": "horizontal",
     "url": "/guides/what-a-proforma-invoice-must-contain-before-you-pay"
+  },
+  {
+    "slug": "how-to-compare-two-quotes-that-use-different-incoterms",
+    "title": "How to compare two quotes that use different Incoterms",
+    "date": "2026-10-03",
+    "kind": "horizontal",
+    "url": "/guides/how-to-compare-two-quotes-that-use-different-incoterms"
+  },
+  {
+    "slug": "why-unit-price-drops-in-steps-not-smoothly",
+    "title": "Why unit price drops in steps not smoothly",
+    "date": "2026-10-03",
+    "kind": "horizontal",
+    "url": "/guides/why-unit-price-drops-in-steps-not-smoothly"
+  },
+  {
+    "slug": "what-payment-milestone-structure-protects-a-first-order",
+    "title": "What payment milestone structure protects a first order",
+    "date": "2026-10-04",
+    "kind": "horizontal",
+    "url": "/guides/what-payment-milestone-structure-protects-a-first-order"
+  },
+  {
+    "slug": "what-tooling-ownership-options-a-buyer-can-negotiate",
+    "title": "What tooling ownership options a buyer can negotiate",
+    "date": "2026-10-04",
+    "kind": "horizontal",
+    "url": "/guides/what-tooling-ownership-options-a-buyer-can-negotiate"
   }
 ]
