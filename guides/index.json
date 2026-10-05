@@ -460,5 +460,19 @@
     "date": "2026-10-04",
     "kind": "horizontal",
     "url": "/guides/what-tooling-ownership-options-a-buyer-can-negotiate"
+  },
+  {
+    "slug": "which-claim-words-trigger-regulatory-review",
+    "title": "Which claim words trigger regulatory review",
+    "date": "2026-10-05",
+    "kind": "horizontal",
+    "url": "/guides/which-claim-words-trigger-regulatory-review"
+  },
+  {
+    "slug": "why-ftc-reviews-your-ads-even-when-fda-clears-your-label",
+    "title": "Why FTC reviews your ads even when FDA clears your label",
+    "date": "2026-10-05",
+    "kind": "horizontal",
+    "url": "/guides/why-ftc-reviews-your-ads-even-when-fda-clears-your-label"
   }
 ]
