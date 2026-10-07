@@ -488,5 +488,19 @@
     "date": "2026-10-06",
     "kind": "horizontal",
     "url": "/guides/what-must-appear-on-the-box-regardless-of-your-claims"
+  },
+  {
+    "slug": "does-a-ce-certificate-transfer-between-models",
+    "title": "Does a CE certificate transfer between models",
+    "date": "2026-10-07",
+    "kind": "horizontal",
+    "url": "/guides/does-a-ce-certificate-transfer-between-models"
+  },
+  {
+    "slug": "how-to-confirm-a-test-report-covers-your-exact-configuration",
+    "title": "How to confirm a test report covers your exact configuration",
+    "date": "2026-10-07",
+    "kind": "horizontal",
+    "url": "/guides/how-to-confirm-a-test-report-covers-your-exact-configuration"
   }
 ]
