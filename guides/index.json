@@ -502,5 +502,19 @@
     "date": "2026-10-07",
     "kind": "horizontal",
     "url": "/guides/how-to-confirm-a-test-report-covers-your-exact-configuration"
+  },
+  {
+    "slug": "what-a-pse-mark-means-for-the-japan-market",
+    "title": "What a PSE mark means for the Japan market",
+    "date": "2026-10-09",
+    "kind": "horizontal",
+    "url": "/guides/what-a-pse-mark-means-for-the-japan-market"
+  },
+  {
+    "slug": "what-an-amfori-bsci-audit-covers-for-eu-retail-programs",
+    "title": "What an amfori BSCI audit covers for EU retail programs",
+    "date": "2026-10-09",
+    "kind": "horizontal",
+    "url": "/guides/what-an-amfori-bsci-audit-covers-for-eu-retail-programs"
   }
 ]
