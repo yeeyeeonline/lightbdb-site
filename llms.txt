@@ -63,7 +63,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (74) — long-form buyer education, updated daily
+### Procurement guides (76) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500 unit vs 1000 unit order which unlocks better unit economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -116,6 +116,7 @@
 - /guides/rechargeable-vs-usb-powered-heated-wearables — Rechargeable vs USB powered heated wearables
 - /guides/rigid-pcb-vs-flexible-heating-circuit-in-wearable-heat-products — Rigid PCB vs flexible heating circuit in wearable heat products
 - /guides/rohs-and-reach-compliance-for-private-label-electronics — RoHS and REACH compliance for private label electronics
+- /guides/rohs-and-sony-green-partner-what-they-cover-and-since-when — RoHS and Sony Green Partner what they cover and since when
 - /guides/solid-wood-lamp-manufacturing-private-label-buyers — Solid Wood Lamp Manufacturer China: Private Label Guide
 - /guides/solid-wood-vs-abs-housing-for-ambient-lighting-products — Solid wood vs ABS housing for ambient lighting products
 - /guides/solid-wood-vs-mdf-housing-for-ambient-light-sculptures — Solid wood vs MDF housing for ambient light sculptures
@@ -129,6 +130,7 @@
 - /guides/what-a-pse-mark-means-for-the-japan-market — What a PSE mark means for the Japan market
 - /guides/what-a-tooling-amortization-clause-should-say — What a tooling amortization clause should say
 - /guides/what-an-amfori-bsci-audit-covers-for-eu-retail-programs — What an amfori BSCI audit covers for EU retail programs
+- /guides/what-iatf-automotive-heritage-means-at-a-components-plant — What IATF automotive heritage means at a components plant
 - /guides/what-must-appear-on-the-box-regardless-of-your-claims — What must appear on the box regardless of your claims
 - /guides/what-payment-milestone-structure-protects-a-first-order — What payment milestone structure protects a first order
 - /guides/what-tooling-ownership-options-a-buyer-can-negotiate — What tooling ownership options a buyer can negotiate
@@ -141,7 +143,7 @@
 - /guides/wired-controller-vs-app-control-for-heated-wearables — Wired controller vs app control for heated wearables
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (74 published)
+- /guides/ — procurement guide index (76 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
