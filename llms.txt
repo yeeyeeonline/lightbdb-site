@@ -11,7 +11,7 @@
 - Locations: Production footprint — Panyu (Guangzhou, China), Shenzhen (China), Yangon (Myanmar); design capability — Hangzhou (China), Hamburg (Germany)
 - Values: Cultural Essence (文化精髓) · Happiness through Technology (科技幸福) · Holistic Health (全面健康)
 - Quality system: ISO 9001 (quality) and ISO 14001 (environmental); amfori BSCI social-compliance audit; UL-certified plant; IATF (automotive) heritage; Sony Green Partner environmental; RoHS compliant since 2003; RoHS-compliant and Sony Green Partner environmental standards since 2003; products carry CE / ROHS / FCC / PSE / UL per model and market
-- OEM/ODM terms: MOQ tiered — Lite 100-499 units (sampling and limited drops), Slim 500-999 units (most popular for first production runs), Pro 1,000+ units (best unit cost and full customization); every catalog platform starts at 100 units, so Lite is the entry tier for both Light & Mood and Body care platforms; sampling in 7-14 days (sample fee charged at standard rates, waived for first-time cooperation with courier cost paid by the buyer); proposal with 3D rendering and quotation within 48 hours; payment T/T 30/70 and L/C accepted; default Incoterm FOB Shenzhen; 500-day warranty against manufacturing defects
+- OEM/ODM terms: MOQ is tiered by platform: Light & Mood platforms from 100 pcs (standard) · 300 pcs (white-label) · 500–1,000 pcs (ODM custom); Body care platforms from 500 pcs (standard) · 1,000 pcs (white-label) · 2,000–3,000 pcs (ODM custom); sampling in 7-14 days (sample fee charged at standard rates, waived for first-time cooperation with courier cost paid by the buyer); proposal with 3D rendering and quotation within 48 hours; payment T/T 30/70 and L/C accepted; default Incoterm FOB Shenzhen; 500-day warranty against manufacturing defects
 - Engineering: 20+ R&D engineers; 12+ years of manufacturing experience
 - Design capability: core strategic partnership with Bole Design — 20 years of design consulting, 500+ design awards, national industrial design center, Hangzhou & Hamburg; Bole Design is an independent partner credited on its cases
 - Contact: simon@lightbdb.com
@@ -30,12 +30,13 @@
 - /design-services — product design & category innovation with core strategic partner Bole Design; personal-care case work, anonymously credited
 - /brand-co-creation — the 3-step co-creation journey (Choose · Customize · Deliver)
 - /about — company, three production sites (Panyu / Shenzhen / Yangon) and design capability (Hangzhou / Hamburg)
+- /founder — the founder page: Yimeng Shao (Simon Shao), former GM of the Panyu plant, named inventor on US design patent D1,024,003 S; a bridge between Eastern making and Western brands (EN + 中文)
 - /contact — inquiry form and contact details
 - /rfq — request for quotation form
 - /case-studies — verifiable OEM/ODM case studies: Tree of Light global-retail case with public evidence (US design patent D1,024,003, Indiegogo campaign, TechAcute / Australian Giftguide / Shanghai Youth Daily / Jiemian News / Ifeng press), anonymized US heated-wellness line, design-first ODM with Bole Design
 - /facilities — production footprint (Panyu / Shenzhen / Yangon) and certifications (ISO 9001, ISO 14001, BSCI, UL, CE/ROHS/FCC/PSE)
 - /heating-vs-nir — comparison: heating pad vs NIR therapy device for OEM buyers (mechanism, channels, compliance)
-- /moq-guide — why wellness-device MOQ is 500 pcs, the five fixed costs behind it, what is negotiable
+- /moq-guide — MOQ explained: 100–500 units by platform, the five fixed costs behind the minimum, and what is negotiable
 - /vetting-oem — buyer's guide: how to vet a Chinese OEM for wellness devices (7-step checklist, certification map, common mistakes)
 - /faq — buying FAQ (MOQ, sampling, certification, payment, shipping, warranty)
 

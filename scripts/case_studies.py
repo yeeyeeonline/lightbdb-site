@@ -12,6 +12,12 @@ from pathlib import Path
 
 SITE = Path(__file__).resolve().parent.parent
 
+# MOQ 权威口径(平台阶梯) —— 旧框架 "Lite/Slim/Pro" 已退役
+MOQ_FULL = ("MOQ is tiered by platform: Light & Mood platforms from 100 pcs (standard) · "
+            "300 pcs (white-label) · 500–1,000 pcs (ODM custom); Body care platforms from "
+            "500 pcs (standard) · 1,000 pcs (white-label) · 2,000–3,000 pcs (ODM custom).")
+MOQ_BODY_LINE = "MOQ 500 pcs (standard) · 1,000 pcs (white-label) · 2,000–3,000 pcs (ODM custom)"
+
 # ---------------------------------------------------------------- 案例数据（唯一需要维护的地方）
 CASES = [
     {
@@ -57,7 +63,7 @@ CASES = [
         "evidence": [
             ("Heated body-care platforms (knee, waist, eye) with per-card MOQ and sample specs",
              "/product-platforms#body-care"),
-            ("Our buying terms: MOQ Lite 100-499 / Slim 500-999 / Pro 1,000+, T/T 30/70, L/C accepted",
+            (f"Our buying terms: {MOQ_FULL} T/T 30/70, L/C accepted",
              "/moq-guide"),
         ],
         "takeaway": "Client details stay anonymous under NDA \u2014 the process, terms and timelines above are the real, citable part of the story.",
@@ -84,13 +90,13 @@ FAQS = [
     ("What is publicly verifiable in the Tree of Light case?",
      "The US design patent record (D1,024,003 S), the Indiegogo campaign page, and independent media coverage from TechAcute, Boing Boing, Australian Giftguide and Shanghai Youth Daily. Every link on this page opens a third-party source."),
     ("What did the anonymized US wellness project look like in numbers?",
-     "Platform-based OEM: sampling in about 14 days, production FOB Shenzhen within 4\u20138 weeks, MOQ per our tiered schedule (Lite 100-499 units upward), 500-day warranty. Exact unit prices are quoted per brief."),
+     "Platform-based OEM: sampling in about 14 days, production FOB Shenzhen within 4\u20138 weeks, 500-day warranty. " + MOQ_FULL + " Exact unit prices are quoted per brief."),
     ("How would a similar project start for me?",
      "Send your brief via the RFQ form \u2014 you get a shortlist of matching platforms plus a proposal with 3D rendering and indicative quotation within one business day."),
     ("Do you sign NDAs?",
      "Yes. Anonymized cases on this page are the result of NDAs; public references are used only where the record is already public."),
     ("Which case is closest to a first-time buyer with low volume?",
-     "The heated wellness case: every catalog platform starts at 100 units (Lite tier), sampling in 7\u201314 days, and the first sample fee is waived for first-time cooperation."),
+     "The heated wellness case runs on one of our heated body-care platforms: " + MOQ_BODY_LINE + ". Sampling is 7\u201314 days, and the first sample fee is waived for first-time cooperation."),
 ]
 
 # ---------------------------------------------------------------- 页面模板
@@ -184,7 +190,7 @@ def build_page():
     <ul>
       <li><b>Public evidence:</b> the Tree of Light case is backed by a US design patent, an Indiegogo campaign and independent press (TechAcute, Australian Giftguide, Shanghai Youth Daily, Jiemian News, Ifeng) \u2014 every link opens a third-party source.</li>
       <li><b>Confidential cases:</b> anonymized under NDA; terms, timelines and MOQ tiers on this page are real.</li>
-      <li><b>Starting point:</b> every catalog platform starts at 100 units; sampling in 7\u201314 days; proposal with 3D rendering and quotation within 48 hours.</li>
+      <li><b>Starting point:</b> {MOQ_FULL} Sampling in 7\u201314 days; proposal with 3D rendering and quotation within 48 hours.</li>
     </ul>
   </div>
 
