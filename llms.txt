@@ -64,58 +64,58 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (76) — long-form buyer education, updated daily
+### Procurement guides (78) — long-form buyer education, updated daily
 
-- /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500 unit vs 1000 unit order which unlocks better unit economics
+- /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
 - /guides/air-freight-vs-sea-freight-for-heated-wellness-products — Air freight vs sea freight for heated wellness products
-- /guides/air-pressure-vs-vibration-for-eye-massagers-which-buyers-reorder — Air pressure vs vibration for eye massagers which buyers reorder
-- /guides/air-pressure-vs-vibration-vs-heat-which-body-care-module-to-launch-first — Air pressure vs vibration vs heat which body care module to launch first
-- /guides/amazon-fba-vs-direct-to-retail-which-needs-more-compliance-work — Amazon FBA vs direct to retail which needs more compliance work
-- /guides/aroma-diffuser-vs-candle-warmer-lamp-which-has-better-margins — Aroma diffuser vs candle warmer lamp which has better margins
-- /guides/bundling-strategies-that-raise-average-order-value-for-wellness-brands — Bundling strategies that raise average order value for wellness brands
+- /guides/air-pressure-vs-vibration-for-eye-massagers-which-buyers-reorder — Air Pressure vs Vibration Eye Massagers
+- /guides/air-pressure-vs-vibration-vs-heat-which-body-care-module-to-launch-first — Air Pressure vs Vibration vs Heat Modules
+- /guides/amazon-fba-vs-direct-to-retail-which-needs-more-compliance-work — Amazon FBA vs Direct to Retail Compliance
+- /guides/aroma-diffuser-vs-candle-warmer-lamp-which-has-better-margins — Aroma Diffuser vs Candle Warmer Lamp Margins
+- /guides/bundling-strategies-that-raise-average-order-value-for-wellness-brands — Bundling Strategies That Lift Average Order Value
 - /guides/consolidating-skus-to-cut-per-unit-freight-cost — Consolidating SKUs to cut per unit freight cost
 - /guides/cordless-knee-massager-wrap-oem-manufacturer-guide — Cordless knee massager wrap OEM manufacturer guide
 - /guides/cordless-vs-plug-in-heated-wraps-what-buyers-prefer — Cordless vs plug in heated wraps what buyers prefer
-- /guides/country-of-origin-labeling-rules-for-imported-consumer-devices — Country of origin labeling rules for imported consumer devices
+- /guides/country-of-origin-labeling-rules-for-imported-consumer-devices — Country of Origin Labeling Rules for Imports
 - /guides/does-a-ce-certificate-transfer-between-models — Does a CE certificate transfer between models
 - /guides/dual-sourcing-a-single-sku-when-it-is-worth-the-complexity — Dual sourcing a single SKU when it is worth the complexity
 - /guides/eye-massager-with-heat-oem-manufacturer-guide — Eye massager with heat OEM manufacturer guide
-- /guides/fabric-wrap-vs-neoprene-wrap-for-heated-knee-products — Fabric Wrap vs Neoprene Wrap for Heated Knee Products: What Private Label Brands Should Source
-- /guides/fcc-marking-for-light-and-sound-devices-what-buyers-must-confirm — FCC marking for light and sound devices what buyers must confirm
-- /guides/graphene-fir-vs-carbon-fiber-heating-element-which-lasts-longer — Graphene FIR vs carbon fiber heating element which lasts longer
-- /guides/graphene-heating-vs-traditional-wire-heating-which-to-specify — Graphene heating vs traditional wire heating which to specify
-- /guides/heat-therapy-vs-red-light-therapy-which-category-fits-your-brand — Heat therapy vs red light therapy which category fits your brand
+- /guides/fabric-wrap-vs-neoprene-wrap-for-heated-knee-products — Fabric vs Neoprene Wrap for Heated Knee Products
+- /guides/fcc-marking-for-light-and-sound-devices-what-buyers-must-confirm — FCC Marking for Light and Sound Devices
+- /guides/graphene-fir-vs-carbon-fiber-heating-element-which-lasts-longer — Graphene FIR vs Carbon Fiber Heating Elements
+- /guides/graphene-heating-vs-traditional-wire-heating-which-to-specify — Graphene Heating vs Traditional Wire Heating
+- /guides/heat-therapy-vs-red-light-therapy-which-category-fits-your-brand — Heat Therapy vs Red Light Therapy for Your Brand
 - /guides/heated-abdominal-belt-oem-manufacturer-guide — Heated abdominal belt OEM manufacturer guide
 - /guides/heated-eye-massager-oem-manufacturer-guide — Heated eye massager OEM manufacturer guide
-- /guides/heated-eye-massager-vs-eye-massager-with-heat-which-sku-to-launch — Heated eye massager vs eye massager with heat which SKU to launch
+- /guides/heated-eye-massager-vs-eye-massager-with-heat-which-sku-to-launch — Heated Eye Massager vs Eye Massager with Heat
 - /guides/heated-hand-warmer-oem-manufacturer-guide — Heated hand warmer OEM manufacturer guide
-- /guides/heated-massager-safety-what-certifications-buyers-actually-ask-for — Heated massager safety what certifications buyers actually ask for
+- /guides/heated-massager-safety-what-certifications-buyers-actually-ask-for — Heated Massager Safety: Certifications Buyers Ask
 - /guides/heated-scarf-oem-manufacturer-guide — Heated scarf OEM manufacturer guide
 - /guides/heated-waist-and-back-belt-oem-manufacturer-guide — Heated waist and back belt OEM manufacturer guide
 - /guides/how-component-purchase-minimums-set-your-moq-floor — How component purchase minimums set your MOQ floor
-- /guides/how-to-build-a-coherent-first-product-line-instead-of-one-off-skus — How to build a coherent first product line instead of one off SKUs
+- /guides/how-to-build-a-coherent-first-product-line-instead-of-one-off-skus — How to Build a Coherent First Product Line
 - /guides/how-to-compare-two-quotes-that-use-different-incoterms — How to compare two quotes that use different Incoterms
 - /guides/how-to-confirm-a-test-report-covers-your-exact-configuration — How to confirm a test report covers your exact configuration
 - /guides/how-to-handle-a-failed-inspection-before-shipment — How to handle a failed inspection before shipment
 - /guides/how-to-plan-production-around-chinese-new-year-shutdown — How to plan production around Chinese New Year shutdown
-- /guides/how-to-read-a-test-report-and-confirm-it-actually-covers-your-sku — How to read a test report and confirm it actually covers your SKU
+- /guides/how-to-read-a-test-report-and-confirm-it-actually-covers-your-sku — Reading a Test Report: Does It Cover Your SKU?
 - /guides/how-to-vet-a-chinese-oem-for-wellness-devices — How to vet a Chinese OEM for wellness devices
 - /guides/how-to-vet-a-heated-massager-manufacturer-in-china — Heated Massager Manufacturer in China: How to Vet One
-- /guides/in-house-tooling-vs-contract-molding-for-a-first-product-launch — In-house tooling vs contract molding for a first product launch
+- /guides/in-house-tooling-vs-contract-molding-for-a-first-product-launch — In-House Tooling vs Contract Molding
 - /guides/is-iso-9001-enough-to-sell-a-heated-massager-in-the-us — Is ISO 9001 enough to sell a heated massager in the US
 - /guides/light-and-sound-objects-why-retailers-keep-adding-them — Light and sound objects why retailers keep adding them
 - /guides/light-therapy-lamp-oem-manufacturer-guide — Light therapy lamp OEM manufacturer guide
-- /guides/multi-plant-production-and-supply-resilience-for-private-label-brands — Multi plant production and supply resilience for private label brands
+- /guides/multi-plant-production-and-supply-resilience-for-private-label-brands — Multi-Plant Production and Supply Resilience
 - /guides/nir-vs-red-light-vs-full-spectrum-what-to-put-on-the-box — NIR vs red light vs full spectrum what to put on the box
-- /guides/odm-existing-platform-vs-full-custom-development-timeline-compared — ODM existing platform vs full custom development timeline compared
+- /guides/odm-existing-platform-vs-full-custom-development-timeline-compared — ODM Platform vs Full Custom Development Timelines
 - /guides/one-color-vs-custom-colorway-minimums-for-private-label — One color vs custom colorway minimums for private label
-- /guides/private-label-vs-white-label-which-is-right-for-a-wellness-brand — Private label vs white label which is right for a wellness brand
+- /guides/private-label-vs-white-label-which-is-right-for-a-wellness-brand — Private Label vs White Label for a Wellness Brand
 - /guides/private-mold-vs-open-mold-which-is-worth-the-tooling — Private mold vs open mold which is worth the tooling
 - /guides/prop-65-labeling-for-products-sold-in-california — Prop 65 labeling for products sold in California
 - /guides/rechargeable-battery-vs-plug-in-for-ambient-lamps — Rechargeable battery vs plug in for ambient lamps
 - /guides/rechargeable-vs-usb-powered-heated-wearables — Rechargeable vs USB powered heated wearables
-- /guides/rigid-pcb-vs-flexible-heating-circuit-in-wearable-heat-products — Rigid PCB vs flexible heating circuit in wearable heat products
+- /guides/rigid-pcb-vs-flexible-heating-circuit-in-wearable-heat-products — Rigid PCB vs Flexible Heating in Wearables
 - /guides/rohs-and-reach-compliance-for-private-label-electronics — RoHS and REACH compliance for private label electronics
 - /guides/rohs-and-sony-green-partner-what-they-cover-and-since-when — RoHS and Sony Green Partner what they cover and since when
 - /guides/solid-wood-lamp-manufacturing-private-label-buyers — Solid Wood Lamp Manufacturer China: Private Label Guide
@@ -123,28 +123,30 @@
 - /guides/solid-wood-vs-mdf-housing-for-ambient-light-sculptures — Solid wood vs MDF housing for ambient light sculptures
 - /guides/standard-packaging-vs-retail-ready-packaging-cost-and-moq — Standard packaging vs retail ready packaging cost and MOQ
 - /guides/sunrise-alarm-clock-oem-manufacturer-guide — Sunrise alarm clock OEM manufacturer guide
-- /guides/sunrise-alarm-clock-vs-light-therapy-lamp-what-buyers-confuse — Sunrise Alarm Clock vs Light Therapy Lamp: What Buyers Confuse
-- /guides/us-eu-and-jp-voltage-and-plug-differences-for-ambient-lighting — US EU and JP voltage and plug differences for ambient lighting
+- /guides/sunrise-alarm-clock-vs-light-therapy-lamp-what-buyers-confuse — Sunrise Alarm Clock vs Light Therapy Lamp
+- /guides/us-eu-and-jp-voltage-and-plug-differences-for-ambient-lighting — US, EU and JP Voltage and Plug Differences
 - /guides/vibration-massage-vs-heat-compression-which-sells-better — Vibration massage vs heat compression which sells better
 - /guides/wellness-device-marketing-claims-what-us-brands-can-say — Wellness Device Marketing Claims and FDA: What You Can Say
 - /guides/what-a-proforma-invoice-must-contain-before-you-pay — What a proforma invoice must contain before you pay
 - /guides/what-a-pse-mark-means-for-the-japan-market — What a PSE mark means for the Japan market
 - /guides/what-a-tooling-amortization-clause-should-say — What a tooling amortization clause should say
 - /guides/what-an-amfori-bsci-audit-covers-for-eu-retail-programs — What an amfori BSCI audit covers for EU retail programs
+- /guides/what-general-wellness-lets-you-say-about-sleep-and-relaxation — What general wellness lets you say about sleep and relaxation
 - /guides/what-iatf-automotive-heritage-means-at-a-components-plant — What IATF automotive heritage means at a components plant
 - /guides/what-must-appear-on-the-box-regardless-of-your-claims — What must appear on the box regardless of your claims
 - /guides/what-payment-milestone-structure-protects-a-first-order — What payment milestone structure protects a first order
 - /guides/what-tooling-ownership-options-a-buyer-can-negotiate — What tooling ownership options a buyer can negotiate
-- /guides/where-scented-candles-and-aroma-products-fit-a-wellness-brand-line — Where scented candles and aroma products fit a wellness brand line
+- /guides/where-scented-candles-and-aroma-products-fit-a-wellness-brand-line — Where Candles and Aroma Products Fit a Brand Line
 - /guides/which-claim-words-trigger-regulatory-review — Which claim words trigger regulatory review
 - /guides/why-a-mixed-colour-order-can-hit-moq-at-lower-commitment — Why a mixed colour order can hit MOQ at lower commitment
-- /guides/why-a-ul-registered-factory-is-not-the-same-as-a-ul-listed-product — Why a UL registered factory is not the same as a UL listed product
+- /guides/why-a-product-name-can-itself-be-a-claim — Why a product name can itself be a claim
+- /guides/why-a-ul-registered-factory-is-not-the-same-as-a-ul-listed-product — UL Registered Factory vs UL Listed Product
 - /guides/why-ftc-reviews-your-ads-even-when-fda-clears-your-label — Why FTC reviews your ads even when FDA clears your label
 - /guides/why-unit-price-drops-in-steps-not-smoothly — Why unit price drops in steps not smoothly
 - /guides/wired-controller-vs-app-control-for-heated-wearables — Wired controller vs app control for heated wearables
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (76 published)
+- /guides/ — procurement guide index (78 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
