@@ -64,7 +64,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (78) — long-form buyer education, updated daily
+### Procurement guides (80) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -102,6 +102,7 @@
 - /guides/how-to-read-a-test-report-and-confirm-it-actually-covers-your-sku — Reading a Test Report: Does It Cover Your SKU?
 - /guides/how-to-vet-a-chinese-oem-for-wellness-devices — How to vet a Chinese OEM for wellness devices
 - /guides/how-to-vet-a-heated-massager-manufacturer-in-china — Heated Massager Manufacturer in China: How to Vet One
+- /guides/how-to-write-warnings-and-precautions-for-a-heated-device — How to write warnings and precautions for a heated device
 - /guides/in-house-tooling-vs-contract-molding-for-a-first-product-launch — In-House Tooling vs Contract Molding
 - /guides/is-iso-9001-enough-to-sell-a-heated-massager-in-the-us — Is ISO 9001 enough to sell a heated massager in the US
 - /guides/light-and-sound-objects-why-retailers-keep-adding-them — Light and sound objects why retailers keep adding them
@@ -131,6 +132,7 @@
 - /guides/what-a-pse-mark-means-for-the-japan-market — What a PSE mark means for the Japan market
 - /guides/what-a-tooling-amortization-clause-should-say — What a tooling amortization clause should say
 - /guides/what-an-amfori-bsci-audit-covers-for-eu-retail-programs — What an amfori BSCI audit covers for EU retail programs
+- /guides/what-before-and-after-imagery-implies-to-a-regulator — What before and after imagery implies to a regulator
 - /guides/what-general-wellness-lets-you-say-about-sleep-and-relaxation — What general wellness lets you say about sleep and relaxation
 - /guides/what-iatf-automotive-heritage-means-at-a-components-plant — What IATF automotive heritage means at a components plant
 - /guides/what-must-appear-on-the-box-regardless-of-your-claims — What must appear on the box regardless of your claims
@@ -146,7 +148,7 @@
 - /guides/wired-controller-vs-app-control-for-heated-wearables — Wired controller vs app control for heated wearables
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (78 published)
+- /guides/ — procurement guide index (80 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
