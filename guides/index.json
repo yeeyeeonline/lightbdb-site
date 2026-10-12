@@ -544,5 +544,19 @@
     "date": "2026-10-11",
     "kind": "horizontal",
     "url": "/guides/why-a-product-name-can-itself-be-a-claim"
+  },
+  {
+    "slug": "what-before-and-after-imagery-implies-to-a-regulator",
+    "title": "What before and after imagery implies to a regulator",
+    "date": "2026-10-12",
+    "kind": "horizontal",
+    "url": "/guides/what-before-and-after-imagery-implies-to-a-regulator"
+  },
+  {
+    "slug": "how-to-write-warnings-and-precautions-for-a-heated-device",
+    "title": "How to write warnings and precautions for a heated device",
+    "date": "2026-10-12",
+    "kind": "horizontal",
+    "url": "/guides/how-to-write-warnings-and-precautions-for-a-heated-device"
   }
 ]
