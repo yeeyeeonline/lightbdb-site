@@ -558,5 +558,19 @@
     "date": "2026-10-12",
     "kind": "horizontal",
     "url": "/guides/how-to-write-warnings-and-precautions-for-a-heated-device"
+  },
+  {
+    "slug": "why-clinically-tested-is-riskier-than-it-sounds",
+    "title": "Why clinically tested is riskier than it sounds",
+    "date": "2026-10-13",
+    "kind": "horizontal",
+    "url": "/guides/why-clinically-tested-is-riskier-than-it-sounds"
+  },
+  {
+    "slug": "what-a-declaration-of-conformity-must-list",
+    "title": "What a Declaration of Conformity must list",
+    "date": "2026-10-13",
+    "kind": "horizontal",
+    "url": "/guides/what-a-declaration-of-conformity-must-list"
   }
 ]
