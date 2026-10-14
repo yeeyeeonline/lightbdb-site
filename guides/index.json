@@ -572,5 +572,19 @@
     "date": "2026-10-13",
     "kind": "horizontal",
     "url": "/guides/what-a-declaration-of-conformity-must-list"
+  },
+  {
+    "slug": "what-a-technical-file-should-contain-for-a-private-label-sku",
+    "title": "What a technical file should contain for a private label SKU",
+    "date": "2026-10-14",
+    "kind": "horizontal",
+    "url": "/guides/what-a-technical-file-should-contain-for-a-private-label-sku"
+  },
+  {
+    "slug": "which-market-decides-which-safety-standard-applies",
+    "title": "Which market decides which safety standard applies",
+    "date": "2026-10-14",
+    "kind": "horizontal",
+    "url": "/guides/which-market-decides-which-safety-standard-applies"
   }
 ]
