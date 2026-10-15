@@ -64,7 +64,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (84) — long-form buyer education, updated daily
+### Procurement guides (86) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -94,6 +94,7 @@
 - /guides/heated-scarf-oem-manufacturer-guide — Heated scarf OEM manufacturer guide
 - /guides/heated-waist-and-back-belt-oem-manufacturer-guide — Heated waist and back belt OEM manufacturer guide
 - /guides/how-component-purchase-minimums-set-your-moq-floor — How component purchase minimums set your MOQ floor
+- /guides/how-many-heat-levels-does-a-wearable-actually-need — How many heat levels does a wearable actually need
 - /guides/how-to-build-a-coherent-first-product-line-instead-of-one-off-skus — How to Build a Coherent First Product Line
 - /guides/how-to-compare-two-quotes-that-use-different-incoterms — How to compare two quotes that use different Incoterms
 - /guides/how-to-confirm-a-test-report-covers-your-exact-configuration — How to confirm a test report covers your exact configuration
@@ -146,13 +147,14 @@
 - /guides/why-a-mixed-colour-order-can-hit-moq-at-lower-commitment — Why a mixed colour order can hit MOQ at lower commitment
 - /guides/why-a-product-name-can-itself-be-a-claim — Why a product name can itself be a claim
 - /guides/why-a-ul-registered-factory-is-not-the-same-as-a-ul-listed-product — UL Registered Factory vs UL Listed Product
+- /guides/why-auto-off-and-timer-behaviour-is-a-spec-not-a-feature — Why auto-off and timer behaviour is a spec not a feature
 - /guides/why-clinically-tested-is-riskier-than-it-sounds — Why clinically tested is riskier than it sounds
 - /guides/why-ftc-reviews-your-ads-even-when-fda-clears-your-label — Why FTC reviews your ads even when FDA clears your label
 - /guides/why-unit-price-drops-in-steps-not-smoothly — Why unit price drops in steps not smoothly
 - /guides/wired-controller-vs-app-control-for-heated-wearables — Wired controller vs app control for heated wearables
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (84 published)
+- /guides/ — procurement guide index (86 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
