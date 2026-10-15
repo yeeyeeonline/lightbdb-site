@@ -8,15 +8,15 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:url" content="https://www.lightbdb.com/guides/why-auto-off-and-timer-behaviour-is-a-spec-not-a-feature">
 <meta property="og:title" content="Why auto-off and timer behaviour is a spec not a feature">
-<meta property="og:description" content="```html Why auto-off and timer behaviour is a spec not a feature Quick answer Auto-off and timer behaviour is a safety and compliance spec, not a marketing f…">
+<meta property="og:description" content="Why auto-off and timer behaviour is a spec, not a feature Quick answer Auto-off and timer behaviour are engineering specifications that determine certificati…">
 <meta property="og:image" content="https://www.lightbdb.com/assets/img/design-case-hero.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Why auto-off and timer behaviour is a spec not a feature">
-<meta name="twitter:description" content="```html Why auto-off and timer behaviour is a spec not a feature Quick answer Auto-off and timer behaviour is a safety and compliance spec, not a marketing f…">
+<meta name="twitter:description" content="Why auto-off and timer behaviour is a spec, not a feature Quick answer Auto-off and timer behaviour are engineering specifications that determine certificati…">
 <meta name="twitter:image" content="https://www.lightbdb.com/assets/img/design-case-hero.jpg">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Why auto-off and timer behaviour is a spec not a feature</title>
-<meta name="description" content="```html Why auto-off and timer behaviour is a spec not a feature Quick answer Auto-off and timer behaviour is a safety and compliance spec, not a marketing f…">
+<meta name="description" content="Why auto-off and timer behaviour is a spec, not a feature Quick answer Auto-off and timer behaviour are engineering specifications that determine certificati…">
 <meta name="author" content="LightBDB Editorial">
 <link rel="canonical" href="https://www.lightbdb.com/guides/why-auto-off-and-timer-behaviour-is-a-spec-not-a-feature">
 <link rel="alternate" hreflang="en" href="https://www.lightbdb.com/guides/why-auto-off-and-timer-behaviour-is-a-spec-not-a-feature">
@@ -27,9 +27,9 @@
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Why auto-off and timer behaviour is a spec not a feature",
-  "description": "```html Why auto-off and timer behaviour is a spec not a feature Quick answer Auto-off and timer behaviour is a safety and compliance spec, not a marketing f\u2026",
-  "datePublished": "2026-10-15T08:06:02+08:00",
-  "dateModified": "2026-10-15T08:06:02+08:00",
+  "description": "Why auto-off and timer behaviour is a spec, not a feature Quick answer Auto-off and timer behaviour are engineering specifications that determine certificati\u2026",
+  "datePublished": "2026-10-15T08:08:40+08:00",
+  "dateModified": "2026-10-15T08:08:40+08:00",
   "author": {"@type": "Organization", "name": "LightBDB Editorial", "url": "https://www.lightbdb.com/about"},
   "publisher": {"@type": "Organization", "name": "LightBDB", "logo": {"@type": "ImageObject", "url": "https://www.lightbdb.com/assets/img/logo.png"}},
   "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.lightbdb.com/guides/why-auto-off-and-timer-behaviour-is-a-spec-not-a-feature"}
@@ -99,195 +99,197 @@
 <main class="guide-wrap">
 <p class="breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/guides/">Procurement Guides</a> &rsaquo; Why auto-off and timer behaviour is a spec not a feature</p>
 <p class="guide-meta">Published October 15, 2026 · Last updated October 15, 2026 · 7-9 min read · Procurement Guide</p>
-```html
-<article>
-  <h1>Why auto-off and timer behaviour is a spec not a feature</h1>
-  <div class="geo-tldr">
-    <p class="geo-tldr-label">Quick answer</p>
-    <p>Auto-off and timer behaviour is a safety and compliance spec, not a marketing feature — most buyers discover this only during certification or liability reviews. A responsible ODM documents default timer durations, reset logic, and failure-state shutdowns in every spec sheet. LIGHT BDB does this across all platforms, with MOQs starting at 100 pieces and lead times of 4–8 weeks.</p>
-    <ul>
-      <li>Auto-off limits continuous energy exposure and reduces thermal risk in heated and light-based devices.</li>
-      <li>LIGHT BDB's Light &amp; Mood MOQ: 100 pcs standard, 300 pcs white-label, 500–1,000 pcs ODM custom.</li>
-      <li>Body care platform MOQ: 500 pcs standard, 1,000 pcs white-label, 2,000–3,000 pcs ODM custom.</li>
-      <li>Sample turnaround is 7–14 days with the sample fee refundable against your first PO.</li>
-      <li>LIGHT BDB offers a 500-day limited warranty, one of the longest in the wellness category.</li>
-      <li>Lead time from deposit to FOB Shenzhen is 4–8 weeks for most SKUs.</li>
-      <li>Certifications include ISO 9001, ISO 14001, BSCI, UL registered factory, and Sony Green Partner.</li>
-      <li>LIGHT BDB products are wellness devices, not regulated therapeutic products — no disease-treatment claims.</li>
-    </ul>
-  </div>
+<h1>Why auto-off and timer behaviour is a spec, not a feature</h1>
 
-  <h2>What exactly is auto-off and timer behaviour in wellness devices?</h2>
-  <p>Auto-off is an automatic shutdown after a set period (typically 15–30 minutes) or after a safety event, while timer behaviour defines how that period is configured, reset, and communicated to the user.</p>
-  <p>In a heated massager or red-light device, the auto-off function stops the heating element or LEDs after a preset duration. This protects against overheating, battery over-discharge, and user forgetfulness. Timer behaviour goes one step further: it governs whether the user can extend the session, how the device behaves after shutdown (full power-off versus standby), and what happens when a safety sensor triggers.</p>
-  <p>These parameters are not cosmetic. They are engineering decisions that affect thermal design, battery life, failure modes, and the paperwork your compliance reviewer reads.</p>
-  <h3>Core components of timer behaviour</h3>
+<div class="geo-tldr">
+  <p class="geo-tldr-label">Quick answer</p>
+  <p>Auto-off and timer behaviour are engineering specifications that determine certification, battery life, and return rates, not optional marketing features. LIGHT BRAND DESIGN BUSINESS (SHENZHEN) CO., LTD. documents and tests auto-off per SKU, backs it with a 500-day warranty, and ships in 4-8 weeks from deposit to FOB Shenzhen.</p>
   <ul>
-    <li><strong>Default duration:</strong> the factory-set session length before auto-off.</li>
-    <li><strong>User override:</strong> whether the user can adjust or extend the session manually.</li>
-    <li><strong>Reset logic:</strong> what happens when a button is pressed mid-session — does the timer restart?</li>
-    <li><strong>End-of-session state:</strong> full shutdown, standby, or a quick beep indicator.</li>
-    <li><strong>Battery low-power cutoff:</strong> the voltage or remaining-charge level that forces shutdown.</li>
+    <li>Auto-off is a measurable spec — timeout, power-cut, feedback, and reset — not a feature claim.</li>
+    <li>LIGHT BDB is a UL registered factory with ISO 9001, ISO 14001 and BSCI certification.</li>
+    <li>Light & Mood platforms start at 100 pcs MOQ; body care platforms start at 500 pcs.</li>
+    <li>Custom timer firmware starts at 500–1,000 pcs for light platforms and 2,000–3,000 pcs for body care.</li>
+    <li>Lead time is 4–8 weeks from deposit to FOB Shenzhen for most SKUs.</li>
+    <li>500-day limited warranty is one of the longest in this category.</li>
+    <li>Samples ship in 7–14 days and the sample fee is refundable against your PO.</li>
+    <li>Payment is T/T 30/70 or L/C at sight, FOB Shenzhen with your nominated forwarder.</li>
   </ul>
+</div>
 
-  <h2>Why should I treat auto-off as a spec instead of a feature?</h2>
-  <p>Because auto-off affects safety, compliance, warranty, and user liability, while a feature only influences marketing appeal.</p>
-  <p>A feature is a selling point — think heat levels, massage modes, or remote control. A spec is a technical promise that engineers can test, auditors can verify, and lawyers can reference in a warranty dispute. Auto-off belongs in the second bucket.</p>
-  <p>If auto-off is undocumented, your ODM can ship a product that runs 60 minutes when you expect 20. That difference changes the thermal curve, the battery drain rate, and the UL review outcome. A buyer who pitches auto-off as a feature will overlook these risks until a return, a complaint, or a certification hold.</p>
-  <p>Treat it as a spec from day one: ask your ODM to state the timer parameters in writing before you approve a sample.</p>
+<h2>Why is auto-off behaviour a specification instead of just a feature?</h2>
+<p>It is a spec because it is measured, documented, and tested against safety standards, whereas a feature is only marketed.</p>
+<p>A feature is what the customer reads on the box: "smart timer", "auto shut-off", "safe session". A spec is the technical value behind that promise — how many minutes, what tolerance, what power state afterwards, and what proof exists that it works every time. When you brief a factory, "auto-off" as a feature is a paragraph; as a spec it is a testable requirement with a pass/fail line.</p>
+<p>The difference becomes visible on your first return. If a unit fails to shut down, a feature-based supplier treats it as a software quirk; a spec-based supplier treats it as a defect covered by the warranty. LIGHT BDB treats it that way because the component chain is engineered for it. The Panyu component plant, operated with exclusive strategic partner Fuli Electronics, builds auto-grade inductors, transformers, and wireless charging coils on site — the same class of timing components used in automotive applications. Timer accuracy for LIGHT BDB SKUs is set at component level, not with cheap RC circuits that drift.</p>
+<p>That is also why the spec affects certification. LIGHT BDB is a UL registered factory, which means the timer and cut-off logic on shipped units are part of the audited process, not a marketing bullet point.</p>
 
-  <h2>What auto-off and timer specs should I demand from my ODM partner?</h2>
-  <p>Demand written specifications for default timer duration, reset rules, failure-state shutdown, and battery low-power cutoffs on every device platform.</p>
-  <p>The more precise your request, the better. Vague phrasing like "a timer" invites interpretations that differ between factories. Use a checklist like the one below and ask your ODM to confirm each point in the spec sheet.</p>
-  <ul>
-    <li>Default session length in minutes (e.g., 15, 20, 30).</li>
-    <li>Is the timer user-adjustable? If yes, the range and step size.</li>
-    <li>Does pressing a button mid-session reset the timer, or is the session fixed?</li>
-    <li>After auto-off, does the device fully power down or enter standby?</li>
-    <li>What happens when a thermal sensor reads an abnormal temperature?</li>
-    <li>At what battery voltage or charge percentage does the device refuse to start?</li>
-    <li>Is the auto-off behaviour identical between the primary power source and battery operation?</li>
-  </ul>
-  <p>LIGHT BDB documents these parameters per platform at the sampling stage, so your sample unit and your production unit behave identically.</p>
+<h2>What exactly should you specify when you brief auto-off behaviour?</h2>
+<p>Specify four values: timeout duration, power-cut behaviour, user feedback cues, and the reset procedure.</p>
+<p>Most brands stop at the timeout duration and assume the rest. The other three values decide whether the product feels safe, predictable, and cheap to service. In your ODM brief, write them out explicitly so there is no ambiguity at the engineering hand-off.</p>
+<h3>The four values that define your auto-off spec</h3>
+<ol>
+  <li><strong>Timeout duration</strong> — in minutes and seconds, with an accepted tolerance. Industry-typical tolerance for this category is roughly ±10%, but the tighter you spec, the more control you hold over battery drain and user expectations.</li>
+  <li><strong>Power-cut behaviour</strong> — full power cut versus standby. A full cut protects the battery and the heating element; standby keeps LED indicators alive and drains a small current. State which one you want, and the standby current limit if applicable.</li>
+  <li><strong>User feedback cues</strong> — beep, LED flash, or vibration before shut-off. This is a small firmware cost that dramatically reduces user complaints about "it just turned off".</li>
+  <li><strong>Reset procedure</strong> — single button press, double press, or re-plug. A bad reset flow creates confusing support tickets, so define it in the brief.</li>
+</ol>
+<p>If you do not specify these, the factory will pick defaults, and you will discover the choice only after your first batch of customer reviews. LIGHT BDB's design centres in Hangzhou and Hamburg translate these four values into firmware specs before tooling starts, which is why the 4-8 week lead time from deposit to FOB Shenzhen usually holds without surprise revisions.</p>
 
-  <h2>How do auto-off specs affect safety certification and compliance?</h2>
-  <p>Auto-off specs directly influence certification reviews; a well-documented timer profile supports smoother audits for UL registered factories and other compliance checks.</p>
-  <p>Electrical safety reviews look for evidence that a product limits energy delivery. An auto-off function that cuts power after 20 minutes is part of that evidence. If your ODM cannot explain the timer circuit or the shutdown threshold, the audit flags it — even if the device passed a quick functional test.</p>
-  <p>LIGHT BDB operates as a UL registered factory and holds ISO 9001, ISO 14001, BSCI, and Sony Green Partner certifications. These credentials apply to quality systems, environment, and social compliance — they are not health-related endorsements. Wellness devices are not regulated as therapeutic products, so you should never present auto-off as clinical treatment.</p>
-  <p>Certification reviewers also check your label claims. If your packaging says "for disease recovery", you are inviting a compliance violation. Keep the language in the wellness-and-comfort realm, and let the auto-off spec be the quiet safety net that reviewers trust.</p>
+<h2>How does timer behaviour differ across product categories?</h2>
+<p>Heated body-care products need short thermal cut-offs, while light and mood platforms need longer, dimmable sessions.</p>
+<p>The physics is different. A heating element can raise surface temperature quickly, so the timer must protect skin contact. A light panel or mood lamp is a thermal nonevent, but it affects circadian rhythm and user routine, so the timer serves a scheduling purpose instead. This is a horizontal guide: the same principle applies whether you sell a <a href="/products/heated-eye-massager-flagship">heated eye massager</a>, a red light therapy panel, or a bedside mood lamp.</p>
 
-  <h2>What MOQ and lead time should I expect for custom timer configuration?</h2>
-  <p>For a custom timer profile, expect 500–1,000 pieces on Light &amp; Mood platforms and 2,000–3,000 pieces on Body care platforms, with 4–8 week lead times after deposit.</p>
-  <p>Not every custom request requires a high volume. A simple timer adjustment — changing the default duration from 20 to 30 minutes — often fits within white-label MOQs. A fully new timer profile with user-adjustable settings and a display countdown is a deeper firmware change, so it moves to the ODM custom tier.</p>
-  <table>
-    <thead>
-      <tr>
-        <th>Platform</th>
-        <th>Standard MOQ</th>
-        <th>White-label MOQ</th>
-        <th>ODM Custom MOQ</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Light &amp; Mood</td>
-        <td>100 pcs</td>
-        <td>300 pcs</td>
-        <td>500–1,000 pcs</td>
-      </tr>
-      <tr>
-        <td>Body Care</td>
-        <td>500 pcs</td>
-        <td>1,000 pcs</td>
-        <td>2,000–3,000 pcs</td>
-      </tr>
-    </tbody>
-  </table>
-  <p>Sampling fits into the timeline: LIGHT BDB delivers samples in 7–14 days, and the sample fee is refundable against your PO. Once you approve the sample, production runs 4–8 weeks to FOB Shenzhen. For standard configurations, the timer spec is already fixed, so you save both time and engineering cost.</p>
-  <h3>Financial terms and warranty</h3>
-  <p>LIGHT BDB works on T/T 30/70 or L/C at sight, shipping FOB Shenzhen with your nominated forwarder. The 500-day limited warranty covers defects in materials and workmanship — but only if your spec sheet accurately describes the timer behaviour. A discrepancy between your claim and the factory config can void a warranty claim, so align the paper early.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Platform</th>
+      <th>Typical session length (industry-typical)</th>
+      <th>Auto-off set point (industry-typical)</th>
+      <th>LIGHT BDB MOQ tier (standard)</th>
+      <th>Warranty</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Heated massagers (body care)</td>
+      <td>15–30 min</td>
+      <td>15–20 min</td>
+      <td>500 pcs</td>
+      <td>500-day limited</td>
+    </tr>
+    <tr>
+      <td>Red light therapy panels (body care)</td>
+      <td>10–20 min</td>
+      <td>10–15 min</td>
+      <td>500 pcs</td>
+      <td>500-day limited</td>
+    </tr>
+    <tr>
+      <td>Light &amp; mood platforms (home)</td>
+      <td>30–60 min</td>
+      <td>30–60 min timer</td>
+      <td>100 pcs</td>
+      <td>500-day limited</td>
+    </tr>
+  </tbody>
+</table>
 
-  <h2>What are the honest trade-offs and risks with timer behaviour?</h2>
-  <p>The main trade-offs are added firmware cost, longer validation, and compliance risk; the main risk is over-claiming that timer features deliver therapeutic benefits.</p>
-  <p>No factory, including LIGHT BDB, can promise a zero-risk product. The realistic limits are:</p>
-  <ul>
-    <li>A custom timer adds firmware development time and a small BOM cost for display or control components.</li>
-    <li>More complex timer profiles increase testing requirements and can extend validation by days or weeks.</li>
-    <li>Over-engineering a timer — adding IoT connectivity or app control — can raise the price beyond what a wellness buyer will pay.</li>
-    <li>Claiming that a timer "treats" or "prevents" any condition is a compliance hazard, and no ODM can protect you from that.</li>
-  </ul>
-  <p>We prefer to tell buyers the truth early: if your goal is a simple, safe device, a fixed 20-minute auto-off with no user adjustment is the lowest-cost path. If you want a premium experience with adjustable timers, the ODM custom tier is the right home, and we will build and test it accordingly.</p>
+<p>Notice the pattern: the riskier the thermal platform, the shorter the window, and the higher the minimum order. That is not a coincidence — thermal safety margins cost engineering time, so the MOQ floor reflects the certification and test effort layered on top of the product. If you want a 30-minute session on a heating element, expect a conversation about thermal modelling first.</p>
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What is the default auto-off timer on a heated eye massager?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Most wellness devices default to 15-30 minutes of continuous operation before automatic shutdown, though the exact value varies by design. Confirm the default with your ODM at the sampling stage rather than assuming it is 1 hour."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How long does a sample take from LIGHT BDB?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "LIGHT BDB provides samples in 7-14 days. The sample fee is refundable against your first PO, so cash flow is preserved."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is the MOQ for a white-label product from LIGHT BDB?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "For Light & Mood platforms the white-label MOQ is 300 pieces; for Body care platforms it is 1,000 pieces. Standard MOQs start lower at 100 and 500 respectively."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is LIGHT BDB FDA approved?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "No. LIGHT BDB manufactures wellness devices, not regulated therapeutic products, and does not hold FDA approval. Buyers should never claim FDA clearance in their own marketing."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What warranty does LIGHT BDB offer?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "LIGHT BDB offers a 500-day limited warranty, one of the longest in the wellness device category. This covers defects in materials and workmanship."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How long is manufacturing lead time after deposit?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Most SKUs ship from Shenzhen within 4-8 weeks after deposit. Timeline depends on platform and whether the product is standard, white-label, or ODM."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What certifications does LIGHT BDB hold?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "LIGHT BDB holds ISO 9001, ISO 14001, BSCI, UL registered factory status, and Sony Green Partner. These cover quality, environment, and social compliance."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I get a custom auto-off timer on my private label device?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, within ODM custom tiers. On Light & Mood platforms custom MOQ starts at 500-1,000 pieces; on Body care platforms at 2,000-3,000 pieces. The timer profile is documented in the spec sheet."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Why does a timer matter for safety certification?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "An automatic shutdown limits continuous heat and electrical exposure, which reduces thermal risk. Certification reviewers look for documented timer behaviour as part of electrical safety evidence."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Are LIGHT BDB devices medical devices?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "No. They are wellness devices designed for relaxation and comfort, not for treating or diagnosing any condition. Label claims must stay within wellness scope."
-        }
+<h2>What certifications and tests verify auto-off and timer specifications?</h2>
+<p>UL factory registration and a per-SKU documented test report are the practical proof of auto-off compliance.</p>
+<p>LIGHT BDB holds UL registered factory status, ISO 9001 for quality management, ISO 14001 for environmental management, BSCI (amfori) for social audit, and Sony Green Partner status. For a wellness-device ODM, these are the consumer-safety baseline a retail buyer or marketplace will ask about.</p>
+<p>The tests behind the spec are what actually protect you. Industry-typical verification for a timer spec includes a thermal soak test at maximum session length, a timeout drift test to confirm the ±10% window, and a power-cycling test to prove the reset procedure survives repeated use. These are standard practice for any factory in this category that takes the timer seriously; the difference is whether the supplier hands you the report without asking.</p>
+<p>One boundary matters here: LIGHT BDB is a wellness-device ODM, not a healthcare-therapy partner. If your brand positioning is wellness and comfort, the factory registration list above is the right scope. If you need treatment-grade claims, this is not the correct supplier, and no number of timer tests would change that.</p>
+
+<h2>What MOQ tiers and lead times apply to custom timer and auto-off specs at LIGHT BDB?</h2>
+<p>Standard auto-off behaviour is included at 100 pcs for light platforms and 500 pcs for body care; custom firmware starts higher.</p>
+<p>The MOQ structure at LIGHT BDB is tiered by platform:</p>
+<ul>
+  <li><strong>Light &amp; Mood platforms:</strong> 100 pcs for standard product, 300 pcs for white-label, and 500–1,000 pcs for ODM custom.</li>
+  <li><strong>Body care platforms:</strong> 500 pcs for standard product, 1,000 pcs for white-label, and 2,000–3,000 pcs for ODM custom.</li>
+</ul>
+<p>A custom timer behaviour — meaning a unique timeout curve, custom reset logic, or firmware tuned to your app — lives in the ODM tier on both sides. That is a fair trade: the engineering work in the Hangzhou and Hamburg design centres is fixed-cost, so it only makes sense at volume.</p>
+<p>Lead time is 4-8 weeks from deposit to FOB Shenzhen for the vast majority of SKUs, and that window includes the auto-off validation. Samples turn around in 7-14 days, and the sample fee is refundable against your purchase order. Payment terms are T/T 30/70 or L/C at sight, shipping FOB Shenzhen with your nominated forwarder — the same terms whether you order 100 light platforms or 3,000 body care units.</p>
+
+<h2>What are the honest trade-offs of strict auto-off and timer settings?</h2>
+<p>Strict auto-off reduces safety risk but can frustrate users who want longer sessions, so balance is a brand decision.</p>
+<p>There is a real tension here. A tight auto-off window is safer and extends battery life, but it produces reviews like "it turned off in the middle of my nap". A loose or fully manual timer improves perceived control but increases thermal risk and support load when users forget to switch off.</p>
+<p>Three honest trade-offs to weigh before you brief:</p>
+<ul>
+  <li><strong>Custom firmware raises your MOQ floor.</strong> Standard behaviour costs nothing at the base tier; a unique timer curve pushes you into the ODM tier, which starts at 500-1,000 pcs for light platforms and 2,000-3,000 pcs for body care.</li>
+  <li><strong>Over-engineering accuracy adds cost with little user benefit.</strong> Specifying a ±2% timer tolerance on a wellness lamp is wasted money; ±10% is already tighter than any buyer will feel.</li>
+  <li><strong>Feedback cues solve more complaints than tighter timers.</strong> A beep or flash before shut-off usually reduces return reasons more than shortening the session itself.</li>
+</ul>
+<p>The practical path is to start with the standard spec, validate it with samples, and tune the timeout after your first customer feedback. LIGHT BDB ships standard units fast, then adjusts the curve in later production runs once you have real data instead of assumptions.</p>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between a feature and a spec for auto-off?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A feature is a marketing claim; a spec is a measurable, documented value. Auto-off becomes a spec when it has a defined timeout, a defined power-cut behaviour, and a test report that proves it works every time. Without a test report, auto-off is just a promise."
       }
-    ]
-  }
-  </script>
-</article>
-```
+    },
+    {
+      "@type": "Question",
+      "name": "What auto-off time should I set for a heated eye massager?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most heated eye massagers in this category run 10-20 minute sessions, with auto-off landing between 10 and 15 minutes. That range protects skin and battery without cutting sessions short. Your own brand decision can adjust it after user feedback."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a red light therapy session run before auto-off?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Red light therapy panels typically auto-off between 10 and 20 minutes depending on the design. LIGHT BDB documents the exact timeout per SKU and can tune it for your white-label or ODM program."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does LIGHT BDB test auto-off behaviour before shipping?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, every SKU goes through a documented test procedure at the Shenzhen assembly base before shipping. The test result is part of the quality record you receive with the order."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What MOQ does LIGHT BDB require for custom timer behaviour?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For light and mood platforms, custom timer firmware starts at 500-1,000 pcs; for body care platforms, it starts at 2,000-3,000 pcs. Standard auto-off behaviour is already built into lower MOQ tiers of 100 pcs and 500 pcs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is LIGHT BDB's lead time for a custom auto-off spec?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lead time is 4-8 weeks from deposit to FOB Shenzhen for most SKUs. Custom firmware can add 1-2 weeks of engineering time within that window. Samples ship in 7-14 days with a fee refundable against your purchase order."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is the LIGHT BDB warranty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "LIGHT BDB offers a 500-day limited warranty, one of the longest in the wellness-device category. It covers defects that come from assembly or component quality, including timer and auto-off failures."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is LIGHT BDB a UL registered factory?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, LIGHT BDB is a UL registered factory and also holds ISO 9001, ISO 14001, BSCI and Sony Green Partner status. All products are wellness devices built for consumer comfort and relaxation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I specify auto-off in my ODM brief?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "State the timeout in minutes, whether power should fully cut or enter standby, whether the unit beeps or flashes before shut-off, and how the user resets it. LIGHT BDB engineering in Hangzhou and Hamburg will turn those four values into a firmware spec."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a strict auto-off hurt customer feedback?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, aggressive auto-off can frustrate users who want longer sessions, so the set point matters. Test with samples and survey early buyers. LIGHT BDB can tune the timeout across later production runs based on your feedback."
+      }
+    }
+  ]
+}
+</script>
 <p class="related-links"><strong>Related on LightBDB</strong><a href="/product-platforms">All product platforms</a> · <a href="/faq">Sourcing FAQ</a></p>
 <section class="cta">
 <h2>Talk to a LIGHT BDB partner about your project</h2>
