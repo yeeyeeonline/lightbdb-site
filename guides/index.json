@@ -586,5 +586,19 @@
     "date": "2026-10-14",
     "kind": "horizontal",
     "url": "/guides/which-market-decides-which-safety-standard-applies"
+  },
+  {
+    "slug": "how-many-heat-levels-does-a-wearable-actually-need",
+    "title": "How many heat levels does a wearable actually need",
+    "date": "2026-10-15",
+    "kind": "horizontal",
+    "url": "/guides/how-many-heat-levels-does-a-wearable-actually-need"
+  },
+  {
+    "slug": "why-auto-off-and-timer-behaviour-is-a-spec-not-a-feature",
+    "title": "Why auto-off and timer behaviour is a spec not a feature",
+    "date": "2026-10-15",
+    "kind": "horizontal",
+    "url": "/guides/why-auto-off-and-timer-behaviour-is-a-spec-not-a-feature"
   }
 ]
