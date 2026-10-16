@@ -600,5 +600,19 @@
     "date": "2026-10-15",
     "kind": "horizontal",
     "url": "/guides/why-auto-off-and-timer-behaviour-is-a-spec-not-a-feature"
+  },
+  {
+    "slug": "what-over-temperature-protection-does-in-a-heated-wearable",
+    "title": "What over-temperature protection does in a heated wearable",
+    "date": "2026-10-16",
+    "kind": "horizontal",
+    "url": "/guides/what-over-temperature-protection-does-in-a-heated-wearable"
+  },
+  {
+    "slug": "heating-zone-layout-how-many-zones-a-scarf-or-belt-needs",
+    "title": "Heating zone layout how many zones a scarf or belt needs",
+    "date": "2026-10-16",
+    "kind": "horizontal",
+    "url": "/guides/heating-zone-layout-how-many-zones-a-scarf-or-belt-needs"
   }
 ]
