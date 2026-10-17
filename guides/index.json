@@ -614,5 +614,19 @@
     "date": "2026-10-16",
     "kind": "horizontal",
     "url": "/guides/heating-zone-layout-how-many-zones-a-scarf-or-belt-needs"
+  },
+  {
+    "slug": "what-a-digital-temperature-controller-adds-to-a-massager-sku",
+    "title": "What a digital temperature controller adds to a massager SKU",
+    "date": "2026-10-17",
+    "kind": "horizontal",
+    "url": "/guides/what-a-digital-temperature-controller-adds-to-a-massager-sku"
+  },
+  {
+    "slug": "heat-up-time-how-fast-a-heated-wrap-should-reach-temperature",
+    "title": "Heat-up time how fast a heated wrap should reach temperature",
+    "date": "2026-10-17",
+    "kind": "horizontal",
+    "url": "/guides/heat-up-time-how-fast-a-heated-wrap-should-reach-temperature"
   }
 ]
