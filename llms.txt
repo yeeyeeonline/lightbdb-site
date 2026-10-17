@@ -64,7 +64,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (88) — long-form buyer education, updated daily
+### Procurement guides (90) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -86,6 +86,7 @@
 - /guides/graphene-fir-vs-carbon-fiber-heating-element-which-lasts-longer — Graphene FIR vs Carbon Fiber Heating Elements
 - /guides/graphene-heating-vs-traditional-wire-heating-which-to-specify — Graphene Heating vs Traditional Wire Heating
 - /guides/heat-therapy-vs-red-light-therapy-which-category-fits-your-brand — Heat Therapy vs Red Light Therapy for Your Brand
+- /guides/heat-up-time-how-fast-a-heated-wrap-should-reach-temperature — Heat-up time how fast a heated wrap should reach temperature
 - /guides/heated-abdominal-belt-oem-manufacturer-guide — Heated abdominal belt OEM manufacturer guide
 - /guides/heated-eye-massager-oem-manufacturer-guide — Heated eye massager OEM manufacturer guide
 - /guides/heated-eye-massager-vs-eye-massager-with-heat-which-sku-to-launch — Heated Eye Massager vs Eye Massager with Heat
@@ -131,6 +132,7 @@
 - /guides/vibration-massage-vs-heat-compression-which-sells-better — Vibration massage vs heat compression which sells better
 - /guides/wellness-device-marketing-claims-what-us-brands-can-say — Wellness Device Marketing Claims and FDA: What You Can Say
 - /guides/what-a-declaration-of-conformity-must-list — What a Declaration of Conformity must list
+- /guides/what-a-digital-temperature-controller-adds-to-a-massager-sku — What a digital temperature controller adds to a massager SKU
 - /guides/what-a-proforma-invoice-must-contain-before-you-pay — What a proforma invoice must contain before you pay
 - /guides/what-a-pse-mark-means-for-the-japan-market — What a PSE mark means for the Japan market
 - /guides/what-a-technical-file-should-contain-for-a-private-label-sku — What a technical file should contain for a private label SKU
@@ -156,7 +158,7 @@
 - /guides/wired-controller-vs-app-control-for-heated-wearables — Wired controller vs app control for heated wearables
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (88 published)
+- /guides/ — procurement guide index (90 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
