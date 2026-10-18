@@ -330,6 +330,6 @@ footer.footer .gate-line a{color:var(--green)}
 }
 @media print{
   /* 站点本身是深色主题，打印时背景仍是深色 → 文字必须保持浅色，只修按钮宽度 */
-  .gate-band{gap:10px;padding:14px 0}
+  .gate-band{gap:10px;padding:14px 0;break-inside:avoid}
   .gate-band .gb-link{width:auto}
 }
