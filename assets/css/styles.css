@@ -310,3 +310,27 @@ footer .tagline .bdb .b2{color:var(--orange)}
   .brandwall-wide .bw.logo{width:calc(50% - 6px);padding:10px 8px}
   .brandwall-wide .bw.logo img{max-height:22px;max-width:100%}
 }
+
+/* ===== Export gate band（与 gate.lightbdb.com 互指 · 2026-10-18） ===== */
+.gate-band{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;
+  border-top:1px solid var(--line);padding:22px 0 20px}
+.gate-band .gb-body{flex:1 1 520px;min-width:0}
+.gate-band .gb-k{display:block;font-size:11px;letter-spacing:2.2px;text-transform:uppercase;
+  color:var(--green);font-weight:800;margin-bottom:6px}
+.gate-band p{color:var(--ink2);font-size:13.5px;line-height:1.62;margin:0;max-width:740px}
+.gate-band .gb-link{flex:0 0 auto;font-size:13.5px;font-weight:700;color:var(--ink);
+  border:1px solid var(--line);border-radius:999px;padding:9px 18px;white-space:nowrap;
+  transition:background .18s,color .18s,border-color .18s}
+.gate-band .gb-link:hover{background:var(--green);border-color:var(--green);color:var(--bg)}
+footer.footer .gate-line{font-size:12.5px;color:var(--muted);margin-top:6px}
+footer.footer .gate-line a{color:var(--green)}
+@media(max-width:600px){
+  .gate-band{padding:18px 0}
+  .gate-band .gb-link{width:100%;text-align:center}
+}
+@media print{
+  .gate-band{gap:10px;padding:14px 0}
+  .gate-band .gb-link{width:auto;background:none;border:1px solid #999;color:#000}
+  .gate-band p{color:#333}
+  .gate-band .gb-k{color:#2f6b33}
+}
