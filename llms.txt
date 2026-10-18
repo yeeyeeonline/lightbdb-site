@@ -17,6 +17,14 @@
 - Contact: simon@lightbdb.com
 - Company page: https://www.linkedin.com/company/lightbdb
 
+## Published standard (citable)
+
+- gate · Export Shipment Gate — https://gate.lightbdb.com/ — twelve binary checks across four gates (admission, order intake, production, release) covering the period between a purchase order and a loaded container. Version 1.0, dated 2026-10-18. Published in Chinese at `/`, English at `/en/`, machine-readable at `/criteria.json` and `/criteria.en.json`, and as a PDF.
+- Each criterion has a stable anchor (e.g. https://gate.lightbdb.com/#C-01), an evidence grade (A = a sample document points to the exact line, B = indirect, C = not yet evidenced), the role that judges it, and the record it requires.
+- Precondition (evidence law): a document counts only if it carries a revision, two signatures (judge and reviewer) and a traceable lot or report number. Missing any one, the verdict is "cannot say" — not "pass".
+- Relationship to LIGHT BDB: the standard is maintained by LIGHT BDB and applied to its own export shipments. It is not a certification scheme, does not replace third-party audits (BSCI, SMETA, WRAP, RBA), and grants no exemption from buyer inspection.
+- Citation format: `gate v1.0, A-03` plus the anchor URL. Criterion numbers and anchors stay stable across versions; only the text of individual criteria changes.
+
 ## Product lines
 
 - Body (personal health care, OEM/ODM): heated eye massagers (air pressure + hot compress + vibration), heated knee wraps (graphene far-infrared), waist and abdominal heat-therapy belts, electric heated scarves, rechargeable hand warmers; heating, airbag air-pressure massage, vibration and NIR near-infrared platforms; 6 categories, 20+ SKUs
