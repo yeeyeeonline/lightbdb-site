@@ -628,5 +628,19 @@
     "date": "2026-10-17",
     "kind": "horizontal",
     "url": "/guides/heat-up-time-how-fast-a-heated-wrap-should-reach-temperature"
+  },
+  {
+    "slug": "temperature-uniformity-across-a-heating-pad-what-to-measure",
+    "title": "Temperature uniformity across a heating pad what to measure",
+    "date": "2026-10-18",
+    "kind": "horizontal",
+    "url": "/guides/temperature-uniformity-across-a-heating-pad-what-to-measure"
+  },
+  {
+    "slug": "what-a-heating-element-layout-change-costs-at-tooling-stage",
+    "title": "What a heating element layout change costs at tooling stage",
+    "date": "2026-10-18",
+    "kind": "horizontal",
+    "url": "/guides/what-a-heating-element-layout-change-costs-at-tooling-stage"
   }
 ]
