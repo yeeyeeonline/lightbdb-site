@@ -329,8 +329,7 @@ footer.footer .gate-line a{color:var(--green)}
   .gate-band .gb-link{width:100%;text-align:center}
 }
 @media print{
+  /* 站点本身是深色主题，打印时背景仍是深色 → 文字必须保持浅色，只修按钮宽度 */
   .gate-band{gap:10px;padding:14px 0}
-  .gate-band .gb-link{width:auto;background:none;border:1px solid #999;color:#000}
-  .gate-band p{color:#333}
-  .gate-band .gb-k{color:#2f6b33}
+  .gate-band .gb-link{width:auto}
 }
