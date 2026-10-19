@@ -72,13 +72,14 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (92) — long-form buyer education, updated daily
+### Procurement guides (94) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
 - /guides/air-freight-vs-sea-freight-for-heated-wellness-products — Air freight vs sea freight for heated wellness products
 - /guides/air-pressure-vs-vibration-for-eye-massagers-which-buyers-reorder — Air Pressure vs Vibration Eye Massagers
 - /guides/air-pressure-vs-vibration-vs-heat-which-body-care-module-to-launch-first — Air Pressure vs Vibration vs Heat Modules
+- /guides/airbag-air-pressure-massage-how-pump-noise-affects-a-sku — Airbag air pressure massage how pump noise affects a SKU
 - /guides/amazon-fba-vs-direct-to-retail-which-needs-more-compliance-work — Amazon FBA vs Direct to Retail Compliance
 - /guides/aroma-diffuser-vs-candle-warmer-lamp-which-has-better-margins — Aroma Diffuser vs Candle Warmer Lamp Margins
 - /guides/bundling-strategies-that-raise-average-order-value-for-wellness-brands — Bundling Strategies That Lift Average Order Value
@@ -139,6 +140,7 @@
 - /guides/temperature-uniformity-across-a-heating-pad-what-to-measure — Temperature uniformity across a heating pad what to measure
 - /guides/us-eu-and-jp-voltage-and-plug-differences-for-ambient-lighting — US, EU and JP Voltage and Plug Differences
 - /guides/vibration-massage-vs-heat-compression-which-sells-better — Vibration massage vs heat compression which sells better
+- /guides/vibration-motor-count-and-placement-in-a-wearable-massager — Vibration motor count and placement in a wearable massager
 - /guides/wellness-device-marketing-claims-what-us-brands-can-say — Wellness Device Marketing Claims and FDA: What You Can Say
 - /guides/what-a-declaration-of-conformity-must-list — What a Declaration of Conformity must list
 - /guides/what-a-digital-temperature-controller-adds-to-a-massager-sku — What a digital temperature controller adds to a massager SKU
@@ -168,7 +170,7 @@
 - /guides/wired-controller-vs-app-control-for-heated-wearables — Wired controller vs app control for heated wearables
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (92 published)
+- /guides/ — procurement guide index (94 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
