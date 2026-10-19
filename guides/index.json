@@ -642,5 +642,19 @@
     "date": "2026-10-18",
     "kind": "horizontal",
     "url": "/guides/what-a-heating-element-layout-change-costs-at-tooling-stage"
+  },
+  {
+    "slug": "airbag-air-pressure-massage-how-pump-noise-affects-a-sku",
+    "title": "Airbag air pressure massage how pump noise affects a SKU",
+    "date": "2026-10-19",
+    "kind": "horizontal",
+    "url": "/guides/airbag-air-pressure-massage-how-pump-noise-affects-a-sku"
+  },
+  {
+    "slug": "vibration-motor-count-and-placement-in-a-wearable-massager",
+    "title": "Vibration motor count and placement in a wearable massager",
+    "date": "2026-10-19",
+    "kind": "horizontal",
+    "url": "/guides/vibration-motor-count-and-placement-in-a-wearable-massager"
   }
 ]
