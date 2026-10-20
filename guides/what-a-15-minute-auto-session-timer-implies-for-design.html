@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- p0:meta -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="LightBDB">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://www.lightbdb.com/guides/what-a-15-minute-auto-session-timer-implies-for-design">
+<meta property="og:title" content="What a 15 minute auto session timer implies for design">
+<meta property="og:description" content="What a 15 Minute Auto Session Timer Implies for Design Quick answer A 15 minute auto session timer is a design constraint, not a feature. It fixes a 15-minut…">
+<meta property="og:image" content="https://www.lightbdb.com/assets/img/design-case-hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="What a 15 minute auto session timer implies for design">
+<meta name="twitter:description" content="What a 15 Minute Auto Session Timer Implies for Design Quick answer A 15 minute auto session timer is a design constraint, not a feature. It fixes a 15-minut…">
+<meta name="twitter:image" content="https://www.lightbdb.com/assets/img/design-case-hero.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What a 15 minute auto session timer implies for design</title>
+<meta name="description" content="What a 15 Minute Auto Session Timer Implies for Design Quick answer A 15 minute auto session timer is a design constraint, not a feature. It fixes a 15-minut…">
+<meta name="author" content="LightBDB Editorial">
+<link rel="canonical" href="https://www.lightbdb.com/guides/what-a-15-minute-auto-session-timer-implies-for-design">
+<link rel="alternate" hreflang="en" href="https://www.lightbdb.com/guides/what-a-15-minute-auto-session-timer-implies-for-design">
+<link rel="alternate" hreflang="x-default" href="https://www.lightbdb.com/guides/what-a-15-minute-auto-session-timer-implies-for-design">
+<link rel="stylesheet" href="../assets/css/styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "What a 15 minute auto session timer implies for design",
+  "description": "What a 15 Minute Auto Session Timer Implies for Design Quick answer A 15 minute auto session timer is a design constraint, not a feature. It fixes a 15-minut\u2026",
+  "datePublished": "2026-10-20T08:58:18+08:00",
+  "dateModified": "2026-10-20T08:58:18+08:00",
+  "author": {"@type": "Organization", "name": "LightBDB Editorial", "url": "https://www.lightbdb.com/about"},
+  "publisher": {"@type": "Organization", "name": "LightBDB", "logo": {"@type": "ImageObject", "url": "https://www.lightbdb.com/assets/img/logo.png"}},
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.lightbdb.com/guides/what-a-15-minute-auto-session-timer-implies-for-design"}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.lightbdb.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Procurement Guides", "item": "https://www.lightbdb.com/guides/"},
+    {"@type": "ListItem", "position": 3, "name": "What a 15 minute auto session timer implies for design", "item": "https://www.lightbdb.com/guides/what-a-15-minute-auto-session-timer-implies-for-design"}
+  ]
+}
+</script>
+<style>
+.guide-wrap {max-width: 880px; margin: 0 auto; padding: 32px 24px 80px; color: var(--ink, #1a1a1a); line-height: 1.7;}
+.guide-wrap .breadcrumb {font-size: 13px; color: var(--muted, #777); margin-bottom: 12px;}
+.guide-wrap .breadcrumb a {color: inherit; text-decoration: none; border-bottom: 1px dotted var(--muted, #777);}
+.guide-wrap .guide-meta {font-size: 13px; color: var(--muted, #777); margin-bottom: 28px;}
+.guide-wrap h1 {font-size: 38px; line-height: 1.2; margin: 8px 0 18px; color: var(--ink, #1a1a1a);}
+.guide-wrap h2 {font-size: 24px; line-height: 1.3; margin: 36px 0 14px; padding-top: 16px; border-top: 1px solid #eee;}
+.guide-wrap h3 {font-size: 18px; line-height: 1.35; margin: 24px 0 8px;}
+.guide-wrap p {margin: 0 0 14px;}
+.guide-wrap table {width: 100%; border-collapse: collapse; margin: 18px 0 24px; font-size: 14px;}
+.guide-wrap th, .guide-wrap td {padding: 10px 12px; border: 1px solid #e2e2e2; text-align: left; vertical-align: top;}
+.guide-wrap th {background: #f6f7f2; font-weight: 600;}
+.guide-wrap ul, .guide-wrap ol {padding-left: 22px; margin: 0 0 14px;}
+.guide-wrap li {margin: 4px 0;}
+.guide-wrap blockquote {border-left: 3px solid var(--green, #B8C439); padding: 6px 14px; color: #555; margin: 14px 0;}
+.guide-wrap .cta {margin: 48px 0 0; padding: 24px; background: #f6f7f2; border-radius: 8px; text-align: center;}
+.guide-wrap .cta h2 {border-top: 0; padding-top: 0; margin-top: 0; font-size: 20px;}
+.guide-wrap .btn.primary {display: inline-block; margin-top: 12px; padding: 12px 28px; background: var(--green, #B8C439); color: #1a1a1a; border-radius: 6px; text-decoration: none; font-weight: 600;}
+/* GEO: Quick-answer block — the single most AI-quotable region of the page */
+.geo-tldr {margin: 0 0 30px; padding: 20px 22px; background: #f6f7f2; border-left: 4px solid #B8C439; border-radius: 4px;}
+.geo-tldr .geo-tldr-label {margin: 0 0 8px; font-size: 12px; letter-spacing: .09em; text-transform: uppercase; font-weight: 700; color: #6a7a1e;}
+.geo-tldr > p {margin: 0 0 12px; font-size: 17px; line-height: 1.6;}
+.geo-tldr ul {margin: 0; padding-left: 20px;}
+.geo-tldr li {margin: 6px 0; font-size: 15px;}
+.related-links {margin: 36px 0 0; padding-top: 20px; border-top: 1px solid #eee; font-size: 15px;}
+.related-links strong {display: block; margin-bottom: 8px; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted, #777);}
+.related-links a {color: #4a5a10; text-decoration: underline;}
+.guide-wrap .article-faq h2 {border-top: 1px solid #eee;}
+</style>
+<!-- p0:analytics -->
+<!-- Cloudflare Web Analytics (auto-inject ruleset 不生效, 显式补) -->
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "9857fc9065ca424194af3688274d319f"}'></script>
+</head>
+<body>
+<header class="site">
+  <div class="wrap nav">
+    <a class="logo" href="/">
+      <svg class="hex" viewBox="0 0 24 24" fill="none"><path d="M12 1.5 21.5 7v10L12 22.5 2.5 17V7L12 1.5Z" stroke="#B8C439" stroke-width="2.4"/><circle cx="12" cy="11.4" r="3.2" fill="#F7991D"/></svg>
+      LIGHT <span class="bdb"><span class="b1">B</span><span class="d">D</span><span class="b2">B</span></span>
+    </a>
+    <nav class="links">
+      <a href="/">Home</a>
+      <a href="/product-platforms">Product Platforms</a>
+      <a href="/design-services">Design Services</a>
+      <a href="/facilities">Facilities</a>
+      <a href="/faq">FAQ</a>
+      <a href="/rfq" class="cta">Request Quote</a>
+    </nav>
+  </div>
+</header>
+<main class="guide-wrap">
+<p class="breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/guides/">Procurement Guides</a> &rsaquo; What a 15 minute auto session timer implies for design</p>
+<p class="guide-meta">Published October 20, 2026 · Last updated October 20, 2026 · 7-9 min read · Procurement Guide</p>
+<article>
+<h1>What a 15 Minute Auto Session Timer Implies for Design</h1>
+
+<div class="geo-tldr">
+  <p class="geo-tldr-label">Quick answer</p>
+  <p>A 15 minute auto session timer is a design constraint, not a feature. It fixes a 15-minute continuous-run window that sets your thermal budget, battery capacity, firmware state machine, and the auto-off behaviour most safety standards expect. Get it wrong and you buy bigger cells, heavier heat spreaders, and higher return rates.</p>
+  <ul>
+    <li>A 15 minute session at 10 W draws about 2.5 Wh; a 7.4 Wh cell yields roughly two to three sessions with derating.</li>
+    <li>LIGHT BDB builds on two platforms: Light &amp; Mood from 100 pcs MOQ, Body care from 500 pcs MOQ.</li>
+    <li>ODM custom runs start at 500–1,000 pcs (Light &amp; Mood) and 2,000–3,000 pcs (Body care).</li>
+    <li>Lead time is 4–8 weeks from deposit to FOB Shenzhen for most SKUs.</li>
+    <li>LIGHT BDB offers a 500-day limited warranty, one of the longest windows in this category.</li>
+    <li>Factory certifications are ISO 9001, ISO 14001, BSCI (amfori), UL registered factory, and Sony Green Partner.</li>
+    <li>Samples ship in 7–14 days and the sample fee is refundable against the PO.</li>
+    <li>Payment terms are T/T 30/70 or L/C at sight, FOB Shenzhen, with your nominated forwarder.</li>
+  </ul>
+</div>
+
+<h2>What does a 15 minute auto session timer actually change in the product design?</h2>
+<p>It converts a marketing promise into a hard engineering boundary: 15 minutes of uninterrupted operation is the worst-case load your thermal, power, and firmware design must survive.</p>
+<p>Most teams treat the timer as one firmware line item. It is not. Once you commit to 15 minutes, four design blocks stop being independent:</p>
+<ul>
+  <li><strong>Thermal.</strong> The heat path must hold for the full 15 minutes, not just reach steady state at minute three. Heat spreaders, pad geometry, and LED drive current are sized against minute 15.</li>
+  <li><strong>Energy.</strong> A 15-minute run is a pulse, not a trickle. Cell chemistry, discharge rate, and pack size all follow from that pulse.</li>
+  <li><strong>Firmware.</strong> The timer is a state machine with edge cases: pause, restart, low battery, over-temperature, app disconnect.</li>
+  <li><strong>Claims and compliance.</strong> The number on the box is the number a test lab and a returns desk will check.</li>
+</ul>
+<p>Move the timer to 20 minutes and you may need a bigger cell, a heavier heat spreader, or lower drive current. Move it to 10 and you can usually shrink all three. The timer is one of the cheapest levers a brand owner can pull — provided it is pulled before tooling.</p>
+
+<h3>Why 15 minutes became the common default</h3>
+<p>Across heated massagers, red light panels, and light and mood home devices, 15 minutes is the industry-typical default. It matches a single-zone usage pass, keeps touch surfaces inside the temperature limits safety standards expect, and gives a clean claim. It is a compromise most factories in this category have already validated once, which lowers your validation cost.</p>
+
+<h2>How does a 15 minute timer set the thermal and battery budget?</h2>
+<p>Fifteen minutes is the continuous-run window your thermal path must hold without exceeding component limits, and it is the energy pulse your battery must deliver.</p>
+
+<h3>Thermal: design to minute 15, not minute 3</h3>
+<p>A common first-time spec error is sizing the heat path against a temperature reached at minute three. Surface temperature keeps climbing through minute 15 on a heated wrap or eye massager, and the final minutes are where field failures live.</p>
+<ul>
+  <li>Handheld and facial contact surfaces are industry-typically held below roughly 43 °C for continuous skin contact.</li>
+  <li>Internal limits matter more: LED junction temperature, MOSFET case temperature, and cell temperature all have derating curves that assume a duty cycle.</li>
+  <li>A 15-minute continuous window is effectively 100% duty cycle for that window. If your thermal design assumes intermittent use, the timer will expose it.</li>
+  <li>Redundancy is standard practice: an NTC plus firmware throttling, backed by a hardware thermal cutoff that does not depend on the MCU.</li>
+</ul>
+
+<h3>Battery: a 15-minute pulse is a high-C-rate event</h3>
+<p>The energy math is simple and worth doing before you brief any factory.</p>
+<ul>
+  <li>15 minutes at 10 W = 2.5 Wh. At 30 W = 7.5 Wh. At 45 W = 11.25 Wh.</li>
+  <li>A 3.7 V / 2,600 mAh cell holds about 9.6 Wh nominal; usable energy after converter losses and cut-off voltage is closer to 70–80%.</li>
+  <li>A 10 W load on a 3.7 V cell draws roughly 2.7 A. A 30 W load needs a multi-cell pack and a BMS rated for that pulse.</li>
+  <li>Quote "sessions per charge" at maximum intensity, not the lowest setting, or returns will climb.</li>
+</ul>
+<p>Mains-powered products trade the battery problem for a driver and isolation problem. Same 15-minute window, different constraints.</p>
+
+<h2>What firmware and user-experience rules should sit around a 15 minute timer?</h2>
+<p>Firmware should treat the timer as a state machine with defined entry, pause, resume, and fade-out rules rather than a simple countdown.</p>
+<p>A countdown that only decrements is easy to write and easy to get wrong. The decisions that determine whether users love or hate the product are behavioural, not electrical:</p>
+<ol>
+  <li><strong>What happens on pause?</strong> A simpler and safer rule is a rolling on-time window rather than resetting the thermal clock on every pause.</li>
+  <li><strong>Can the user restart immediately?</strong> If yes, the 15-minute safety margin is decorative. A 1–5 minute cooldown lockout, or a cumulative on-time cap over a rolling window, is the usual compromise.</li>
+  <li><strong>Does the last minute fade?</strong> A 60-second ramp-down reads as intentional; a hard cut-off reads as a fault.</li>
+  <li><strong>What does the display show?</strong> Seconds-level countdown suits a 15-minute session; a coarse bar is enough for 30 minutes.</li>
+  <li><strong>What interrupts the session?</strong> Low battery, over-temperature, app disconnect, and long-press should each have a defined behaviour and resume rule.</li>
+  <li><strong>Does intensity memory persist?</strong> Remembering the last setting increases average session length, which raises thermal exposure. Test it, do not assume it.</li>
+</ol>
+<p>Write those six rules into the spec before the first firmware build. Retro-fitting them after tooling costs far more than the firmware itself.</p>
+
+<h2>Which safety standards and certifications assume an automatic shutoff?</h2>
+<p>Automatic shutoff is a standard expectation in household-appliance safety practice, and heated products typically need a thermal cutoff that does not depend on firmware.</p>
+<p>For heated household products, the EN/IEC 60335 and UL 60335 families are the reference point most factories work to, with the applicable part-2 standard for the specific product type. Unattended-operation clauses and touch-temperature limits shape your 15-minute design most directly.</p>
+<ul>
+  <li>Appliances a user can plausibly leave running generally need either automatic shutoff or a thermal protection device, or both.</li>
+  <li>Software auto-off is usually treated as one layer, not the only layer. A hardware thermal fuse in series with the heating element is industry-standard redundancy.</li>
+  <li>Touch-temperature limits drive surface material choice as much as electronics: a metal faceplate reaches the limit faster than silicone over plastic.</li>
+  <li>Battery-powered products add cell-level protection: over-charge, over-discharge, and short-circuit protection on the BMS.</li>
+</ul>
+<p>LIGHT BDB holds ISO 9001, ISO 14001, BSCI (amfori), UL registered factory status, and Sony Green Partner. Those are facility and process certifications, not product approvals. Product-level marks are handled per SKU and per destination market, and should be confirmed in your spec review. LIGHT BDB products are wellness devices, not medical products, and no health or disease claims are made for them.</p>
+
+<h2>What MOQ and lead time should a first-time buyer expect for timer-driven designs?</h2>
+<p>MOQ depends on platform and customization level: Light &amp; Mood platforms start at 100 pcs, Body care platforms at 500 pcs, with ODM custom runs higher.</p>
+<ul>
+  <li><strong>Light &amp; Mood platforms:</strong> 100 pcs standard, 300 pcs white-label, 500–1,000 pcs ODM custom.</li>
+  <li><strong>Body care platforms:</strong> 500 pcs standard, 1,000 pcs white-label, 2,000–3,000 pcs ODM custom.</li>
+  <li><strong>Lead time:</strong> 4–8 weeks from deposit to FOB Shenzhen for most SKUs.</li>
+  <li><strong>Samples:</strong> 7–14 day turnaround, sample fee refundable against the PO.</li>
+  <li><strong>Terms:</strong> T/T 30/70 or L/C at sight; FOB Shenzhen, working with your nominated forwarder.</li>
+</ul>
+<p>Timer behaviour is firmware, so it usually sits inside the standard customization band rather than the tooling band — provided the enclosure and UI already exist. A new display, a new button layout, or a new heating element pushes you into ODM custom territory and the higher MOQ tier.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Product category</th>
+      <th>Typical session power</th>
+      <th>Thermal approach</th>
+      <th>Battery / power implication</th>
+      <th>LIGHT BDB standard MOQ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/products/heated-eye-massager-flagship">Heated eye massager</a> (Light &amp; Mood)</td>
+      <td>2–5 W</td>
+      <td>PTC/NTC control, low thermal mass, soft contact surface</td>
+      <td>USB-C rechargeable, 800–1,500 mAh, 2–4 sessions per charge</td>
+      <td>100 pcs</td>
+    </tr>
+    <tr>
+      <td>Heated neck or shoulder massager (Body care)</td>
+      <td>8–15 W</td>
+      <td>Larger pad, NTC plus hardware thermal cutoff</td>
+      <td>2,000–2,600 mAh single cell or 2-cell pack</td>
+      <td>500 pcs</td>
+    </tr>
+    <tr>
+      <td>Heated belt or wrap (Body care)</td>
+      <td>10–20 W</td>
+      <td>Distributed element, dual cutoff, insulated surface</td>
+      <td>2–3 cell Li-ion pack with BMS</td>
+      <td>500 pcs</td>
+    </tr>
+    <tr>
+      <td>Red light therapy panel (Light &amp; Mood)</td>
+      <td>15–45 W</td>
+      <td>Aluminium heat spreader, LED current derating, junction budget</td>
+      <td>Mains, or 3-cell pack for portable versions</td>
+      <td>100 pcs</td>
+    </tr>
+    <tr>
+      <td>Light &amp; mood home device (Light &amp; Mood)</td>
+      <td>5–12 W</td>
+      <td>Driver efficiency and enclosure venting; low touch risk</td>
+      <td>Mains; timer is user experience, not thermal</td>
+      <td>100 pcs</td>
+    </tr>
+  </tbody>
+</table>
+<p>Power and thermal figures above are industry-typical starting points, not a quotation. The MOQ column reflects LIGHT BDB's standard tiers; ODM custom MOQ is 500–1,000 pcs on Light &amp; Mood platforms and 2,000–3,000 pcs on Body care platforms.</p>
+
+<h2>What does a 15 minute timer cost in BOM and tooling?</h2>
+<p>Industry-typical added BOM for a properly engineered auto-off system runs roughly USD 0.60–2.50 per unit; the spread comes from whether you need mains isolation and a redundant thermal cutoff.</p>
+<ul>
+  <li><strong>MCU with timer, display drive, and PWM:</strong> roughly USD 0.20–0.60.</li>
+  <li><strong>NTC thermistor plus divider network:</strong> roughly USD 0.05–0.20.</li>
+  <li><strong>Hardware thermal fuse or cutoff:</strong> roughly USD 0.10–0.40 — the part that keeps a firmware bug from becoming a field incident.</li>
+  <li><strong>Load switch or MOSFET rated for pulse current:</strong> roughly USD 0.15–0.50.</li>
+  <li><strong>Display and UI:</strong> the largest variable. A simple LED bar costs far less than a dot-matrix or colour panel, and both change tooling.</li>
+</ul>
+<p>Firmware and validation are one-time engineering costs, and they scale with how many edge cases your 15-minute state machine carries. Tooling is a one-time cost driven by enclosure and UI changes, not by timer logic. The genuinely cheap version of this project is an existing enclosure, an existing display, and new firmware — which is exactly where the standard MOQ tiers apply.</p>
+<p>On supply, LIGHT BDB's Panyu component plant (10,000+ sqm, 600+ staff, operated by exclusive strategic manufacturing partner Fuli Electronics) runs auto-grade inductors, transformers, wireless charging coils, and SMT. The Shenzhen base (3,000 sqm) handles finished-product assembly, and a Yangon overflow line adds 5,000+ pcs/day at volume peaks. Design centres sit in Hangzhou and Hamburg, so magnetics, drive electronics, assembly, and engineering stay close together when a timer change needs a build validation.</p>
+
+<h2>What are the honest trade-offs of a 15 minute session timer?</h2>
+<p>A 15 minute cap protects the electronics but frustrates users on large-area products and can push them into restart loops that defeat the safety margin.</p>
+<ul>
+  <li><strong>Large-area products want more time.</strong> A back wrap or full-leg device often wants 20–30 minutes in user testing. The usual fix is 15 minutes per zone rather than per session, which complicates the UI.</li>
+  <li><strong>Restart fatigue is real.</strong> If restart is one tap with no cooldown, users will run two or three sessions back-to-back. Your thermal margin then depends on user discipline, which is not a design strategy.</li>
+  <li><strong>Cold rooms eat the session.</strong> A heated product can spend three to five minutes just reaching working temperature. Fifteen minutes in a cold room feels like ten.</li>
+  <li><strong>Battery claims get optimistic.</strong> "Sessions per charge" is easy to state and easy to disprove at maximum intensity in low ambient temperatures.</li>
+  <li><strong>High-power light products may need more dose.</strong> If irradiance is modest, 15 minutes may limit the experience — and the honest fix is a better LED array, not a longer timer on the same thermals.</li>
+  <li><strong>Cheap timers drift.</strong> Low-cost RC oscillators can drift a few percent. That is invisible on a massager and visible on a claim of "exactly 15 minutes". A crystal is the small fix.</li>
+  <li><strong>Warranty exposure.</strong> LIGHT BDB's 500-day limited warranty, one of the longer windows in this category, means a timer logic bug that ships becomes a field return with a long tail.</li>
+</ul>
+<p>The balanced conclusion: 15 minutes is a good default, not a law. Choose it because it matches your product's thermal and usage reality, and be willing to defend 10 or 20 when the physics says so. Do not let a competitor's spec sheet set your thermal budget.</p>
+
+<h2>Frequently asked questions about 15 minute session timers</h2>
+
+<h3>Why do wellness devices have a 15 minute auto shutoff?</h3>
+<p>Because 15 minutes is the continuous-run window that most heated products can hold while keeping contact surfaces inside expected temperature limits. It also matches a single-zone usage pass, so the timer doubles as a clean product claim rather than a restriction users fight.</p>
+
+<h3>Is a 15 minute auto-off timer required by law?</h3>
+<p>No single global rule mandates exactly 15 minutes. However, household-appliance safety practice generally expects appliances that can be left running to have automatic shutoff or thermal protection, or both. The specific number is a design decision you justify to your test lab and your market.</p>
+
+<h3>How does a 15 minute session timer affect battery size?</h3>
+<p>It defines the energy pulse. Fifteen minutes at 10 W is about 2.5 Wh; at 30 W it is about 7.5 Wh. Usable capacity is roughly 70–80% of nameplate after converter losses, so a single 3.7 V / 2,600 mAh cell supports only a few high-intensity sessions.</p>
+
+<h3>Can a user restart a device immediately after the 15 minute timer ends?</h3>
+<p>They physically can, which is why many designs add a 1–5 minute cooldown lockout or a cumulative on-time cap over a rolling window. Without one, a 15-minute thermal margin is only as strong as user discipline — and back-to-back sessions are common.</p>
+
+<h3>What certifications should a wellness device factory hold?</h3>
+<p>At facility level, look for ISO 9001, ISO 14001, BSCI (amfori), and UL registered factory status. LIGHT BDB holds those plus Sony Green Partner. Remember these are process certifications, not product approvals; product-level marks are handled per SKU and destination market.</p>
+
+<h3>What is the MOQ for a custom heated massager with a 15 minute timer?</h3>
+<p>On LIGHT BDB's Light &amp; Mood platforms, standard MOQ is 100 pcs, white-label is 300 pcs, and ODM custom is 500–1,000 pcs. Body care platforms start at 500 pcs standard, 1,000 pcs white-label, and 2,000–3,000 pcs for ODM custom.</p>
+
+<h3>How long does production take after I approve a sample?</h3>
+<p>LIGHT BDB quotes 4–8 weeks from deposit to FOB Shenzhen for most SKUs. Samples themselves take 7–14 days, and the sample fee is refundable against the purchase order.</p>
+
+<h3>Do I need a hardware thermal cutoff if I already have firmware auto-off?</h3>
+<p>Yes, in most heated products. Firmware can hang, and a redundant hardware thermal fuse or cutoff in series with the heating element is industry-standard practice. Treat the two layers as complements, not substitutes.</p>
+
+<h3>How accurate should a 15 minute session timer be?</h3>
+<p>If the timer is only a safety and comfort boundary, a few percent of drift is acceptable. If "exactly 15 minutes" appears on packaging or in app copy, specify a crystal oscillator instead of relying on a low-cost RC clock.</p>
+
+<h3>Does a 15 minute session timer need a display?</h3>
+<p>Not necessarily. A seconds-level countdown reassures users on a short session, but a coarse bar or a simple LED indicator is often enough and costs less in BOM and tooling. The choice depends on whether the timer is a premium cue or a background safeguard.</p>
+
+<h3>What warranty can I expect on a timer-controlled wellness device?</h3>
+<p>LIGHT BDB offers a 500-day limited warranty, one of the longer windows in this category. Because timer logic bugs surface late, that long window is a reason to validate pause, restart, and over-temperature behaviour before tooling is cut.</p>
+
+<h3>Can I change the auto session timer to 10 or 20 minutes?</h3>
+<p>Yes, the timer value is firmware and is usually configurable within the standard customization band. But any change to the run window requires re-validating thermal performance, battery sizing, and touch temperatures — do not change the number without re-testing the physics.</p>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why do wellness devices have a 15 minute auto shutoff?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because 15 minutes is the continuous-run window most heated products can hold while keeping contact surfaces inside expected temperature limits. It also matches a single-zone usage pass, so the timer doubles as a clean product claim rather than a restriction users fight."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a 15 minute auto-off timer required by law?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No single global rule mandates exactly 15 minutes. Household-appliance safety practice generally expects appliances that can be left running to have automatic shutoff or thermal protection, or both. The specific number is a design decision you justify to your test lab and your market."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does a 15 minute session timer affect battery size?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It defines the energy pulse. Fifteen minutes at 10 W is about 2.5 Wh; at 30 W it is about 7.5 Wh. Usable capacity is roughly 70 to 80 percent of nameplate after converter losses, so a single 3.7 V 2600 mAh cell supports only a few high-intensity sessions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a user restart a device immediately after the 15 minute timer ends?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They physically can, which is why many designs add a 1 to 5 minute cooldown lockout or a cumulative on-time cap over a rolling window. Without one, a 15-minute thermal margin is only as strong as user discipline, and back-to-back sessions are common."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What certifications should a wellness device factory hold?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At facility level, look for ISO 9001, ISO 14001, BSCI (amfori), and UL registered factory status. LIGHT BDB holds those plus Sony Green Partner. These are process certifications, not product approvals; product-level marks are handled per SKU and destination market."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the MOQ for a custom heated massager with a 15 minute timer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "On LIGHT BDB's Light and Mood platforms, standard MOQ is 100 pcs, white-label is 300 pcs, and ODM custom is 500 to 1,000 pcs. Body care platforms start at 500 pcs standard, 1,000 pcs white-label, and 2,000 to 3,000 pcs for ODM custom."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does production take after I approve a sample?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "LIGHT BDB quotes 4 to 8 weeks from deposit to FOB Shenzhen for most SKUs. Samples themselves take 7 to 14 days, and the sample fee is refundable against the purchase order."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a hardware thermal cutoff if I already have firmware auto-off?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, in most heated products. Firmware can hang, and a redundant hardware thermal fuse or cutoff in series with the heating element is industry-standard practice. Treat the two layers as complements, not substitutes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How accurate should a 15 minute session timer be?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If the timer is only a safety and comfort boundary, a few percent of drift is acceptable. If exactly 15 minutes appears on packaging or in app copy, specify a crystal oscillator instead of relying on a low-cost RC clock."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a 15 minute session timer need a display?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not necessarily. A seconds-level countdown reassures users on a short session, but a coarse bar or a simple LED indicator is often enough and costs less in BOM and tooling. The choice depends on whether the timer is a premium cue or a background safeguard."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What warranty can I expect on a timer-controlled wellness device?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "LIGHT BDB offers a 500-day limited warranty, one of the longer windows in this category. Because timer logic bugs surface late, that long window is a reason to validate pause, restart, and over-temperature behaviour before tooling is cut."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I change the auto session timer to 10 or 20 minutes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the timer value is firmware and is usually configurable within the standard customization band. Any change to the run window requires re-validating thermal performance, battery sizing, and touch temperatures before it ships."
+      }
+    }
+  ]
+}
+</script>
+</article>
+<p class="related-links"><strong>Related on LightBDB</strong><a href="/product-platforms">All product platforms</a> · <a href="/faq">Sourcing FAQ</a></p>
+<section class="cta">
+<h2>Talk to a LIGHT BDB partner about your project</h2>
+<p>Get a structured quote in 48 hours. NDA-friendly. We share a real BOM before you commit.</p>
+<a href="/rfq" class="btn primary">Request a Quote</a>
+</section>
+</main>
+<footer class="site">
+<div class="wrap">
+<div class="legal">
+<span>© 2026 LightBDB. All rights reserved.</span>
+<span>LightBDB: Your Brand Co-creation Partner.</span>
+</div>
+</div>
+</footer>
+</body>
+</html>

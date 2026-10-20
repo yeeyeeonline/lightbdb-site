@@ -656,5 +656,19 @@
     "date": "2026-10-19",
     "kind": "horizontal",
     "url": "/guides/vibration-motor-count-and-placement-in-a-wearable-massager"
+  },
+  {
+    "slug": "what-a-15-minute-auto-session-timer-implies-for-design",
+    "title": "What a 15 minute auto session timer implies for design",
+    "date": "2026-10-20",
+    "kind": "horizontal",
+    "url": "/guides/what-a-15-minute-auto-session-timer-implies-for-design"
+  },
+  {
+    "slug": "pulse-modes-on-a-digital-controller-what-they-add-and-cost",
+    "title": "Pulse modes on a digital controller what they add and cost",
+    "date": "2026-10-20",
+    "kind": "horizontal",
+    "url": "/guides/pulse-modes-on-a-digital-controller-what-they-add-and-cost"
   }
 ]
