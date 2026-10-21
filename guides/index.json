@@ -670,5 +670,19 @@
     "date": "2026-10-20",
     "kind": "horizontal",
     "url": "/guides/pulse-modes-on-a-digital-controller-what-they-add-and-cost"
+  },
+  {
+    "slug": "why-a-heated-product-needs-a-full-battery-cycle-test",
+    "title": "Why a heated product needs a full battery cycle test",
+    "date": "2026-10-21",
+    "kind": "horizontal",
+    "url": "/guides/why-a-heated-product-needs-a-full-battery-cycle-test"
+  },
+  {
+    "slug": "heating-film-thickness-and-flexibility-trade-off",
+    "title": "Heating film thickness and flexibility trade off",
+    "date": "2026-10-21",
+    "kind": "horizontal",
+    "url": "/guides/heating-film-thickness-and-flexibility-trade-off"
   }
 ]
