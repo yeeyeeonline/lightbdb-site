@@ -684,5 +684,19 @@
     "date": "2026-10-21",
     "kind": "horizontal",
     "url": "/guides/heating-film-thickness-and-flexibility-trade-off"
+  },
+  {
+    "slug": "what-a-washable-heating-assembly-requires-in-sealing",
+    "title": "What a washable heating assembly requires in sealing",
+    "date": "2026-10-22",
+    "kind": "horizontal",
+    "url": "/guides/what-a-washable-heating-assembly-requires-in-sealing"
+  },
+  {
+    "slug": "what-is-verifiable-on-a-graphene-heating-element-spec-sheet",
+    "title": "What is verifiable on a graphene heating element spec sheet",
+    "date": "2026-10-22",
+    "kind": "horizontal",
+    "url": "/guides/what-is-verifiable-on-a-graphene-heating-element-spec-sheet"
   }
 ]
