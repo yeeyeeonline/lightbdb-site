@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (102) — long-form buyer education, updated daily
+### Procurement guides (104) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -89,6 +89,7 @@
 - /guides/country-of-origin-labeling-rules-for-imported-consumer-devices — Country of Origin Labeling Rules for Imports
 - /guides/does-a-ce-certificate-transfer-between-models — Does a CE certificate transfer between models
 - /guides/dual-sourcing-a-single-sku-when-it-is-worth-the-complexity — Dual sourcing a single SKU when it is worth the complexity
+- /guides/eye-massager-controller-edition-which-retail-channel-wants-it — Eye massager controller edition which retail channel wants it
 - /guides/eye-massager-with-bluetooth-music-which-channel-wants-it — Eye massager with Bluetooth music which channel wants it
 - /guides/eye-massager-with-heat-oem-manufacturer-guide — Eye massager with heat OEM manufacturer guide
 - /guides/fabric-wrap-vs-neoprene-wrap-for-heated-knee-products — Fabric vs Neoprene Wrap for Heated Knee Products
@@ -130,6 +131,7 @@
 - /guides/prop-65-labeling-for-products-sold-in-california — Prop 65 labeling for products sold in California
 - /guides/pulse-modes-on-a-digital-controller-what-they-add-and-cost — Pulse modes on a digital controller what they add and cost
 - /guides/rechargeable-battery-vs-plug-in-for-ambient-lamps — Rechargeable battery vs plug in for ambient lamps
+- /guides/rechargeable-hand-warmer-what-battery-spec-buyers-ask-for — Rechargeable hand warmer what battery spec buyers ask for
 - /guides/rechargeable-vs-usb-powered-heated-wearables — Rechargeable vs USB powered heated wearables
 - /guides/rigid-pcb-vs-flexible-heating-circuit-in-wearable-heat-products — Rigid PCB vs Flexible Heating in Wearables
 - /guides/rohs-and-reach-compliance-for-private-label-electronics — RoHS and REACH compliance for private label electronics
@@ -178,7 +180,7 @@
 - /guides/wired-controller-vs-app-control-for-heated-wearables — Wired controller vs app control for heated wearables
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (102 published)
+- /guides/ — procurement guide index (104 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
