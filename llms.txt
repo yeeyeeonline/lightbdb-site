@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (106) — long-form buyer education, updated daily
+### Procurement guides (108) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -124,6 +124,7 @@
 - /guides/light-and-sound-objects-why-retailers-keep-adding-them — Light and sound objects why retailers keep adding them
 - /guides/light-therapy-lamp-oem-manufacturer-guide — Light therapy lamp OEM manufacturer guide
 - /guides/multi-plant-production-and-supply-resilience-for-private-label-brands — Multi-Plant Production and Supply Resilience
+- /guides/multi-room-linkage-1-to-8-what-it-takes-to-implement — Multi-room linkage 1-to-8 what it takes to implement
 - /guides/nir-vs-red-light-vs-full-spectrum-what-to-put-on-the-box — NIR vs red light vs full spectrum what to put on the box
 - /guides/odm-existing-platform-vs-full-custom-development-timeline-compared — ODM Platform vs Full Custom Development Timelines
 - /guides/one-color-vs-custom-colorway-minimums-for-private-label — One color vs custom colorway minimums for private label
@@ -141,6 +142,7 @@
 - /guides/solid-wood-lamp-manufacturing-private-label-buyers — Solid Wood Lamp Manufacturer China: Private Label Guide
 - /guides/solid-wood-vs-abs-housing-for-ambient-lighting-products — Solid wood vs ABS housing for ambient lighting products
 - /guides/solid-wood-vs-mdf-housing-for-ambient-light-sculptures — Solid wood vs MDF housing for ambient light sculptures
+- /guides/speaker-lamp-oem-what-bluetooth-plus-light-means-for-certification — Speaker lamp OEM what Bluetooth plus light means for certification
 - /guides/standard-packaging-vs-retail-ready-packaging-cost-and-moq — Standard packaging vs retail ready packaging cost and MOQ
 - /guides/sunrise-alarm-clock-oem-manufacturer-guide — Sunrise alarm clock OEM manufacturer guide
 - /guides/sunrise-alarm-clock-vs-light-therapy-lamp-what-buyers-confuse — Sunrise Alarm Clock vs Light Therapy Lamp
@@ -182,7 +184,7 @@
 - /guides/wireless-charging-lamp-oem-how-the-coil-is-specified — Wireless charging lamp OEM how the coil is specified
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (106 published)
+- /guides/ — procurement guide index (108 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
