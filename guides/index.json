@@ -740,5 +740,19 @@
     "date": "2026-10-25",
     "kind": "horizontal",
     "url": "/guides/wireless-charging-lamp-oem-how-the-coil-is-specified"
+  },
+  {
+    "slug": "speaker-lamp-oem-what-bluetooth-plus-light-means-for-certification",
+    "title": "Speaker lamp OEM what Bluetooth plus light means for certification",
+    "date": "2026-10-26",
+    "kind": "horizontal",
+    "url": "/guides/speaker-lamp-oem-what-bluetooth-plus-light-means-for-certification"
+  },
+  {
+    "slug": "multi-room-linkage-1-to-8-what-it-takes-to-implement",
+    "title": "Multi-room linkage 1-to-8 what it takes to implement",
+    "date": "2026-10-26",
+    "kind": "horizontal",
+    "url": "/guides/multi-room-linkage-1-to-8-what-it-takes-to-implement"
   }
 ]
