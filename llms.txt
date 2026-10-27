@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (108) — long-form buyer education, updated daily
+### Procurement guides (110) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -94,6 +94,7 @@
 - /guides/eye-massager-with-heat-oem-manufacturer-guide — Eye massager with heat OEM manufacturer guide
 - /guides/fabric-wrap-vs-neoprene-wrap-for-heated-knee-products — Fabric vs Neoprene Wrap for Heated Knee Products
 - /guides/fcc-marking-for-light-and-sound-devices-what-buyers-must-confirm — FCC Marking for Light and Sound Devices
+- /guides/gift-ready-packaging-for-ambient-lamps-what-it-includes — Gift-ready packaging for ambient lamps what it includes
 - /guides/graphene-fir-vs-carbon-fiber-heating-element-which-lasts-longer — Graphene FIR vs Carbon Fiber Heating Elements
 - /guides/graphene-heating-vs-traditional-wire-heating-which-to-specify — Graphene Heating vs Traditional Wire Heating
 - /guides/heat-therapy-vs-red-light-therapy-which-category-fits-your-brand — Heat Therapy vs Red Light Therapy for Your Brand
@@ -144,6 +145,7 @@
 - /guides/solid-wood-vs-mdf-housing-for-ambient-light-sculptures — Solid wood vs MDF housing for ambient light sculptures
 - /guides/speaker-lamp-oem-what-bluetooth-plus-light-means-for-certification — Speaker lamp OEM what Bluetooth plus light means for certification
 - /guides/standard-packaging-vs-retail-ready-packaging-cost-and-moq — Standard packaging vs retail ready packaging cost and MOQ
+- /guides/stepless-dimming-and-warm-to-cool-tuning-what-buyers-should-specify — Stepless dimming and warm-to-cool tuning what buyers should specify
 - /guides/sunrise-alarm-clock-oem-manufacturer-guide — Sunrise alarm clock OEM manufacturer guide
 - /guides/sunrise-alarm-clock-vs-light-therapy-lamp-what-buyers-confuse — Sunrise Alarm Clock vs Light Therapy Lamp
 - /guides/temperature-uniformity-across-a-heating-pad-what-to-measure — Temperature uniformity across a heating pad what to measure
@@ -184,7 +186,7 @@
 - /guides/wireless-charging-lamp-oem-how-the-coil-is-specified — Wireless charging lamp OEM how the coil is specified
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (108 published)
+- /guides/ — procurement guide index (110 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
