@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (110) — long-form buyer education, updated daily
+### Procurement guides (112) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -108,6 +108,7 @@
 - /guides/heated-waist-and-back-belt-oem-manufacturer-guide — Heated waist and back belt OEM manufacturer guide
 - /guides/heating-film-thickness-and-flexibility-trade-off — Heating film thickness and flexibility trade off
 - /guides/heating-zone-layout-how-many-zones-a-scarf-or-belt-needs — Heating zone layout how many zones a scarf or belt needs
+- /guides/hotel-and-lobby-channel-what-ambient-lighting-buyers-ask-for — Hotel and lobby channel what ambient lighting buyers ask for
 - /guides/how-component-purchase-minimums-set-your-moq-floor — How component purchase minimums set your MOQ floor
 - /guides/how-many-body-care-categories-a-first-line-should-cover — How many body care categories a first line should cover
 - /guides/how-many-heat-levels-does-a-wearable-actually-need — How many heat levels does a wearable actually need
@@ -133,6 +134,7 @@
 - /guides/private-mold-vs-open-mold-which-is-worth-the-tooling — Private mold vs open mold which is worth the tooling
 - /guides/prop-65-labeling-for-products-sold-in-california — Prop 65 labeling for products sold in California
 - /guides/pulse-modes-on-a-digital-controller-what-they-add-and-cost — Pulse modes on a digital controller what they add and cost
+- /guides/real-flame-effect-lighting-where-it-fits-in-retail-display — Real flame effect lighting where it fits in retail display
 - /guides/rechargeable-battery-vs-plug-in-for-ambient-lamps — Rechargeable battery vs plug in for ambient lamps
 - /guides/rechargeable-hand-warmer-what-battery-spec-buyers-ask-for — Rechargeable hand warmer what battery spec buyers ask for
 - /guides/rechargeable-vs-usb-powered-heated-wearables — Rechargeable vs USB powered heated wearables
@@ -186,7 +188,7 @@
 - /guides/wireless-charging-lamp-oem-how-the-coil-is-specified — Wireless charging lamp OEM how the coil is specified
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (110 published)
+- /guides/ — procurement guide index (112 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
