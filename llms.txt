@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (114) — long-form buyer education, updated daily
+### Procurement guides (116) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -148,6 +148,7 @@
 - /guides/solid-wood-vs-mdf-housing-for-ambient-light-sculptures — Solid wood vs MDF housing for ambient light sculptures
 - /guides/speaker-lamp-oem-what-bluetooth-plus-light-means-for-certification — Speaker lamp OEM what Bluetooth plus light means for certification
 - /guides/standard-packaging-vs-retail-ready-packaging-cost-and-moq — Standard packaging vs retail ready packaging cost and MOQ
+- /guides/starry-sky-ambience-finishes-how-a-colourway-change-becomes-a-new-sku — Starry sky ambience finishes how a colourway change becomes a new SKU
 - /guides/stepless-dimming-and-warm-to-cool-tuning-what-buyers-should-specify — Stepless dimming and warm-to-cool tuning what buyers should specify
 - /guides/sunrise-alarm-clock-oem-manufacturer-guide — Sunrise alarm clock OEM manufacturer guide
 - /guides/sunrise-alarm-clock-vs-light-therapy-lamp-what-buyers-confuse — Sunrise Alarm Clock vs Light Therapy Lamp
@@ -188,9 +189,10 @@
 - /guides/wired-controller-vs-app-control-for-heated-wearables — Wired controller vs app control for heated wearables
 - /guides/wireless-charging-lamp-oem-how-the-coil-is-specified — Wireless charging lamp OEM how the coil is specified
 - /guides/wood-branch-sculpture-lamps-what-hand-finishing-costs — Wood branch sculpture lamps what hand finishing costs
+- /guides/wood-lamp-colour-variation-what-is-acceptable-and-how-to-specify-it — Wood lamp colour variation what is acceptable and how to specify it
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (114 published)
+- /guides/ — procurement guide index (116 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
