@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (116) — long-form buyer education, updated daily
+### Procurement guides (118) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -142,6 +142,7 @@
 - /guides/rigid-pcb-vs-flexible-heating-circuit-in-wearable-heat-products — Rigid PCB vs Flexible Heating in Wearables
 - /guides/rohs-and-reach-compliance-for-private-label-electronics — RoHS and REACH compliance for private label electronics
 - /guides/rohs-and-sony-green-partner-what-they-cover-and-since-when — RoHS and Sony Green Partner what they cover and since when
+- /guides/scented-candle-and-aroma-line-how-it-fits-a-brand-s-first-assortment — Scented candle and aroma line how it fits a brand's first assortment
 - /guides/sizing-s-to-xxl-how-wearable-heat-products-handle-fit — Sizing S to XXL how wearable heat products handle fit
 - /guides/solid-wood-lamp-manufacturing-private-label-buyers — Solid Wood Lamp Manufacturer China: Private Label Guide
 - /guides/solid-wood-vs-abs-housing-for-ambient-lighting-products — Solid wood vs ABS housing for ambient lighting products
@@ -152,6 +153,7 @@
 - /guides/stepless-dimming-and-warm-to-cool-tuning-what-buyers-should-specify — Stepless dimming and warm-to-cool tuning what buyers should specify
 - /guides/sunrise-alarm-clock-oem-manufacturer-guide — Sunrise alarm clock OEM manufacturer guide
 - /guides/sunrise-alarm-clock-vs-light-therapy-lamp-what-buyers-confuse — Sunrise Alarm Clock vs Light Therapy Lamp
+- /guides/sunrise-and-dawn-light-objects-what-the-spec-actually-means — Sunrise and dawn light objects what the spec actually means
 - /guides/temperature-uniformity-across-a-heating-pad-what-to-measure — Temperature uniformity across a heating pad what to measure
 - /guides/us-eu-and-jp-voltage-and-plug-differences-for-ambient-lighting — US, EU and JP Voltage and Plug Differences
 - /guides/vibration-massage-vs-heat-compression-which-sells-better — Vibration massage vs heat compression which sells better
@@ -192,7 +194,7 @@
 - /guides/wood-lamp-colour-variation-what-is-acceptable-and-how-to-specify-it — Wood lamp colour variation what is acceptable and how to specify it
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (116 published)
+- /guides/ — procurement guide index (118 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
