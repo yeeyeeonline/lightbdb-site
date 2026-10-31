@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- p0:meta -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="LightBDB">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://www.lightbdb.com/guides/sunrise-and-dawn-light-objects-what-the-spec-actually-means">
+<meta property="og:title" content="Sunrise and dawn light objects what the spec actually means">
+<meta property="og:description" content="Sunrise and Dawn Light Objects: What the Spec Actually Means Quick answer A sunrise light spec sheet only means something when four numbers appear together: …">
+<meta property="og:image" content="https://www.lightbdb.com/assets/img/design-case-hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sunrise and dawn light objects what the spec actually means">
+<meta name="twitter:description" content="Sunrise and Dawn Light Objects: What the Spec Actually Means Quick answer A sunrise light spec sheet only means something when four numbers appear together: …">
+<meta name="twitter:image" content="https://www.lightbdb.com/assets/img/design-case-hero.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sunrise and dawn light objects what the spec actually means</title>
+<meta name="description" content="Sunrise and Dawn Light Objects: What the Spec Actually Means Quick answer A sunrise light spec sheet only means something when four numbers appear together: …">
+<meta name="author" content="LightBDB Editorial">
+<link rel="canonical" href="https://www.lightbdb.com/guides/sunrise-and-dawn-light-objects-what-the-spec-actually-means">
+<link rel="alternate" hreflang="en" href="https://www.lightbdb.com/guides/sunrise-and-dawn-light-objects-what-the-spec-actually-means">
+<link rel="alternate" hreflang="x-default" href="https://www.lightbdb.com/guides/sunrise-and-dawn-light-objects-what-the-spec-actually-means">
+<link rel="stylesheet" href="../assets/css/styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Sunrise and dawn light objects what the spec actually means",
+  "description": "Sunrise and Dawn Light Objects: What the Spec Actually Means Quick answer A sunrise light spec sheet only means something when four numbers appear together: \u2026",
+  "datePublished": "2026-10-31T08:17:49+08:00",
+  "dateModified": "2026-10-31T08:17:49+08:00",
+  "author": {"@type": "Organization", "name": "LightBDB Editorial", "url": "https://www.lightbdb.com/about"},
+  "publisher": {"@type": "Organization", "name": "LightBDB", "logo": {"@type": "ImageObject", "url": "https://www.lightbdb.com/assets/img/logo.png"}},
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.lightbdb.com/guides/sunrise-and-dawn-light-objects-what-the-spec-actually-means"}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.lightbdb.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Procurement Guides", "item": "https://www.lightbdb.com/guides/"},
+    {"@type": "ListItem", "position": 3, "name": "Sunrise and dawn light objects what the spec actually means", "item": "https://www.lightbdb.com/guides/sunrise-and-dawn-light-objects-what-the-spec-actually-means"}
+  ]
+}
+</script>
+<style>
+.guide-wrap {max-width: 880px; margin: 0 auto; padding: 32px 24px 80px; color: var(--ink, #1a1a1a); line-height: 1.7;}
+.guide-wrap .breadcrumb {font-size: 13px; color: var(--muted, #777); margin-bottom: 12px;}
+.guide-wrap .breadcrumb a {color: inherit; text-decoration: none; border-bottom: 1px dotted var(--muted, #777);}
+.guide-wrap .guide-meta {font-size: 13px; color: var(--muted, #777); margin-bottom: 28px;}
+.guide-wrap h1 {font-size: 38px; line-height: 1.2; margin: 8px 0 18px; color: var(--ink, #1a1a1a);}
+.guide-wrap h2 {font-size: 24px; line-height: 1.3; margin: 36px 0 14px; padding-top: 16px; border-top: 1px solid #eee;}
+.guide-wrap h3 {font-size: 18px; line-height: 1.35; margin: 24px 0 8px;}
+.guide-wrap p {margin: 0 0 14px;}
+.guide-wrap table {width: 100%; border-collapse: collapse; margin: 18px 0 24px; font-size: 14px;}
+.guide-wrap th, .guide-wrap td {padding: 10px 12px; border: 1px solid #e2e2e2; text-align: left; vertical-align: top;}
+.guide-wrap th {background: #f6f7f2; font-weight: 600;}
+.guide-wrap ul, .guide-wrap ol {padding-left: 22px; margin: 0 0 14px;}
+.guide-wrap li {margin: 4px 0;}
+.guide-wrap blockquote {border-left: 3px solid var(--green, #B8C439); padding: 6px 14px; color: #555; margin: 14px 0;}
+.guide-wrap .cta {margin: 48px 0 0; padding: 24px; background: #f6f7f2; border-radius: 8px; text-align: center;}
+.guide-wrap .cta h2 {border-top: 0; padding-top: 0; margin-top: 0; font-size: 20px;}
+.guide-wrap .btn.primary {display: inline-block; margin-top: 12px; padding: 12px 28px; background: var(--green, #B8C439); color: #1a1a1a; border-radius: 6px; text-decoration: none; font-weight: 600;}
+/* GEO: Quick-answer block — the single most AI-quotable region of the page */
+.geo-tldr {margin: 0 0 30px; padding: 20px 22px; background: #f6f7f2; border-left: 4px solid #B8C439; border-radius: 4px;}
+.geo-tldr .geo-tldr-label {margin: 0 0 8px; font-size: 12px; letter-spacing: .09em; text-transform: uppercase; font-weight: 700; color: #6a7a1e;}
+.geo-tldr > p {margin: 0 0 12px; font-size: 17px; line-height: 1.6;}
+.geo-tldr ul {margin: 0; padding-left: 20px;}
+.geo-tldr li {margin: 6px 0; font-size: 15px;}
+.related-links {margin: 36px 0 0; padding-top: 20px; border-top: 1px solid #eee; font-size: 15px;}
+.related-links strong {display: block; margin-bottom: 8px; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted, #777);}
+.related-links a {color: #4a5a10; text-decoration: underline;}
+.guide-wrap .article-faq h2 {border-top: 1px solid #eee;}
+</style>
+<!-- p0:analytics -->
+<!-- Cloudflare Web Analytics (auto-inject ruleset 不生效, 显式补) -->
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "9857fc9065ca424194af3688274d319f"}'></script>
+</head>
+<body>
+<header class="site">
+  <div class="wrap nav">
+    <a class="logo" href="/">
+      <svg class="hex" viewBox="0 0 24 24" fill="none"><path d="M12 1.5 21.5 7v10L12 22.5 2.5 17V7L12 1.5Z" stroke="#B8C439" stroke-width="2.4"/><circle cx="12" cy="11.4" r="3.2" fill="#F7991D"/></svg>
+      LIGHT <span class="bdb"><span class="b1">B</span><span class="d">D</span><span class="b2">B</span></span>
+    </a>
+    <nav class="links">
+      <a href="/">Home</a>
+      <a href="/product-platforms">Product Platforms</a>
+      <a href="/design-services">Design Services</a>
+      <a href="/facilities">Facilities</a>
+      <a href="/faq">FAQ</a>
+      <a href="/rfq" class="cta">Request Quote</a>
+    </nav>
+  </div>
+</header>
+<main class="guide-wrap">
+<p class="breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/guides/">Procurement Guides</a> &rsaquo; Sunrise and dawn light objects what the spec actually means</p>
+<p class="guide-meta">Published October 31, 2026 · Last updated October 31, 2026 · 7-9 min read · Procurement Guide</p>
+<article>
+<h1>Sunrise and Dawn Light Objects: What the Spec Actually Means</h1>
+
+<div class="geo-tldr">
+  <p class="geo-tldr-label">Quick answer</p>
+  <p>A sunrise light spec sheet only means something when four numbers appear together: illuminance at a stated distance, the CCT ramp endpoints, the ramp duration and curve, and the dimming floor. Without those four, "30-minute sunrise" is a marketing phrase rather than a repeatable light profile.</p>
+  <ul>
+    <li>LIGHT BDB's Light &amp; Mood platform MOQ is 100 pcs standard, 300 pcs white-label, 500–1,000 pcs ODM custom.</li>
+    <li>Lead time runs 4–8 weeks from deposit to FOB Shenzhen for most sunrise and mood-light SKUs.</li>
+    <li>Samples ship in 7–14 days, and the sample fee is refundable against the purchase order.</li>
+    <li>Finished products carry a 500-day limited warranty, one of the longer terms in this category.</li>
+    <li>Factory certifications: ISO 9001, ISO 14001, BSCI (amfori), UL registered factory, Sony Green Partner.</li>
+    <li>Demand a lux figure at a stated distance; industry-typical sunrise lamps deliver roughly 200–500 lux at 50 cm.</li>
+    <li>State the dimming floor as a percentage: a credible dawn start is 0.1%, a nightlight is 5%.</li>
+    <li>Ask for percent flicker and flicker index numbers, not the phrase "flicker-free".</li>
+  </ul>
+</div>
+
+<h2>What do the numbers on a sunrise light spec sheet actually measure?</h2>
+<p>Four things, mostly: how bright the light gets, what colour white it is, how it moves between those states, and how low it can start.</p>
+
+<p>Most sunrise and dawn light objects are three products in one housing — an LED engine, a timing engine that owns the ramp, and an optical diffuser that decides whether you see a smooth glow or a row of dots. Spec sheets in this category describe the first very well and the other two hardly at all. A line like "36 LEDs, 12 W, warm white to daylight" tells you which components the factory bought. It tells you nothing about what your customer experiences at 6:40 a.m.</p>
+
+<p>The useful question is not how many LEDs, but what the light does over time and how the supplier proves it. Below is how the load-bearing lines should read when a factory is being straight with you.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Spec line</th>
+      <th>What a vague sheet says</th>
+      <th>What a verifiable sheet says</th>
+      <th>Document to request</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Brightness</td>
+      <td>"Warm, bright wake-up light"</td>
+      <td>"420 lux at 50 cm, on axis, at 4000K and 100% output"</td>
+      <td>Integrating-sphere photometric report</td>
+    </tr>
+    <tr>
+      <td>Colour ramp</td>
+      <td>"Sunrise colours"</td>
+      <td>"1800K to 4000K over 30 minutes, CCT tolerance ±100K"</td>
+      <td>Spectroradiometer log at 5-minute intervals</td>
+    </tr>
+    <tr>
+      <td>Ramp profile</td>
+      <td>"30-minute sunrise"</td>
+      <td>"256 steps, exponential curve, 7-second interval"</td>
+      <td>Firmware ramp table</td>
+    </tr>
+    <tr>
+      <td>Dimming floor</td>
+      <td>"Dimmable"</td>
+      <td>"0.1% minimum output, 12-bit PWM at 3.2 kHz"</td>
+      <td>Driver spec plus PWM waveform capture</td>
+    </tr>
+    <tr>
+      <td>Flicker</td>
+      <td>"Flicker-free"</td>
+      <td>"Percent flicker 2.8%, flicker index 0.01 at 20% output"</td>
+      <td>Flicker meter report at 10/50/100%</td>
+    </tr>
+    <tr>
+      <td>Colour quality</td>
+      <td>"High CRI"</td>
+      <td>"Ra ≥ 90, R9 ≥ 50 at 2700K, Duv within ±0.003"</td>
+      <td>LM-79 style test report</td>
+    </tr>
+    <tr>
+      <td>Alarm audio</td>
+      <td>"Gentle wake sound"</td>
+      <td>"65 dB(A) at 1 m, nine-minute tone ramp, 9-minute snooze"</td>
+      <td>Acoustic test sheet</td>
+    </tr>
+    <tr>
+      <td>Connectivity</td>
+      <td>"App controlled"</td>
+      <td>"BLE 5.2 plus 2.4 GHz Wi-Fi, schedule stored on device"</td>
+      <td>Firmware and QA specification</td>
+    </tr>
+    <tr>
+      <td>Power</td>
+      <td>"USB powered"</td>
+      <td>"USB-C PD, 5V/3A in, 0.3 W standby"</td>
+      <td>Standby power measurement</td>
+    </tr>
+    <tr>
+      <td>Diffuser</td>
+      <td>"Soft glow"</td>
+      <td>"2.0 mm PC, UL 94 V-0, UV-stabilised, ageing data attached"</td>
+      <td>Material certificate plus yellowing test</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>If a supplier can hand you the documents in the right-hand column, two quotes become comparable on facts rather than adjectives. If they cannot, the gap between $14 and $19 landed cost is a gap in evidence, not in quality.</p>
+
+<h2>Why is "lux at 50 cm" the most useful number on a sunrise light sheet?</h2>
+<p>Because illuminance falls with the square of distance, so a lux figure without a stated distance is not a specification at all.</p>
+
+<p>Double the distance between lamp and face and you divide the illuminance by four. A lamp quoted at 800 lux at 25 cm is delivering roughly 200 lux at 50 cm. Nightstand geometry is not negotiable: the lamp sits on a table and the sleeper's face is somewhere between 40 and 70 cm away, usually at an angle. So the only lux number worth quoting is one taken at a distance your customer will actually use.</p>
+
+<p>For tabletop sunrise lamps, industry-typical output lands between 200 and 500 lux at 50 cm on axis. Larger panel-style designs sometimes claim 1,000 lux at 30 cm, which sounds bigger but is simply measured closer. A typical bedroom before dawn sits at roughly 1–5 lux of ambient light — which is exactly why the bottom of the ramp matters as much as the top.</p>
+
+<h3>How should a lux figure be measured?</h3>
+<ul>
+  <li>Calibrated, cosine-corrected lux meter, on axis, at the stated distance.</li>
+  <li>Ambient at 25 °C, after 20–30 minutes of stabilisation — LED output drops as the board warms.</li>
+  <li>Reported at 100% output and again at the dawn start point, because the second number is the one nobody checks.</li>
+  <li>Lumen maintenance data attached, since ageing emitters quietly lose output.</li>
+</ul>
+
+<h3>Why lumens alone will not save you</h3>
+<p>Lumens describe total flux leaving the fixture; lux describes what lands on a surface. A diffuse opal diffuser can absorb or scatter 10–25% of the light before it reaches anyone's face — industry-typical, and the reason a 600-lumen lamp can measure dimmer than a 400-lumen competitor with tighter optics.</p>
+
+<h2>What does an 1800K to 4000K CCT ramp actually mean?</h2>
+<p>It means the white point travels from deep amber to neutral across the ramp — and how it travels matters more than the two endpoints.</p>
+
+<p>1800K reads as candlelight. 2200K to 2700K is the low end most sunrise lamps actually use. 4000K is neutral morning light, and 5000K and above is daylight. A sheet that says "sunrise colours" without a CCT range is describing a mood, not a device. A sheet that says "tunable 1800K–4000K" is making a promise you can test with a spectroradiometer at five-minute intervals.</p>
+
+<h3>How is the ramp physically built?</h3>
+<p>Two common approaches, with different consequences:</p>
+<ul>
+  <li><strong>Dual-white mixing.</strong> A warm string (1800–2200K) and a cool string (4000–5700K) cross-faded by PWM ratio. Best colour rendering, most natural white, simplest firmware.</li>
+  <li><strong>RGB plus white.</strong> More saturated colour for mood modes, but the white point is usually a compromise and red rendering suffers.</li>
+</ul>
+<p>Deep-amber emitters at 1800K are less efficient in lumens per watt than 2700K parts, so a genuine 1800K start needs more emitters and a larger thermal path. That is precisely why budget designs start at 2700K and call it sunrise. It is a legitimate cost decision — just ask which one you are buying.</p>
+
+<h3>Which colour-quality numbers belong on the sheet?</h3>
+<ul>
+  <li><strong>Ra (CRI) ≥ 90</strong> at the warm end — below 85, skin and food look grey.</li>
+  <li><strong>R9 ≥ 50</strong> — the red sample that CRI alone tends to hide.</li>
+  <li><strong>TM-30 Rf and Rg</strong> if the supplier has them; Rg tells you whether colours look saturated or washed out.</li>
+  <li><strong>CCT tolerance</strong>, typically ±100K, so units do not drift pink or green between batches.</li>
+  <li><strong>Duv</strong> near zero — the single number separating a clean white from a faintly green one.</li>
+</ul>
+
+<h3>Why the diffuser decides whether the ramp looks smooth</h3>
+<p>A ramp is only as smooth as the optics allow. Thin diffusers show hot spots from individual emitters, especially in the first ten minutes when output is low and the eye is dark-adapted. Specify material, thickness and flame rating, and ask for UV and thermal ageing data — a warm-biased product that yellows in 18 months is judged harshly by a customer who leaves it on every morning.</p>
+
+<h2>How can you tell a real 30-minute sunrise from a 12-step imitation?</h2>
+<p>Count the steps and ask for the curve: a credible 30-minute ramp uses well over 100 discrete brightness steps, not twelve visible jumps.</p>
+
+<p>Under dark-adapted viewing, most people notice a luminance change somewhere around 2–3%, which means a slow ramp needs fine granularity near the bottom, not near the top. Well-engineered controllers in this category typically run 100 to 256 steps across a 15, 30, 45 or 60-minute window. A 12–16 step design is a slideshow, and marketplace reviewers are very good at spotting it.</p>
+
+<h3>Where do cheap designs actually break?</h3>
+<ul>
+  <li><strong>8-bit dimming.</strong> 256 levels sounds like plenty until the floor is 1% — then the bottom of the ramp has two or three usable values and you see banding.</li>
+  <li><strong>Linear curves.</strong> A straight line spends twenty minutes at levels nobody can see, then jumps. Exponential or logarithmic curves front-load resolution where the eye needs it.</li>
+  <li><strong>The end-of-ramp snap.</strong> When the timer finishes and the lamp cuts to full output, an unspecified transition turns a gentle wake-up into a flash. Specify the final five minutes.</li>
+  <li><strong>Missing local fallback.</strong> If the schedule lives only in the app and the phone is off, the product is a lamp with no alarm.</li>
+</ul>
+
+<h3>What flicker numbers should you demand?</h3>
+<p>Ask for percent flicker and flicker index at 10%, 50% and 100% output, plus the PWM frequency. "Flicker-free" is not a measurement. Lighting engineers commonly cite IEEE 1789-2015 as the reference framework; industry-typical low-risk designs run PWM in the 1–4 kHz range with percent flicker under 10% at low output. What you are avoiding is visible shimmer when a hand moves through the beam or a phone camera pans across it.</p>
+
+<h3>What about the audio side of the spec?</h3>
+<p>Sunrise objects usually carry an alarm, and the sound deserves the same scrutiny: dB(A) at 1 metre, driver size, how the tone ramps, snooze interval and count, and whether the alarm still fires when Bluetooth is disconnected. A 55 dB(A) ramp reaching 75 dB(A) after nine minutes is a different product from a fixed 70 dB(A) beep.</p>
+
+<h2>Which certifications and test documents should a US or EU buyer ask for?</h2>
+<p>At minimum a safety report to IEC/UL 62368-1, an EMC report, RoHS and REACH declarations, and UN 38.3 plus IEC 62133-2 if the unit has a battery.</p>
+
+<p>Certification in this category is per SKU and per factory, so a report for "a similar model" transfers nothing. Ask for documents that name your model number, not the platform it came from.</p>
+
+<h3>United States</h3>
+<ul>
+  <li><strong>Safety listing</strong> to UL 62368-1, or UL 1598 if the product is classified as a luminaire — construction and marketing both affect that call, so confirm it with the lab.</li>
+  <li><strong>FCC Part 15 Subpart B</strong> for unintentional emissions, plus <strong>Part 15C</strong> if there is Bluetooth or Wi-Fi onboard.</li>
+  <li><strong>California Prop 65</strong> evaluation covering plastics, solder and cable jackets.</li>
+</ul>
+
+<h3>European Union</h3>
+<ul>
+  <li><strong>CE marking</strong> built from EMC Directive 2014/30/EU, LVD 2014/35/EU for mains-input products, and RED 2014/53/EU for anything with a radio.</li>
+  <li><strong>RoHS 2011/65/EU</strong> and <strong>REACH</strong> declarations at material level.</li>
+  <li><strong>WEEE 2012/19/EU</strong> registration, plus Ecodesign 2009/125/EC with the standby limits under (EU) 2023/826, which typically cap non-networked standby around 0.5 W.</li>
+</ul>
+
+<h3>Japan</h3>
+<p>PSE (DENAN) for the AC adapter or built-in supply, and the Radio Law technical conformity mark for wireless models. Both are product-level obligations, not factory-level ones.</p>
+
+<h3>What LIGHT BDB actually holds</h3>
+<p>LIGHT BDB operates under ISO 9001, ISO 14001, BSCI (amfori), UL registered factory status and Sony Green Partner. Those are factory certifications. "UL registered factory" describes the facility, not any individual product — a factory registration is not a product listing. SKU-level reports are handled model by model, so always ask to see the certificate that carries your model number. LIGHT BDB builds wellness devices, not regulated healthcare products, and makes no therapeutic claims for any SKU; keep the same discipline in your own listing copy.</p>
+
+<h2>What MOQ, lead time and warranty should a first-time buyer expect for a sunrise light?</h2>
+<p>On LIGHT BDB's Light &amp; Mood platforms, MOQ is 100 pcs standard, 300 pcs white-label and 500–1,000 pcs for ODM custom work.</p>
+
+<p>Those tiers exist because platform tooling is shared below a certain volume. Standard means an existing housing and light engine with your packaging; white-label adds your logo and printed materials; ODM custom means a new ID, new firmware behaviour and your own app build, which is why the volume floor moves up.</p>
+
+<ul>
+  <li><strong>Lead time:</strong> 4–8 weeks from deposit to FOB Shenzhen for most SKUs.</li>
+  <li><strong>Samples:</strong> 7–14 days, with the sample fee refundable against the purchase order.</li>
+  <li><strong>Warranty:</strong> 500 days limited — one of the longer terms in the category.</li>
+  <li><strong>Payment:</strong> T/T 30/70, with L/C at sight accepted.</li>
+  <li><strong>Shipping:</strong> FOB Shenzhen, working with your nominated forwarder.</li>
+</ul>
+
+<p>For contrast, body care platforms start at 500 pcs standard and run to 2,000–3,000 pcs for ODM custom. The lower Light &amp; Mood tiers are a real advantage for a brand testing a new shelf.</p>
+
+<p>What pushes you up a tier is almost always tooling. A new diffuser, a custom PCB outline, an injection-moulded base or a bespoke retail insert are one-time costs that need volume behind them. Most factories in this category quote 25–40 days for a new injection tool, which sits alongside the 4–8 week production window rather than inside it — plan for it.</p>
+
+<h2>What are the honest trade-offs in a low-MOQ sunrise light program?</h2>
+<p>Low MOQ buys speed and low inventory risk, but it narrows your options on tooling, colour quality and custom firmware.</p>
+
+<p>None of these are deal-breakers. They are simply what you trade away at 100 or 300 pcs, and it is better to know them before the PO than after.</p>
+
+<ul>
+  <li><strong>Shared tooling means a shared silhouette.</strong> At 100–300 pcs you are choosing from existing housings; a distinctive ID needs the ODM tier and tooling amortisation.</li>
+  <li><strong>A true 1800K start costs more.</strong> More emitters, bigger thermal path. Budget competitors start at 2200–2700K and label it sunrise — decide whether your customer will notice.</li>
+  <li><strong>App depth is the usual critical path.</strong> BLE with a local schedule is cheaper and more robust than cloud Wi-Fi; cloud brings firmware maintenance, a privacy policy and app store upkeep. Custom app builds in this industry typically run 8–16 weeks, longer than the hardware.</li>
+  <li><strong>Batteries and connectors fail first.</strong> A 500-day warranty is generous, so specify cell grade and USB-C mating cycles rather than discovering them through returns.</li>
+  <li><strong>Certificates do not travel.</strong> Each SKU and each factory gets its own report. Budget for testing on every variant you launch.</li>
+  <li><strong>Returns are mostly setup failures.</strong> A lamp that pairs badly generates more returns than one that dims badly. Spend on the onboarding card, the QR code and three-step pairing.</li>
+  <li><strong>Seasonality is unforgiving.</strong> Four to eight weeks of production plus ocean freight means gifting programs lock tooling in late summer for Q4 delivery.</li>
+</ul>
+
+<p>The honest summary: if you want a credible 1800K dawn, a smooth 200-step ramp and a fully certified product, expect to pay for emitters, firmware time and testing. If you want a fast test of whether the category sells in your channel, the 100–300 pcs tier is built for exactly that.</p>
+
+<h2>What do first-time buyers ask most about sunrise light specifications?</h2>
+
+<h3>What does "lux at 50 cm" mean on a sunrise light spec sheet?</h3>
+<p>It is the illuminance measured 50 cm from the lamp on axis — roughly the distance from a nightstand to a sleeper's face. A lux figure without a stated distance cannot be compared to anything.</p>
+
+<h3>Is 1800K too dim to wake up with?</h3>
+<p>No, but it is dim by design at the start of the ramp. The lamp should climb to 2700–4000K and several hundred lux by the end; 1800K is only the first few minutes.</p>
+
+<h3>What is a good CRI for a sunrise lamp?</h3>
+<p>Ra ≥ 90 with R9 ≥ 50 at the warm end is a credible target. Below Ra 85, skin tones and food look grey under the light.</p>
+
+<h3>How many steps should a 30-minute sunrise ramp have?</h3>
+<p>Well over 100, and 256 is common in good firmware. Twelve to sixteen steps produce visible jumps in a dark room.</p>
+
+<h3>Do sunrise lights need UL certification to sell in the US?</h3>
+<p>Retailers and marketplaces generally expect a safety listing to UL 62368-1 or UL 1598, plus FCC Part 15B and Part 15C for wireless models. Confirm the classification with the test lab.</p>
+
+<h3>What certifications do I need to sell a sunrise light in the EU?</h3>
+<p>CE marking covering EMC, and LVD for mains input, RED if there is a radio, plus RoHS, REACH and WEEE registration. Standby power must meet Ecodesign limits.</p>
+
+<h3>What is the MOQ for a private label sunrise light?</h3>
+<p>At LIGHT BDB, 100 pcs for standard Light &amp; Mood platforms, 300 pcs for white-label and 500–1,000 pcs for ODM custom.</p>
+
+<h3>How long does production take for a custom sunrise lamp?</h3>
+<p>Four to eight weeks from deposit to FOB Shenzhen for most SKUs, with samples in 7–14 days. New injection tooling adds roughly 25–40 days at most factories.</p>
+
+<h3>What warranty do sunrise lights usually come with?</h3>
+<p>Shorter than buyers expect — 12 months is common in this category. LIGHT BDB offers a 500-day limited warranty.</p>
+
+<h3>Can I get a sample before placing an order?</h3>
+<p>Yes. LIGHT BDB ships samples in 7–14 days and refunds the sample fee against the purchase order.</p>
+
+<h3>Are sunrise lamps regulated as healthcare products?</h3>
+<p>No. Sunrise and dawn light objects are consumer wellness and home lighting products sold without therapeutic claims. LIGHT BDB builds them as wellness devices and does not represent any SKU as a regulated healthcare product.</p>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does lux at 50 cm mean on a sunrise light spec sheet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is the illuminance measured 50 cm from the lamp on axis, roughly the distance from a nightstand to a sleeper's face. Because illuminance falls with the square of distance, a lux figure without a stated distance cannot be compared to another product. Industry-typical tabletop sunrise lamps deliver about 200 to 500 lux at 50 cm."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is 1800K too dim to wake up with?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "1800K is deliberately dim and amber — it is the first few minutes of the ramp, not the destination. A well-specified sunrise lamp climbs to 2700K to 4000K and several hundred lux by the end of the cycle. Check the sheet for both the start and end CCT, not just one."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a good CRI for a sunrise lamp?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ra of 90 or higher at the warm end, with R9 of at least 50, is a credible target for a premium sunrise lamp. Below Ra 85, skin tones and food look grey. Ask for the test report rather than the phrase high CRI."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many steps should a 30-minute sunrise ramp have?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "More than 100 discrete brightness steps; well-engineered controllers in this category use 100 to 256. Twelve to sixteen steps produce visible jumps in a dark room. Also ask whether the curve is linear or exponential, because linear ramps spend most of their time at levels nobody can see."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do sunrise lights need UL certification to sell in the US?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Retailers and marketplaces generally expect a safety listing to UL 62368-1, or UL 1598 if the product is classified as a luminaire. Wireless models also need FCC Part 15B and Part 15C reports. Confirm the classification with your test lab before tooling is released."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What certifications do I need to sell a sunrise light in the EU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CE marking built from the EMC Directive, the Low Voltage Directive for mains-input products and the Radio Equipment Directive for wireless versions. Add RoHS, REACH, WEEE registration and Ecodesign standby compliance. Each is product-level and must name your model."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the MOQ for a private label sunrise light?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At LIGHT BDB, Light &amp; Mood platforms start at 100 pcs for standard products, 300 pcs for white-label and 500–1,000 pcs for ODM custom designs. Body care platforms sit higher, starting at 500 pcs. The tier you need depends mainly on whether you want new tooling."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does production take for a custom sunrise lamp?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "LIGHT BDB quotes 4–8 weeks from deposit to FOB Shenzhen for most SKUs, with samples in 7–14 days. If your design needs new injection tooling, most factories in this category quote 25–40 days for the tool, which runs alongside production rather than inside it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What warranty do sunrise lights usually come with?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Twelve months is common in this category, which is short for a product left plugged in every day. LIGHT BDB offers a 500-day limited warranty. Whichever term you get, specify cell grade and USB-C connector cycles, since those fail before the LEDs do."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get a sample before placing an order?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. LIGHT BDB turns samples around in 7–14 days and refunds the sample fee against the purchase order. Ask for the photometric and flicker reports with the sample, so you can test the claims and the hardware together."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are sunrise lamps regulated as healthcare products?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Sunrise and dawn light objects are consumer wellness and home lighting products, sold without therapeutic claims. LIGHT BDB manufactures them as wellness devices and does not represent any SKU as a regulated healthcare product. Keep marketing copy descriptive — light levels, ramp length, colour temperature — rather than outcome-based."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do some sunrise lamps look banded during the ramp?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually 8-bit dimming combined with a very low starting output: 256 levels collapse to two or three usable steps at 1%. A 12-bit or 16-bit driver plus a logarithmic curve fixes it. Ask for the driver bit depth and the PWM frequency as written numbers."
+      }
+    }
+  ]
+}
+</script>
+</article>
+<p class="related-links"><strong>Related on LightBDB</strong><a href="/product-platforms">All product platforms</a> · <a href="/faq">Sourcing FAQ</a></p>
+<section class="cta">
+<h2>Talk to a LIGHT BDB partner about your project</h2>
+<p>Get a structured quote in 48 hours. NDA-friendly. We share a real BOM before you commit.</p>
+<a href="/rfq" class="btn primary">Request a Quote</a>
+</section>
+</main>
+<footer class="site">
+<div class="wrap">
+<div class="legal">
+<span>© 2026 LightBDB. All rights reserved.</span>
+<span>LightBDB: Your Brand Co-creation Partner.</span>
+</div>
+</div>
+</footer>
+</body>
+</html>
