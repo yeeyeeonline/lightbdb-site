@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (118) — long-form buyer education, updated daily
+### Procurement guides (120) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -89,6 +89,7 @@
 - /guides/cordless-vs-plug-in-heated-wraps-what-buyers-prefer — Cordless vs plug in heated wraps what buyers prefer
 - /guides/country-of-origin-labeling-rules-for-imported-consumer-devices — Country of Origin Labeling Rules for Imports
 - /guides/does-a-ce-certificate-transfer-between-models — Does a CE certificate transfer between models
+- /guides/dtc-premium-channel-what-a-technology-story-requires — DTC premium channel what a technology story requires
 - /guides/dual-sourcing-a-single-sku-when-it-is-worth-the-complexity — Dual sourcing a single SKU when it is worth the complexity
 - /guides/eye-massager-controller-edition-which-retail-channel-wants-it — Eye massager controller edition which retail channel wants it
 - /guides/eye-massager-with-bluetooth-music-which-channel-wants-it — Eye massager with Bluetooth music which channel wants it
@@ -131,6 +132,7 @@
 - /guides/nir-vs-red-light-vs-full-spectrum-what-to-put-on-the-box — NIR vs red light vs full spectrum what to put on the box
 - /guides/odm-existing-platform-vs-full-custom-development-timeline-compared — ODM Platform vs Full Custom Development Timelines
 - /guides/one-color-vs-custom-colorway-minimums-for-private-label — One color vs custom colorway minimums for private label
+- /guides/pharmacy-and-mass-retail-channel-which-heated-skus-fit — Pharmacy and mass retail channel which heated SKUs fit
 - /guides/private-label-vs-white-label-which-is-right-for-a-wellness-brand — Private Label vs White Label for a Wellness Brand
 - /guides/private-mold-vs-open-mold-which-is-worth-the-tooling — Private mold vs open mold which is worth the tooling
 - /guides/prop-65-labeling-for-products-sold-in-california — Prop 65 labeling for products sold in California
@@ -194,7 +196,7 @@
 - /guides/wood-lamp-colour-variation-what-is-acceptable-and-how-to-specify-it — Wood lamp colour variation what is acceptable and how to specify it
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (118 published)
+- /guides/ — procurement guide index (120 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
