@@ -824,5 +824,19 @@
     "date": "2026-10-31",
     "kind": "horizontal",
     "url": "/guides/sunrise-and-dawn-light-objects-what-the-spec-actually-means"
+  },
+  {
+    "slug": "pharmacy-and-mass-retail-channel-which-heated-skus-fit",
+    "title": "Pharmacy and mass retail channel which heated SKUs fit",
+    "date": "2026-11-01",
+    "kind": "horizontal",
+    "url": "/guides/pharmacy-and-mass-retail-channel-which-heated-skus-fit"
+  },
+  {
+    "slug": "dtc-premium-channel-what-a-technology-story-requires",
+    "title": "DTC premium channel what a technology story requires",
+    "date": "2026-11-01",
+    "kind": "horizontal",
+    "url": "/guides/dtc-premium-channel-what-a-technology-story-requires"
   }
 ]
