@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (120) — long-form buyer education, updated daily
+### Procurement guides (122) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -82,6 +82,7 @@
 - /guides/airbag-air-pressure-massage-how-pump-noise-affects-a-sku — Airbag air pressure massage how pump noise affects a SKU
 - /guides/amazon-fba-vs-direct-to-retail-which-needs-more-compliance-work — Amazon FBA vs Direct to Retail Compliance
 - /guides/aroma-diffuser-vs-candle-warmer-lamp-which-has-better-margins — Aroma Diffuser vs Candle Warmer Lamp Margins
+- /guides/beauty-and-spa-retail-where-eye-massagers-actually-sell — Beauty and spa retail where eye massagers actually sell
 - /guides/bundling-strategies-that-raise-average-order-value-for-wellness-brands — Bundling Strategies That Lift Average Order Value
 - /guides/cd-style-audio-objects-why-slow-living-design-sells — CD-style audio objects why slow-living design sells
 - /guides/consolidating-skus-to-cut-per-unit-freight-cost — Consolidating SKUs to cut per unit freight cost
@@ -132,6 +133,7 @@
 - /guides/nir-vs-red-light-vs-full-spectrum-what-to-put-on-the-box — NIR vs red light vs full spectrum what to put on the box
 - /guides/odm-existing-platform-vs-full-custom-development-timeline-compared — ODM Platform vs Full Custom Development Timelines
 - /guides/one-color-vs-custom-colorway-minimums-for-private-label — One color vs custom colorway minimums for private label
+- /guides/outdoor-and-ski-channel-which-heated-wearables-fit — Which heated wearables fit the outdoor and ski channel
 - /guides/pharmacy-and-mass-retail-channel-which-heated-skus-fit — Pharmacy and mass retail channel which heated SKUs fit
 - /guides/private-label-vs-white-label-which-is-right-for-a-wellness-brand — Private Label vs White Label for a Wellness Brand
 - /guides/private-mold-vs-open-mold-which-is-worth-the-tooling — Private mold vs open mold which is worth the tooling
@@ -196,7 +198,7 @@
 - /guides/wood-lamp-colour-variation-what-is-acceptable-and-how-to-specify-it — Wood lamp colour variation what is acceptable and how to specify it
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (120 published)
+- /guides/ — procurement guide index (122 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
