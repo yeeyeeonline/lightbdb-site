@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (122) — long-form buyer education, updated daily
+### Procurement guides (124) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -92,6 +92,7 @@
 - /guides/does-a-ce-certificate-transfer-between-models — Does a CE certificate transfer between models
 - /guides/dtc-premium-channel-what-a-technology-story-requires — DTC premium channel what a technology story requires
 - /guides/dual-sourcing-a-single-sku-when-it-is-worth-the-complexity — Dual sourcing a single SKU when it is worth the complexity
+- /guides/elderly-care-channel-what-heated-products-need — Elderly care channel what heated products need
 - /guides/eye-massager-controller-edition-which-retail-channel-wants-it — Eye massager controller edition which retail channel wants it
 - /guides/eye-massager-with-bluetooth-music-which-channel-wants-it — Eye massager with Bluetooth music which channel wants it
 - /guides/eye-massager-with-heat-oem-manufacturer-guide — Eye massager with heat OEM manufacturer guide
@@ -152,6 +153,7 @@
 - /guides/solid-wood-vs-abs-housing-for-ambient-lighting-products — Solid wood vs ABS housing for ambient lighting products
 - /guides/solid-wood-vs-mdf-housing-for-ambient-light-sculptures — Solid wood vs MDF housing for ambient light sculptures
 - /guides/speaker-lamp-oem-what-bluetooth-plus-light-means-for-certification — Speaker lamp OEM what Bluetooth plus light means for certification
+- /guides/sports-recovery-channel-heat-first-nir-second — Sports recovery channel heat first NIR second
 - /guides/standard-packaging-vs-retail-ready-packaging-cost-and-moq — Standard packaging vs retail ready packaging cost and MOQ
 - /guides/starry-sky-ambience-finishes-how-a-colourway-change-becomes-a-new-sku — Starry sky ambience finishes how a colourway change becomes a new SKU
 - /guides/stepless-dimming-and-warm-to-cool-tuning-what-buyers-should-specify — Stepless dimming and warm-to-cool tuning what buyers should specify
@@ -198,7 +200,7 @@
 - /guides/wood-lamp-colour-variation-what-is-acceptable-and-how-to-specify-it — Wood lamp colour variation what is acceptable and how to specify it
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (122 published)
+- /guides/ — procurement guide index (124 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
