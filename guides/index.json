@@ -880,5 +880,19 @@
     "date": "2026-11-04",
     "kind": "horizontal",
     "url": "/guides/japan-market-what-pse-and-plug-differences-mean"
+  },
+  {
+    "slug": "why-buyers-reorder-which-sku-attributes-predict-a-second-po",
+    "title": "Why buyers reorder which SKU attributes predict a second PO",
+    "date": "2026-11-05",
+    "kind": "horizontal",
+    "url": "/guides/why-buyers-reorder-which-sku-attributes-predict-a-second-po"
+  },
+  {
+    "slug": "employee-wellness-and-corporate-gifting-channel-requirements",
+    "title": "Employee wellness and corporate gifting channel requirements",
+    "date": "2026-11-05",
+    "kind": "horizontal",
+    "url": "/guides/employee-wellness-and-corporate-gifting-channel-requirements"
   }
 ]
