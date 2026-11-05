@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (126) — long-form buyer education, updated daily
+### Procurement guides (128) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -93,6 +93,7 @@
 - /guides/dtc-premium-channel-what-a-technology-story-requires — DTC premium channel what a technology story requires
 - /guides/dual-sourcing-a-single-sku-when-it-is-worth-the-complexity — Dual sourcing a single SKU when it is worth the complexity
 - /guides/elderly-care-channel-what-heated-products-need — Elderly care channel what heated products need
+- /guides/employee-wellness-and-corporate-gifting-channel-requirements — Employee wellness and corporate gifting channel requirements
 - /guides/eye-massager-controller-edition-which-retail-channel-wants-it — Eye massager controller edition which retail channel wants it
 - /guides/eye-massager-with-bluetooth-music-which-channel-wants-it — Eye massager with Bluetooth music which channel wants it
 - /guides/eye-massager-with-heat-oem-manufacturer-guide — Eye massager with heat OEM manufacturer guide
@@ -193,6 +194,7 @@
 - /guides/why-a-product-name-can-itself-be-a-claim — Why a product name can itself be a claim
 - /guides/why-a-ul-registered-factory-is-not-the-same-as-a-ul-listed-product — UL Registered Factory vs UL Listed Product
 - /guides/why-auto-off-and-timer-behaviour-is-a-spec-not-a-feature — Why auto-off and timer behaviour is a spec not a feature
+- /guides/why-buyers-reorder-which-sku-attributes-predict-a-second-po — Why buyers reorder which SKU attributes predict a second PO
 - /guides/why-clinically-tested-is-riskier-than-it-sounds — Why clinically tested is riskier than it sounds
 - /guides/why-ftc-reviews-your-ads-even-when-fda-clears-your-label — Why FTC reviews your ads even when FDA clears your label
 - /guides/why-unit-price-drops-in-steps-not-smoothly — Why unit price drops in steps not smoothly
@@ -202,7 +204,7 @@
 - /guides/wood-lamp-colour-variation-what-is-acceptable-and-how-to-specify-it — Wood lamp colour variation what is acceptable and how to specify it
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (126 published)
+- /guides/ — procurement guide index (128 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
