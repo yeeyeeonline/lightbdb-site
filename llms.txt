@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (130) — long-form buyer education, updated daily
+### Procurement guides (132) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -115,6 +115,7 @@
 - /guides/heating-zone-layout-how-many-zones-a-scarf-or-belt-needs — Heating zone layout how many zones a scarf or belt needs
 - /guides/hotel-and-hospitality-channel-what-ambient-products-qualify — Hotel and hospitality channel what ambient products qualify
 - /guides/hotel-and-lobby-channel-what-ambient-lighting-buyers-ask-for — Hotel and lobby channel what ambient lighting buyers ask for
+- /guides/how-a-design-patent-becomes-a-checkable-sourcing-signal — How a design patent becomes a checkable sourcing signal
 - /guides/how-component-purchase-minimums-set-your-moq-floor — How component purchase minimums set your MOQ floor
 - /guides/how-many-body-care-categories-a-first-line-should-cover — How many body care categories a first line should cover
 - /guides/how-many-heat-levels-does-a-wearable-actually-need — How many heat levels does a wearable actually need
@@ -178,6 +179,7 @@
 - /guides/what-a-pse-mark-means-for-the-japan-market — What a PSE mark means for the Japan market
 - /guides/what-a-technical-file-should-contain-for-a-private-label-sku — What a technical file should contain for a private label SKU
 - /guides/what-a-tooling-amortization-clause-should-say — What a tooling amortization clause should say
+- /guides/what-a-verifiable-oem-case-study-should-contain — What a verifiable OEM case study should contain
 - /guides/what-a-washable-heating-assembly-requires-in-sealing — What a washable heating assembly requires in sealing
 - /guides/what-an-amfori-bsci-audit-covers-for-eu-retail-programs — What an amfori BSCI audit covers for EU retail programs
 - /guides/what-before-and-after-imagery-implies-to-a-regulator — What before and after imagery implies to a regulator
@@ -206,7 +208,7 @@
 - /guides/wood-lamp-colour-variation-what-is-acceptable-and-how-to-specify-it — Wood lamp colour variation what is acceptable and how to specify it
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (130 published)
+- /guides/ — procurement guide index (132 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
