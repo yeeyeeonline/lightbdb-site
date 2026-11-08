@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (132) — long-form buyer education, updated daily
+### Procurement guides (134) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -81,6 +81,7 @@
 - /guides/air-pressure-vs-vibration-vs-heat-which-body-care-module-to-launch-first — Air Pressure vs Vibration vs Heat Modules
 - /guides/airbag-air-pressure-massage-how-pump-noise-affects-a-sku — Airbag air pressure massage how pump noise affects a SKU
 - /guides/amazon-fba-vs-direct-to-retail-which-needs-more-compliance-work — Amazon FBA vs Direct to Retail Compliance
+- /guides/anonymized-case-studies-how-to-read-one-critically — Anonymized case studies how to read one critically
 - /guides/aroma-diffuser-vs-candle-warmer-lamp-which-has-better-margins — Aroma Diffuser vs Candle Warmer Lamp Margins
 - /guides/beauty-and-spa-retail-where-eye-massagers-actually-sell — Beauty and spa retail where eye massagers actually sell
 - /guides/bundling-strategies-that-raise-average-order-value-for-wellness-brands — Bundling Strategies That Lift Average Order Value
@@ -200,6 +201,7 @@
 - /guides/why-auto-off-and-timer-behaviour-is-a-spec-not-a-feature — Why auto-off and timer behaviour is a spec not a feature
 - /guides/why-buyers-reorder-which-sku-attributes-predict-a-second-po — Why buyers reorder which SKU attributes predict a second PO
 - /guides/why-clinically-tested-is-riskier-than-it-sounds — Why clinically tested is riskier than it sounds
+- /guides/why-crowdfunding-pages-and-press-mentions-matter-in-b2b-vetting — Why crowdfunding pages and press mentions matter in B2B vetting
 - /guides/why-ftc-reviews-your-ads-even-when-fda-clears-your-label — Why FTC reviews your ads even when FDA clears your label
 - /guides/why-unit-price-drops-in-steps-not-smoothly — Why unit price drops in steps not smoothly
 - /guides/wired-controller-vs-app-control-for-heated-wearables — Wired controller vs app control for heated wearables
@@ -208,7 +210,7 @@
 - /guides/wood-lamp-colour-variation-what-is-acceptable-and-how-to-specify-it — Wood lamp colour variation what is acceptable and how to specify it
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (132 published)
+- /guides/ — procurement guide index (134 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
