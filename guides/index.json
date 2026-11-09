@@ -936,5 +936,19 @@
     "date": "2026-11-08",
     "kind": "horizontal",
     "url": "/guides/anonymized-case-studies-how-to-read-one-critically"
+  },
+  {
+    "slug": "what-a-three-plant-manufacturing-chain-looks-like-end-to-end",
+    "title": "What a three-plant manufacturing chain looks like end to end",
+    "date": "2026-11-09",
+    "kind": "horizontal",
+    "url": "/guides/what-a-three-plant-manufacturing-chain-looks-like-end-to-end"
+  },
+  {
+    "slug": "what-a-components-plant-does-for-a-finished-device-brand",
+    "title": "What a components plant does for a finished device brand",
+    "date": "2026-11-09",
+    "kind": "horizontal",
+    "url": "/guides/what-a-components-plant-does-for-a-finished-device-brand"
   }
 ]
