@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (136) — long-form buyer education, updated daily
+### Procurement guides (138) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -172,6 +172,7 @@
 - /guides/vibration-massage-vs-heat-compression-which-sells-better — Vibration massage vs heat compression which sells better
 - /guides/vibration-motor-count-and-placement-in-a-wearable-massager — Vibration motor count and placement in a wearable massager
 - /guides/wellness-device-marketing-claims-what-us-brands-can-say — Wellness Device Marketing Claims and FDA: What You Can Say
+- /guides/what-a-12-year-manufacturing-track-record-does-and-does-not-prove — What a 12-year manufacturing track record does and does not prove
 - /guides/what-a-15-minute-auto-session-timer-implies-for-design — What a 15 minute auto session timer implies for design
 - /guides/what-a-components-plant-does-for-a-finished-device-brand — What a components plant does for a finished device brand
 - /guides/what-a-declaration-of-conformity-must-list — What a Declaration of Conformity must list
@@ -196,6 +197,7 @@
 - /guides/where-scented-candles-and-aroma-products-fit-a-wellness-brand-line — Where Candles and Aroma Products Fit a Brand Line
 - /guides/which-claim-words-trigger-regulatory-review — Which claim words trigger regulatory review
 - /guides/which-market-decides-which-safety-standard-applies — Which market decides which safety standard applies
+- /guides/why-a-factory-should-publish-its-own-moq-and-lead-time — Why a factory should publish its own MOQ and lead time
 - /guides/why-a-heated-product-needs-a-full-battery-cycle-test — Why a heated product needs a full battery cycle test
 - /guides/why-a-mixed-colour-order-can-hit-moq-at-lower-commitment — Why a mixed colour order can hit MOQ at lower commitment
 - /guides/why-a-product-name-can-itself-be-a-claim — Why a product name can itself be a claim
@@ -212,7 +214,7 @@
 - /guides/wood-lamp-colour-variation-what-is-acceptable-and-how-to-specify-it — Wood lamp colour variation what is acceptable and how to specify it
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (136 published)
+- /guides/ — procurement guide index (138 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
