@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (138) — long-form buyer education, updated daily
+### Procurement guides (140) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -121,6 +121,7 @@
 - /guides/how-many-body-care-categories-a-first-line-should-cover — How many body care categories a first line should cover
 - /guides/how-many-heat-levels-does-a-wearable-actually-need — How many heat levels does a wearable actually need
 - /guides/how-to-build-a-coherent-first-product-line-instead-of-one-off-skus — How to Build a Coherent First Product Line
+- /guides/how-to-check-a-supplier-claim-against-a-public-record — How to check a supplier claim against a public record
 - /guides/how-to-compare-two-quotes-that-use-different-incoterms — How to compare two quotes that use different Incoterms
 - /guides/how-to-confirm-a-test-report-covers-your-exact-configuration — How to confirm a test report covers your exact configuration
 - /guides/how-to-handle-a-failed-inspection-before-shipment — How to handle a failed inspection before shipment
@@ -187,6 +188,7 @@
 - /guides/what-a-washable-heating-assembly-requires-in-sealing — What a washable heating assembly requires in sealing
 - /guides/what-an-amfori-bsci-audit-covers-for-eu-retail-programs — What an amfori BSCI audit covers for EU retail programs
 - /guides/what-before-and-after-imagery-implies-to-a-regulator — What before and after imagery implies to a regulator
+- /guides/what-design-awards-do-and-do-not-tell-a-buyer — What design awards do and do not tell a buyer
 - /guides/what-general-wellness-lets-you-say-about-sleep-and-relaxation — What general wellness lets you say about sleep and relaxation
 - /guides/what-iatf-automotive-heritage-means-at-a-components-plant — What IATF automotive heritage means at a components plant
 - /guides/what-is-verifiable-on-a-graphene-heating-element-spec-sheet — What is verifiable on a graphene heating element spec sheet
@@ -214,7 +216,7 @@
 - /guides/wood-lamp-colour-variation-what-is-acceptable-and-how-to-specify-it — Wood lamp colour variation what is acceptable and how to specify it
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (138 published)
+- /guides/ — procurement guide index (140 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
