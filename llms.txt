@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (140) — long-form buyer education, updated daily
+### Procurement guides (142) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -179,6 +179,7 @@
 - /guides/what-a-declaration-of-conformity-must-list — What a Declaration of Conformity must list
 - /guides/what-a-digital-temperature-controller-adds-to-a-massager-sku — What a digital temperature controller adds to a massager SKU
 - /guides/what-a-heating-element-layout-change-costs-at-tooling-stage — What a heating element layout change costs at tooling stage
+- /guides/what-a-plant-visit-reveals-that-a-document-review-cannot — What a plant visit reveals that a document review cannot
 - /guides/what-a-proforma-invoice-must-contain-before-you-pay — What a proforma invoice must contain before you pay
 - /guides/what-a-pse-mark-means-for-the-japan-market — What a PSE mark means for the Japan market
 - /guides/what-a-technical-file-should-contain-for-a-private-label-sku — What a technical file should contain for a private label SKU
@@ -209,6 +210,7 @@
 - /guides/why-clinically-tested-is-riskier-than-it-sounds — Why clinically tested is riskier than it sounds
 - /guides/why-crowdfunding-pages-and-press-mentions-matter-in-b2b-vetting — Why crowdfunding pages and press mentions matter in B2B vetting
 - /guides/why-ftc-reviews-your-ads-even-when-fda-clears-your-label — Why FTC reviews your ads even when FDA clears your label
+- /guides/why-supplier-scope-statements-matter-more-than-headline-numbers — Why supplier scope statements matter more than headline numbers
 - /guides/why-unit-price-drops-in-steps-not-smoothly — Why unit price drops in steps not smoothly
 - /guides/wired-controller-vs-app-control-for-heated-wearables — Wired controller vs app control for heated wearables
 - /guides/wireless-charging-lamp-oem-how-the-coil-is-specified — Wireless charging lamp OEM how the coil is specified
@@ -216,7 +218,7 @@
 - /guides/wood-lamp-colour-variation-what-is-acceptable-and-how-to-specify-it — Wood lamp colour variation what is acceptable and how to specify it
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (140 published)
+- /guides/ — procurement guide index (142 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
