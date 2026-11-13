@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (142) — long-form buyer education, updated daily
+### Procurement guides (144) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -100,6 +100,8 @@
 - /guides/eye-massager-with-heat-oem-manufacturer-guide — Eye massager with heat OEM manufacturer guide
 - /guides/fabric-wrap-vs-neoprene-wrap-for-heated-knee-products — Fabric vs Neoprene Wrap for Heated Knee Products
 - /guides/fcc-marking-for-light-and-sound-devices-what-buyers-must-confirm — FCC Marking for Light and Sound Devices
+- /guides/fda-registered-vs-fda-cleared-vs-general-wellness — FDA registered vs FDA cleared vs general wellness
+- /guides/general-wellness-vs-medical-device-where-the-line-sits — General wellness vs medical device where the line sits
 - /guides/gift-ready-packaging-for-ambient-lamps-what-it-includes — Gift-ready packaging for ambient lamps what it includes
 - /guides/graphene-fir-vs-carbon-fiber-heating-element-which-lasts-longer — Graphene FIR vs Carbon Fiber Heating Elements
 - /guides/graphene-heating-vs-traditional-wire-heating-which-to-specify — Graphene Heating vs Traditional Wire Heating
@@ -218,7 +220,7 @@
 - /guides/wood-lamp-colour-variation-what-is-acceptable-and-how-to-specify-it — Wood lamp colour variation what is acceptable and how to specify it
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (142 published)
+- /guides/ — procurement guide index (144 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
