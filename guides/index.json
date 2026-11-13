@@ -992,5 +992,19 @@
     "date": "2026-11-12",
     "kind": "horizontal",
     "url": "/guides/why-supplier-scope-statements-matter-more-than-headline-numbers"
+  },
+  {
+    "slug": "general-wellness-vs-medical-device-where-the-line-sits",
+    "title": "General wellness vs medical device where the line sits",
+    "date": "2026-11-13",
+    "kind": "comparison",
+    "url": "/guides/general-wellness-vs-medical-device-where-the-line-sits"
+  },
+  {
+    "slug": "fda-registered-vs-fda-cleared-vs-general-wellness",
+    "title": "FDA registered vs FDA cleared vs general wellness",
+    "date": "2026-11-13",
+    "kind": "comparison",
+    "url": "/guides/fda-registered-vs-fda-cleared-vs-general-wellness"
   }
 ]
