@@ -1006,5 +1006,19 @@
     "date": "2026-11-13",
     "kind": "comparison",
     "url": "/guides/fda-registered-vs-fda-cleared-vs-general-wellness"
+  },
+  {
+    "slug": "what-a-us-importer-is-responsible-for-versus-the-factory",
+    "title": "What a US importer is responsible for versus the factory",
+    "date": "2026-11-14",
+    "kind": "comparison",
+    "url": "/guides/what-a-us-importer-is-responsible-for-versus-the-factory"
+  },
+  {
+    "slug": "washable-vs-non-washable-heated-textiles-what-changes-in-the-bom",
+    "title": "Washable vs non-washable heated textiles what changes in the BOM",
+    "date": "2026-11-14",
+    "kind": "comparison",
+    "url": "/guides/washable-vs-non-washable-heated-textiles-what-changes-in-the-bom"
   }
 ]
