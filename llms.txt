@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (144) — long-form buyer education, updated daily
+### Procurement guides (146) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -174,6 +174,7 @@
 - /guides/us-eu-and-jp-voltage-and-plug-differences-for-ambient-lighting — US, EU and JP Voltage and Plug Differences
 - /guides/vibration-massage-vs-heat-compression-which-sells-better — Vibration massage vs heat compression which sells better
 - /guides/vibration-motor-count-and-placement-in-a-wearable-massager — Vibration motor count and placement in a wearable massager
+- /guides/washable-vs-non-washable-heated-textiles-what-changes-in-the-bom — Washable vs non-washable heated textiles what changes in the BOM
 - /guides/wellness-device-marketing-claims-what-us-brands-can-say — Wellness Device Marketing Claims and FDA: What You Can Say
 - /guides/what-a-12-year-manufacturing-track-record-does-and-does-not-prove — What a 12-year manufacturing track record does and does not prove
 - /guides/what-a-15-minute-auto-session-timer-implies-for-design — What a 15 minute auto session timer implies for design
@@ -187,6 +188,7 @@
 - /guides/what-a-technical-file-should-contain-for-a-private-label-sku — What a technical file should contain for a private label SKU
 - /guides/what-a-three-plant-manufacturing-chain-looks-like-end-to-end — What a three-plant manufacturing chain looks like end to end
 - /guides/what-a-tooling-amortization-clause-should-say — What a tooling amortization clause should say
+- /guides/what-a-us-importer-is-responsible-for-versus-the-factory — What a US importer is responsible for versus the factory
 - /guides/what-a-verifiable-oem-case-study-should-contain — What a verifiable OEM case study should contain
 - /guides/what-a-washable-heating-assembly-requires-in-sealing — What a washable heating assembly requires in sealing
 - /guides/what-an-amfori-bsci-audit-covers-for-eu-retail-programs — What an amfori BSCI audit covers for EU retail programs
@@ -220,7 +222,7 @@
 - /guides/wood-lamp-colour-variation-what-is-acceptable-and-how-to-specify-it — Wood lamp colour variation what is acceptable and how to specify it
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (144 published)
+- /guides/ — procurement guide index (146 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
