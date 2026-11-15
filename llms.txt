@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (146) — long-form buyer education, updated daily
+### Procurement guides (148) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -99,8 +99,10 @@
 - /guides/eye-massager-with-bluetooth-music-which-channel-wants-it — Eye massager with Bluetooth music which channel wants it
 - /guides/eye-massager-with-heat-oem-manufacturer-guide — Eye massager with heat OEM manufacturer guide
 - /guides/fabric-wrap-vs-neoprene-wrap-for-heated-knee-products — Fabric vs Neoprene Wrap for Heated Knee Products
+- /guides/far-infrared-hot-compress-vs-conductive-heating-what-buyers-confuse — Far infrared hot compress vs conductive heating what buyers confuse
 - /guides/fcc-marking-for-light-and-sound-devices-what-buyers-must-confirm — FCC Marking for Light and Sound Devices
 - /guides/fda-registered-vs-fda-cleared-vs-general-wellness — FDA registered vs FDA cleared vs general wellness
+- /guides/flagship-vs-lite-what-changes-between-two-variants-of-one-belt — Flagship vs Lite what changes between two variants of one belt
 - /guides/general-wellness-vs-medical-device-where-the-line-sits — General wellness vs medical device where the line sits
 - /guides/gift-ready-packaging-for-ambient-lamps-what-it-includes — Gift-ready packaging for ambient lamps what it includes
 - /guides/graphene-fir-vs-carbon-fiber-heating-element-which-lasts-longer — Graphene FIR vs Carbon Fiber Heating Elements
@@ -222,7 +224,7 @@
 - /guides/wood-lamp-colour-variation-what-is-acceptable-and-how-to-specify-it — Wood lamp colour variation what is acceptable and how to specify it
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (146 published)
+- /guides/ — procurement guide index (148 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
