@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (148) — long-form buyer education, updated daily
+### Procurement guides (150) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -102,6 +102,7 @@
 - /guides/far-infrared-hot-compress-vs-conductive-heating-what-buyers-confuse — Far infrared hot compress vs conductive heating what buyers confuse
 - /guides/fcc-marking-for-light-and-sound-devices-what-buyers-must-confirm — FCC Marking for Light and Sound Devices
 - /guides/fda-registered-vs-fda-cleared-vs-general-wellness — FDA registered vs FDA cleared vs general wellness
+- /guides/flagship-vs-controller-which-eye-massager-variant-fits-which-channel — Flagship vs controller which eye massager variant fits which channel
 - /guides/flagship-vs-lite-what-changes-between-two-variants-of-one-belt — Flagship vs Lite what changes between two variants of one belt
 - /guides/general-wellness-vs-medical-device-where-the-line-sits — General wellness vs medical device where the line sits
 - /guides/gift-ready-packaging-for-ambient-lamps-what-it-includes — Gift-ready packaging for ambient lamps what it includes
@@ -137,6 +138,7 @@
 - /guides/in-house-tooling-vs-contract-molding-for-a-first-product-launch — In-House Tooling vs Contract Molding
 - /guides/is-iso-9001-enough-to-sell-a-heated-massager-in-the-us — Is ISO 9001 enough to sell a heated massager in the US
 - /guides/japan-market-what-pse-and-plug-differences-mean — Japan market what PSE and plug differences mean
+- /guides/knee-wrap-flagship-vs-wrap-edition-strap-on-vs-full-coverage — Knee wrap flagship vs wrap edition strap-on vs full coverage
 - /guides/light-and-sound-objects-why-retailers-keep-adding-them — Light and sound objects why retailers keep adding them
 - /guides/light-therapy-lamp-oem-manufacturer-guide — Light therapy lamp OEM manufacturer guide
 - /guides/middle-east-market-what-changes-for-ambient-lighting — Middle East market what changes for ambient lighting
@@ -224,7 +226,7 @@
 - /guides/wood-lamp-colour-variation-what-is-acceptable-and-how-to-specify-it — Wood lamp colour variation what is acceptable and how to specify it
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (148 published)
+- /guides/ — procurement guide index (150 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
