@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (150) — long-form buyer education, updated daily
+### Procurement guides (152) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
@@ -114,7 +114,9 @@
 - /guides/heated-eye-massager-oem-manufacturer-guide — Heated eye massager OEM manufacturer guide
 - /guides/heated-eye-massager-vs-eye-massager-with-heat-which-sku-to-launch — Heated Eye Massager vs Eye Massager with Heat
 - /guides/heated-hand-warmer-oem-manufacturer-guide — Heated hand warmer OEM manufacturer guide
+- /guides/heated-knee-wrap-vs-heated-knee-brace-what-buyers-mean — Heated knee wrap vs heated knee brace what buyers mean
 - /guides/heated-massager-safety-what-certifications-buyers-actually-ask-for — Heated Massager Safety: Certifications Buyers Ask
+- /guides/heated-scarf-flagship-vs-slim-which-sku-for-which-season — Heated scarf flagship vs slim which SKU for which season
 - /guides/heated-scarf-oem-manufacturer-guide — Heated scarf OEM manufacturer guide
 - /guides/heated-waist-and-back-belt-oem-manufacturer-guide — Heated waist and back belt OEM manufacturer guide
 - /guides/heating-film-thickness-and-flexibility-trade-off — Heating film thickness and flexibility trade off
@@ -226,7 +228,7 @@
 - /guides/wood-lamp-colour-variation-what-is-acceptable-and-how-to-specify-it — Wood lamp colour variation what is acceptable and how to specify it
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (150 published)
+- /guides/ — procurement guide index (152 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
