@@ -72,9 +72,10 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (152) — long-form buyer education, updated daily
+### Procurement guides (154) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
+- /guides/abdominal-heating-belt-flagship-vs-lite-which-suits-daily-wear — Abdominal heating belt flagship vs Lite which suits daily wear
 - /guides/after-sales-spare-parts-planning-for-private-label-devices — After sales spare parts planning for private label devices
 - /guides/air-freight-vs-sea-freight-for-heated-wellness-products — Air freight vs sea freight for heated wellness products
 - /guides/air-pressure-vs-vibration-for-eye-massagers-which-buyers-reorder — Air Pressure vs Vibration Eye Massagers
@@ -180,6 +181,7 @@
 - /guides/us-eu-and-jp-voltage-and-plug-differences-for-ambient-lighting — US, EU and JP Voltage and Plug Differences
 - /guides/vibration-massage-vs-heat-compression-which-sells-better — Vibration massage vs heat compression which sells better
 - /guides/vibration-motor-count-and-placement-in-a-wearable-massager — Vibration motor count and placement in a wearable massager
+- /guides/waist-and-back-belt-flagship-vs-lite-air-pressure-or-heat-only — Waist and back belt flagship vs Lite air pressure or heat only
 - /guides/washable-vs-non-washable-heated-textiles-what-changes-in-the-bom — Washable vs non-washable heated textiles what changes in the BOM
 - /guides/wellness-device-marketing-claims-what-us-brands-can-say — Wellness Device Marketing Claims and FDA: What You Can Say
 - /guides/what-a-12-year-manufacturing-track-record-does-and-does-not-prove — What a 12-year manufacturing track record does and does not prove
@@ -228,7 +230,7 @@
 - /guides/wood-lamp-colour-variation-what-is-acceptable-and-how-to-specify-it — Wood lamp colour variation what is acceptable and how to specify it
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (152 published)
+- /guides/ — procurement guide index (154 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
