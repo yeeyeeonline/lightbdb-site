@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (154) — long-form buyer education, updated daily
+### Procurement guides (156) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/abdominal-heating-belt-flagship-vs-lite-which-suits-daily-wear — Abdominal heating belt flagship vs Lite which suits daily wear
@@ -85,6 +85,7 @@
 - /guides/anonymized-case-studies-how-to-read-one-critically — Anonymized case studies how to read one critically
 - /guides/aroma-diffuser-vs-candle-warmer-lamp-which-has-better-margins — Aroma Diffuser vs Candle Warmer Lamp Margins
 - /guides/beauty-and-spa-retail-where-eye-massagers-actually-sell — Beauty and spa retail where eye massagers actually sell
+- /guides/bedside-vs-living-room-how-lumen-and-colour-temperature-change-the-spec — Bedside vs living room how lumen and colour temperature change the spec
 - /guides/bundling-strategies-that-raise-average-order-value-for-wellness-brands — Bundling Strategies That Lift Average Order Value
 - /guides/cd-style-audio-objects-why-slow-living-design-sells — CD-style audio objects why slow-living design sells
 - /guides/consolidating-skus-to-cut-per-unit-freight-cost — Consolidating SKUs to cut per unit freight cost
@@ -109,6 +110,7 @@
 - /guides/gift-ready-packaging-for-ambient-lamps-what-it-includes — Gift-ready packaging for ambient lamps what it includes
 - /guides/graphene-fir-vs-carbon-fiber-heating-element-which-lasts-longer — Graphene FIR vs Carbon Fiber Heating Elements
 - /guides/graphene-heating-vs-traditional-wire-heating-which-to-specify — Graphene Heating vs Traditional Wire Heating
+- /guides/hand-warmer-flagship-vs-slim-double-sided-vs-pocket-friendly — Hand warmer flagship vs slim double sided vs pocket friendly
 - /guides/heat-therapy-vs-red-light-therapy-which-category-fits-your-brand — Heat Therapy vs Red Light Therapy for Your Brand
 - /guides/heat-up-time-how-fast-a-heated-wrap-should-reach-temperature — Heat-up time how fast a heated wrap should reach temperature
 - /guides/heated-abdominal-belt-oem-manufacturer-guide — Heated abdominal belt OEM manufacturer guide
@@ -230,7 +232,7 @@
 - /guides/wood-lamp-colour-variation-what-is-acceptable-and-how-to-specify-it — Wood lamp colour variation what is acceptable and how to specify it
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (154 published)
+- /guides/ — procurement guide index (156 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
