@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (158) — long-form buyer education, updated daily
+### Procurement guides (160) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/abdominal-heating-belt-flagship-vs-lite-which-suits-daily-wear — Abdominal heating belt flagship vs Lite which suits daily wear
@@ -87,12 +87,14 @@
 - /guides/aroma-diffuser-vs-scented-candle-which-has-lower-entry-complexity — Aroma diffuser vs scented candle which has lower entry complexity
 - /guides/beauty-and-spa-retail-where-eye-massagers-actually-sell — Beauty and spa retail where eye massagers actually sell
 - /guides/bedside-vs-living-room-how-lumen-and-colour-temperature-change-the-spec — Bedside vs living room how lumen and colour temperature change the spec
+- /guides/breathable-knit-vs-plush-shell-which-suits-which-use-case — Breathable knit vs plush shell which suits which use case
 - /guides/bundling-strategies-that-raise-average-order-value-for-wellness-brands — Bundling Strategies That Lift Average Order Value
 - /guides/cd-style-audio-objects-why-slow-living-design-sells — CD-style audio objects why slow-living design sells
 - /guides/consolidating-skus-to-cut-per-unit-freight-cost — Consolidating SKUs to cut per unit freight cost
 - /guides/cordless-knee-massager-wrap-oem-manufacturer-guide — Cordless knee massager wrap OEM manufacturer guide
 - /guides/cordless-vs-plug-in-heated-wraps-what-buyers-prefer — Cordless vs plug in heated wraps what buyers prefer
 - /guides/country-of-origin-labeling-rules-for-imported-consumer-devices — Country of Origin Labeling Rules for Imports
+- /guides/detachable-vs-integrated-battery-which-service-model-you-are-signing-up-for — Detachable vs integrated battery which service model you are signing up for
 - /guides/does-a-ce-certificate-transfer-between-models — Does a CE certificate transfer between models
 - /guides/dtc-premium-channel-what-a-technology-story-requires — DTC premium channel what a technology story requires
 - /guides/dual-sourcing-a-single-sku-when-it-is-worth-the-complexity — Dual sourcing a single SKU when it is worth the complexity
@@ -234,7 +236,7 @@
 - /guides/wood-lamp-colour-variation-what-is-acceptable-and-how-to-specify-it — Wood lamp colour variation what is acceptable and how to specify it
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (158 published)
+- /guides/ — procurement guide index (160 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
