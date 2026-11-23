@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (162) — long-form buyer education, updated daily
+### Procurement guides (164) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/abdominal-heating-belt-flagship-vs-lite-which-suits-daily-wear — Abdominal heating belt flagship vs Lite which suits daily wear
@@ -149,6 +149,7 @@
 - /guides/knee-wrap-flagship-vs-wrap-edition-strap-on-vs-full-coverage — Knee wrap flagship vs wrap edition strap-on vs full coverage
 - /guides/light-and-sound-objects-why-retailers-keep-adding-them — Light and sound objects why retailers keep adding them
 - /guides/light-therapy-lamp-oem-manufacturer-guide — Light therapy lamp OEM manufacturer guide
+- /guides/low-voltage-adapter-vs-battery-pack-which-suits-a-home-device — Low voltage adapter vs battery pack which suits a home device
 - /guides/middle-east-market-what-changes-for-ambient-lighting — Middle East market what changes for ambient lighting
 - /guides/multi-plant-production-and-supply-resilience-for-private-label-brands — Multi-Plant Production and Supply Resilience
 - /guides/multi-room-linkage-1-to-8-what-it-takes-to-implement — Multi-room linkage 1-to-8 what it takes to implement
@@ -186,6 +187,7 @@
 - /guides/temperature-uniformity-across-a-heating-pad-what-to-measure — Temperature uniformity across a heating pad what to measure
 - /guides/travel-and-commuter-channel-which-portable-wellness-skus-fit — Travel and commuter channel which portable wellness SKUs fit
 - /guides/us-eu-and-jp-voltage-and-plug-differences-for-ambient-lighting — US, EU and JP Voltage and Plug Differences
+- /guides/usb-c-vs-wireless-charging-which-to-spec-on-a-wearable — USB-C vs wireless charging which to spec on a wearable
 - /guides/vibration-massage-vs-heat-compression-which-sells-better — Vibration massage vs heat compression which sells better
 - /guides/vibration-motor-count-and-placement-in-a-wearable-massager — Vibration motor count and placement in a wearable massager
 - /guides/waist-and-back-belt-flagship-vs-lite-air-pressure-or-heat-only — Waist and back belt flagship vs Lite air pressure or heat only
@@ -238,7 +240,7 @@
 - /guides/woven-label-vs-printed-logo-which-survives-washing — Woven label vs printed logo which survives washing
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (162 published)
+- /guides/ — procurement guide index (164 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
