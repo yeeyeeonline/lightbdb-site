@@ -1132,5 +1132,19 @@
     "date": "2026-11-22",
     "kind": "comparison",
     "url": "/guides/woven-label-vs-printed-logo-which-survives-washing"
+  },
+  {
+    "slug": "usb-c-vs-wireless-charging-which-to-spec-on-a-wearable",
+    "title": "USB-C vs wireless charging which to spec on a wearable",
+    "date": "2026-11-23",
+    "kind": "comparison",
+    "url": "/guides/usb-c-vs-wireless-charging-which-to-spec-on-a-wearable"
+  },
+  {
+    "slug": "low-voltage-adapter-vs-battery-pack-which-suits-a-home-device",
+    "title": "Low voltage adapter vs battery pack which suits a home device",
+    "date": "2026-11-23",
+    "kind": "comparison",
+    "url": "/guides/low-voltage-adapter-vs-battery-pack-which-suits-a-home-device"
   }
 ]
