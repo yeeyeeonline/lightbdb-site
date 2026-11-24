@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (164) — long-form buyer education, updated daily
+### Procurement guides (166) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/abdominal-heating-belt-flagship-vs-lite-which-suits-daily-wear — Abdominal heating belt flagship vs Lite which suits daily wear
@@ -110,6 +110,7 @@
 - /guides/flagship-vs-controller-which-eye-massager-variant-fits-which-channel — Flagship vs controller which eye massager variant fits which channel
 - /guides/flagship-vs-lite-what-changes-between-two-variants-of-one-belt — Flagship vs Lite what changes between two variants of one belt
 - /guides/general-wellness-vs-medical-device-where-the-line-sits — General wellness vs medical device where the line sits
+- /guides/gift-box-vs-mailer-box-for-a-dtc-wellness-launch — Gift box vs mailer box for a DTC wellness launch
 - /guides/gift-ready-packaging-for-ambient-lamps-what-it-includes — Gift-ready packaging for ambient lamps what it includes
 - /guides/graphene-fir-vs-carbon-fiber-heating-element-which-lasts-longer — Graphene FIR vs Carbon Fiber Heating Elements
 - /guides/graphene-heating-vs-traditional-wire-heating-which-to-specify — Graphene Heating vs Traditional Wire Heating
@@ -147,6 +148,7 @@
 - /guides/is-iso-9001-enough-to-sell-a-heated-massager-in-the-us — Is ISO 9001 enough to sell a heated massager in the US
 - /guides/japan-market-what-pse-and-plug-differences-mean — Japan market what PSE and plug differences mean
 - /guides/knee-wrap-flagship-vs-wrap-edition-strap-on-vs-full-coverage — Knee wrap flagship vs wrap edition strap-on vs full coverage
+- /guides/led-temperature-display-vs-app-display-which-buyers-prefer — LED temperature display vs app display which buyers prefer
 - /guides/light-and-sound-objects-why-retailers-keep-adding-them — Light and sound objects why retailers keep adding them
 - /guides/light-therapy-lamp-oem-manufacturer-guide — Light therapy lamp OEM manufacturer guide
 - /guides/low-voltage-adapter-vs-battery-pack-which-suits-a-home-device — Low voltage adapter vs battery pack which suits a home device
@@ -240,7 +242,7 @@
 - /guides/woven-label-vs-printed-logo-which-survives-washing — Woven label vs printed logo which survives washing
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (164 published)
+- /guides/ — procurement guide index (166 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
