@@ -1160,5 +1160,19 @@
     "date": "2026-11-24",
     "kind": "comparison",
     "url": "/guides/gift-box-vs-mailer-box-for-a-dtc-wellness-launch"
+  },
+  {
+    "slug": "component-lead-time-vs-factory-capacity-what-actually-delays-a-reorder",
+    "title": "Component lead time vs factory capacity what actually delays a reorder",
+    "date": "2026-11-25",
+    "kind": "comparison",
+    "url": "/guides/component-lead-time-vs-factory-capacity-what-actually-delays-a-reorder"
+  },
+  {
+    "slug": "cif-vs-fob-who-controls-the-freight",
+    "title": "CIF vs FOB who controls the freight",
+    "date": "2026-11-25",
+    "kind": "comparison",
+    "url": "/guides/cif-vs-fob-who-controls-the-freight"
   }
 ]
