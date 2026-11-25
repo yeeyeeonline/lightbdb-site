@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (166) — long-form buyer education, updated daily
+### Procurement guides (168) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/abdominal-heating-belt-flagship-vs-lite-which-suits-daily-wear — Abdominal heating belt flagship vs Lite which suits daily wear
@@ -90,6 +90,8 @@
 - /guides/breathable-knit-vs-plush-shell-which-suits-which-use-case — Breathable knit vs plush shell which suits which use case
 - /guides/bundling-strategies-that-raise-average-order-value-for-wellness-brands — Bundling Strategies That Lift Average Order Value
 - /guides/cd-style-audio-objects-why-slow-living-design-sells — CD-style audio objects why slow-living design sells
+- /guides/cif-vs-fob-who-controls-the-freight — CIF vs FOB who controls the freight
+- /guides/component-lead-time-vs-factory-capacity-what-actually-delays-a-reorder — Component lead time vs factory capacity what actually delays a reorder
 - /guides/consolidating-skus-to-cut-per-unit-freight-cost — Consolidating SKUs to cut per unit freight cost
 - /guides/cordless-knee-massager-wrap-oem-manufacturer-guide — Cordless knee massager wrap OEM manufacturer guide
 - /guides/cordless-vs-plug-in-heated-wraps-what-buyers-prefer — Cordless vs plug in heated wraps what buyers prefer
@@ -242,7 +244,7 @@
 - /guides/woven-label-vs-printed-logo-which-survives-washing — Woven label vs printed logo which survives washing
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (166 published)
+- /guides/ — procurement guide index (168 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
