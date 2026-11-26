@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (168) — long-form buyer education, updated daily
+### Procurement guides (170) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/abdominal-heating-belt-flagship-vs-lite-which-suits-daily-wear — Abdominal heating belt flagship vs Lite which suits daily wear
@@ -85,10 +85,12 @@
 - /guides/anonymized-case-studies-how-to-read-one-critically — Anonymized case studies how to read one critically
 - /guides/aroma-diffuser-vs-candle-warmer-lamp-which-has-better-margins — Aroma Diffuser vs Candle Warmer Lamp Margins
 - /guides/aroma-diffuser-vs-scented-candle-which-has-lower-entry-complexity — Aroma diffuser vs scented candle which has lower entry complexity
+- /guides/battery-products-what-changes-in-air-versus-sea-shipping — Battery products what changes in air versus sea shipping
 - /guides/beauty-and-spa-retail-where-eye-massagers-actually-sell — Beauty and spa retail where eye massagers actually sell
 - /guides/bedside-vs-living-room-how-lumen-and-colour-temperature-change-the-spec — Bedside vs living room how lumen and colour temperature change the spec
 - /guides/breathable-knit-vs-plush-shell-which-suits-which-use-case — Breathable knit vs plush shell which suits which use case
 - /guides/bundling-strategies-that-raise-average-order-value-for-wellness-brands — Bundling Strategies That Lift Average Order Value
+- /guides/c3-player-lamp-oem-manufacturer-guide — C3 player lamp OEM manufacturer guide
 - /guides/cd-style-audio-objects-why-slow-living-design-sells — CD-style audio objects why slow-living design sells
 - /guides/cif-vs-fob-who-controls-the-freight — CIF vs FOB who controls the freight
 - /guides/component-lead-time-vs-factory-capacity-what-actually-delays-a-reorder — Component lead time vs factory capacity what actually delays a reorder
@@ -244,7 +246,7 @@
 - /guides/woven-label-vs-printed-logo-which-survives-washing — Woven label vs printed logo which survives washing
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (168 published)
+- /guides/ — procurement guide index (170 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
