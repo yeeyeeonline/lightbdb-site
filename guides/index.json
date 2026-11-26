@@ -1174,5 +1174,19 @@
     "date": "2026-11-25",
     "kind": "comparison",
     "url": "/guides/cif-vs-fob-who-controls-the-freight"
+  },
+  {
+    "slug": "battery-products-what-changes-in-air-versus-sea-shipping",
+    "title": "Battery products what changes in air versus sea shipping",
+    "date": "2026-11-26",
+    "kind": "comparison",
+    "url": "/guides/battery-products-what-changes-in-air-versus-sea-shipping"
+  },
+  {
+    "slug": "c3-player-lamp-oem-manufacturer-guide",
+    "title": "C3 player lamp OEM manufacturer guide",
+    "date": "2026-11-26",
+    "kind": "product",
+    "url": "/guides/c3-player-lamp-oem-manufacturer-guide"
   }
 ]
