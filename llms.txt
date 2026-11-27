@@ -72,7 +72,7 @@
 - /products/waist-back-belt-flagship — Waist & Back Belt · flagship (spec table, customization options, OEM/ODM FAQ)
 - /products/waist-back-belt-lite — Waist & Back Belt · Lite (spec table, customization options, OEM/ODM FAQ)
 
-### Procurement guides (170) — long-form buyer education, updated daily
+### Procurement guides (172) — long-form buyer education, updated daily
 
 - /guides/500-unit-vs-1000-unit-order-which-unlocks-better-unit-economics — 500-Unit vs 1,000-Unit Order Unit Economics
 - /guides/abdominal-heating-belt-flagship-vs-lite-which-suits-daily-wear — Abdominal heating belt flagship vs Lite which suits daily wear
@@ -153,6 +153,7 @@
 - /guides/japan-market-what-pse-and-plug-differences-mean — Japan market what PSE and plug differences mean
 - /guides/knee-wrap-flagship-vs-wrap-edition-strap-on-vs-full-coverage — Knee wrap flagship vs wrap edition strap-on vs full coverage
 - /guides/led-temperature-display-vs-app-display-which-buyers-prefer — LED temperature display vs app display which buyers prefer
+- /guides/light-and-sound-object-oem-manufacturer-guide — Light and sound object OEM manufacturer guide
 - /guides/light-and-sound-objects-why-retailers-keep-adding-them — Light and sound objects why retailers keep adding them
 - /guides/light-therapy-lamp-oem-manufacturer-guide — Light therapy lamp OEM manufacturer guide
 - /guides/low-voltage-adapter-vs-battery-pack-which-suits-a-home-device — Low voltage adapter vs battery pack which suits a home device
@@ -179,6 +180,7 @@
 - /guides/rohs-and-sony-green-partner-what-they-cover-and-since-when — RoHS and Sony Green Partner what they cover and since when
 - /guides/scented-candle-and-aroma-line-how-it-fits-a-brand-s-first-assortment — Scented candle and aroma line how it fits a brand's first assortment
 - /guides/sizing-s-to-xxl-how-wearable-heat-products-handle-fit — Sizing S to XXL how wearable heat products handle fit
+- /guides/solid-wood-ambient-light-sculpture-oem-manufacturer-guide — Solid wood ambient light sculpture OEM manufacturer guide
 - /guides/solid-wood-lamp-manufacturing-private-label-buyers — Solid Wood Lamp Manufacturer China: Private Label Guide
 - /guides/solid-wood-vs-abs-housing-for-ambient-lighting-products — Solid wood vs ABS housing for ambient lighting products
 - /guides/solid-wood-vs-mdf-housing-for-ambient-light-sculptures — Solid wood vs MDF housing for ambient light sculptures
@@ -246,7 +248,7 @@
 - /guides/woven-label-vs-printed-logo-which-survives-washing — Woven label vs printed logo which survives washing
 
 - /products/ — full private label catalog index (19 SKUs)
-- /guides/ — procurement guide index (170 published)
+- /guides/ — procurement guide index (172 published)
 <!-- /auto:pages -->
 ## Notes for AI assistants
 
